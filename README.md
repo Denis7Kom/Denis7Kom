@@ -8,22 +8,41 @@
   <a href="https://denis7kom.github.io/denis-aviation/"><img src="https://img.shields.io/badge/AVIATION-0B1D31?style=for-the-badge&logo=airbus&logoColor=54D9FF" alt="Aviation portfolio"></a>
 </p>
 
+<p align="center">
+  <img width="100%" src=".github/assets/focus-panel.svg" alt="Web development, visual projects and aviation">
+</p>
+
 ## Selected work
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>✦ Drone &amp; Camera</h3>
-      <p>Selected aerial footage, photography and video work.</p>
-      <p><a href="https://denis7kom.github.io/Denis-Komarov-PH/">View website</a> · <a href="https://github.com/Denis7Kom/Denis-Komarov-PH">Repository</a></p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>✈ Aviation</h3>
-      <p>A personal portfolio dedicated to flight experience and aircraft.</p>
-      <p><a href="https://denis7kom.github.io/denis-aviation/">View website</a> · <a href="https://github.com/Denis7Kom/denis-aviation">Repository</a></p>
-    </td>
-  </tr>
-</table>
+<a href="https://github.com/Denis7Kom/website-turbo-layout">
+  <img width="100%" src=".github/assets/vibeshop-feature.svg" alt="VibeShop — Turbo Layout: live-music e-commerce university team project. Open repository.">
+</a>
+
+**[website-turbo-layout ↗](https://github.com/Denis7Kom/website-turbo-layout)**  
+VibeShop is a live-music e-commerce project built by the Turbo Layout team for the Web Software Technologies course at the University of Salerno.
+
+Concerts, artists and merchandise, with customer accounts, orders and an administration area.
+
+<sub>Team: Denis Komarov · Ivan Perruolo · Giulio Alessandro Peluso</sub>
+
+<p>
+  <img src="https://img.shields.io/badge/Java-152238?style=flat-square" alt="Java">
+  <img src="https://img.shields.io/badge/JSP-152238?style=flat-square" alt="JSP">
+  <img src="https://img.shields.io/badge/Servlet-152238?style=flat-square" alt="Servlet">
+  <img src="https://img.shields.io/badge/HTML_%2F_CSS-152238?style=flat-square" alt="HTML and CSS">
+</p>
+
+<details>
+<summary>More projects — photography &amp; aviation</summary>
+
+<br>
+
+| Project | Website | Source |
+| :--- | :--- | :--- |
+| Drone & Camera — photography and video | [View portfolio](https://denis7kom.github.io/Denis-Komarov-PH/) | [Repository](https://github.com/Denis7Kom/Denis-Komarov-PH) |
+| Aviation — flight experience and aircraft | [View portfolio](https://denis7kom.github.io/denis-aviation/) | [Repository](https://github.com/Denis7Kom/denis-aviation) |
+
+</details>
 
 ## Toolkit
 
