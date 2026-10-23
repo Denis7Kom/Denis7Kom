@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+  <title id="title">Denis Komarov — visual projects, aviation and web</title>
+  <desc id="desc">A dark aviation-inspired profile header with project information.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07111e"/>
+      <stop offset="0.52" stop-color="#0b1d31"/>
+      <stop offset="1" stop-color="#07111e"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#20d3ff" stop-opacity="0"/>
+      <stop offset="0.45" stop-color="#20d3ff"/>
+      <stop offset="1" stop-color="#7a5cff" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M36 0H0V36" fill="none" stroke="#6bbce2" stroke-opacity=".08" stroke-width="1"/>
+    </pattern>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="320" rx="20" fill="url(#bg)"/>
+  <rect width="1200" height="320" rx="20" fill="url(#grid)"/>
+  <rect x="22" y="22" width="1156" height="276" rx="14" fill="none" stroke="#5c86a8" stroke-opacity=".38"/>
+  <path d="M54 78H256M54 78V104M1146 242H944M1146 242V216" fill="none" stroke="#20d3ff" stroke-opacity=".8" stroke-width="2"/>
+  <path d="M54 268H1146" stroke="url(#line)" stroke-width="2"/>
+
+  <g opacity=".62" fill="none" stroke="#2f94c3">
+    <circle cx="908" cy="154" r="98" stroke-opacity=".18"/>
+    <circle cx="908" cy="154" r="65" stroke-opacity=".24"/>
+    <circle cx="908" cy="154" r="32" stroke-opacity=".35"/>
+    <path d="M810 154H1006M908 56V252" stroke-opacity=".18"/>
+    <path d="M838 84L978 224M978 84L838 224" stroke-opacity=".11"/>
+  </g>
+  <circle cx="946" cy="117" r="5" fill="#20d3ff" filter="url(#glow)"/>
+  <circle cx="861" cy="192" r="4" fill="#8477ff"/>
+  <circle cx="975" cy="206" r="3" fill="#20d3ff"/>
+
+  <text x="70" y="66" fill="#7bcff2" font-family="monospace" font-size="13" letter-spacing="3">PERSONAL PROFILE / 2026</text>
+  <text x="70" y="136" fill="#f6fbff" font-family="Arial, Helvetica, sans-serif" font-size="46" font-weight="700" letter-spacing="1">DENIS KOMAROV</text>
+  <text x="72" y="171" fill="#9cb4c9" font-family="Arial, Helvetica, sans-serif" font-size="18" letter-spacing="2">VISUAL PROJECTS  ·  AVIATION  ·  WEB</text>
+
+  <rect x="70" y="205" width="194" height="34" rx="5" fill="#0c263a" stroke="#218db8" stroke-opacity=".8"/>
+  <circle cx="90" cy="222" r="5" fill="#4ee393"/>
+  <text x="105" y="227" fill="#e6f7ff" font-family="monospace" font-size="13" letter-spacing="1.5">MODE / PUBLISHED</text>
+
+  <path d="M612 156c54-18 116-29 184-29 46 0 91 5 135 15-45 11-90 16-135 16-68 0-130-1-184-2Z" fill="#20d3ff" fill-opacity=".10"/>
+  <path d="M624 151c58-15 115-23 172-23 49 0 95 6 137 16-45 9-90 13-137 13-57 0-114-2-172-6Z" fill="none" stroke="#20d3ff" stroke-opacity=".7"/>
+  <path d="M706 149h184M796 128v29" stroke="#20d3ff" stroke-opacity=".5"/>
+  <text x="790" y="278" fill="#7296b1" font-family="monospace" font-size="11" letter-spacing="2">PROJECT INDEX // 03</text>
+</svg>
