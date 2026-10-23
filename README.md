@@ -25,24 +25,23 @@
 ## Selected work
 
 <a href="https://github.com/Denis7Kom/website-turbo-layout">
-  <img width="100%" src=".github/assets/feature-vibeshop.svg" alt="VibeShop — Turbo Layout. Live-music e-commerce university team project. Click to open the repository.">
+  <img width="100%" src=".github/assets/feature-vibeshop-v2.svg" alt="VibeShop — Turbo Layout. Live-music e-commerce university team project. Click to open the repository.">
 </a>
 
-**[website-turbo-layout ↗](https://github.com/Denis7Kom/website-turbo-layout)**  
-Live-music e-commerce built by the Turbo Layout team for the Web Software Technologies course at the University of Salerno.
-
 <p>
-  <img height="34" width="87" src=".github/assets/tech-java.svg" alt="Java">
-  <img height="34" width="81" src=".github/assets/tech-jsp.svg" alt="JSP">
-  <img height="34" width="103" src=".github/assets/tech-servlet.svg" alt="Servlet">
-  <img height="34" width="94" src=".github/assets/tech-html5.svg" alt="HTML5">
-  <img height="34" width="88" src=".github/assets/tech-css3.svg" alt="CSS3">
+  <picture><source media="(prefers-color-scheme: dark)" srcset=".github/assets/badges-v2/java-dark.svg"><img height="42" width="94" src=".github/assets/badges-v2/java-light.svg" alt="Java"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset=".github/assets/badges-v2/jsp-dark.svg"><img height="42" width="87" src=".github/assets/badges-v2/jsp-light.svg" alt="JSP"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset=".github/assets/badges-v2/servlet-dark.svg"><img height="42" width="115" src=".github/assets/badges-v2/servlet-light.svg" alt="Servlet"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset=".github/assets/badges-v2/html5-dark.svg"><img height="42" width="112" src=".github/assets/badges-v2/html5-light.svg" alt="HTML5"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset=".github/assets/badges-v2/css3-dark.svg"><img height="42" width="105" src=".github/assets/badges-v2/css3-light.svg" alt="CSS3"></picture>
 </p>
 
 <details>
 <summary><b>Open project brief</b> — features, team &amp; source</summary>
 
 <br>
+
+Live-music e-commerce built by the Turbo Layout team for the Web Software Technologies course at the University of Salerno.
 
 Concerts, artists and merchandise, with customer accounts, a shopping cart, orders and an administration area. The university version was completed and presented for the course exam.
 
@@ -77,37 +76,38 @@ Concerts, artists and merchandise, with customer accounts, a shopping cart, orde
 **Languages**
 
 <p>
-  <img height="34" width="103" src=".github/assets/tech-python.svg" alt="Python">
-  <img height="34" width="62" src=".github/assets/tech-c.svg" alt="C">
-  <img height="34" width="72" src=".github/assets/tech-csharp.svg" alt="C#">
-  <img height="34" width="82" src=".github/assets/tech-cpp.svg" alt="C++">
-  <img height="34" width="87" src=".github/assets/tech-java.svg" alt="Java">
-  <img height="34" width="82" src=".github/assets/tech-php.svg" alt="PHP">
-  <img height="34" width="88" src=".github/assets/tech-ruby.svg" alt="Ruby">
-  <img height="34" width="84" src=".github/assets/tech-sql.svg" alt="SQL">
-  <img height="34" width="88" src=".github/assets/tech-bash.svg" alt="Bash">
-  <img height="34" width="124" src=".github/assets/tech-assembler.svg" alt="Assembler">
+  <picture><source media="(prefers-color-scheme: dark)" srcset=".github/assets/badges-v2/python-dark.svg"><img height="42" width="109" src=".github/assets/badges-v2/python-light.svg" alt="Python"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset=".github/assets/badges-v2/c-dark.svg"><img height="42" width="68" src=".github/assets/badges-v2/c-light.svg" alt="C"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset=".github/assets/badges-v2/csharp-dark.svg"><img height="42" width="79" src=".github/assets/badges-v2/csharp-light.svg" alt="C#"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset=".github/assets/badges-v2/cpp-dark.svg"><img height="42" width="88" src=".github/assets/badges-v2/cpp-light.svg" alt="C++"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset=".github/assets/badges-v2/java-dark.svg"><img height="42" width="94" src=".github/assets/badges-v2/java-light.svg" alt="Java"></picture>
+  <br>
+  <picture><source media="(prefers-color-scheme: dark)" srcset=".github/assets/badges-v2/php-dark.svg"><img height="42" width="91" src=".github/assets/badges-v2/php-light.svg" alt="PHP"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset=".github/assets/badges-v2/ruby-dark.svg"><img height="42" width="96" src=".github/assets/badges-v2/ruby-light.svg" alt="Ruby"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset=".github/assets/badges-v2/sql-dark.svg"><img height="42" width="89" src=".github/assets/badges-v2/sql-light.svg" alt="SQL"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset=".github/assets/badges-v2/bash-dark.svg"><img height="42" width="96" src=".github/assets/badges-v2/bash-light.svg" alt="Bash"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset=".github/assets/badges-v2/assembler-dark.svg"><img height="42" width="134" src=".github/assets/badges-v2/assembler-light.svg" alt="Assembler"></picture>
 </p>
 
 **Web & interfaces**
 
 <p>
-  <img height="34" width="94" src=".github/assets/tech-html5.svg" alt="HTML5">
-  <img height="34" width="88" src=".github/assets/tech-css3.svg" alt="CSS3">
-  <img height="34" width="124" src=".github/assets/tech-javascript.svg" alt="JavaScript">
-  <img height="34" width="94" src=".github/assets/tech-react.svg" alt="React">
-  <img height="34" width="81" src=".github/assets/tech-jsp.svg" alt="JSP">
-  <img height="34" width="103" src=".github/assets/tech-servlet.svg" alt="Servlet">
+  <picture><source media="(prefers-color-scheme: dark)" srcset=".github/assets/badges-v2/html5-dark.svg"><img height="42" width="112" src=".github/assets/badges-v2/html5-light.svg" alt="HTML5"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset=".github/assets/badges-v2/css3-dark.svg"><img height="42" width="105" src=".github/assets/badges-v2/css3-light.svg" alt="CSS3"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset=".github/assets/badges-v2/javascript-dark.svg"><img height="42" width="138" src=".github/assets/badges-v2/javascript-light.svg" alt="JavaScript"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset=".github/assets/badges-v2/react-dark.svg"><img height="42" width="102" src=".github/assets/badges-v2/react-light.svg" alt="React"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset=".github/assets/badges-v2/jsp-dark.svg"><img height="42" width="87" src=".github/assets/badges-v2/jsp-light.svg" alt="JSP"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset=".github/assets/badges-v2/servlet-dark.svg"><img height="42" width="115" src=".github/assets/badges-v2/servlet-light.svg" alt="Servlet"></picture>
 </p>
 
 **Tools & platforms**
 
 <p>
-  <img height="34" width="104" src=".github/assets/tech-docker.svg" alt="Docker">
-  <img height="34" width="76" src=".github/assets/tech-git.svg" alt="Git">
-  <img height="34" width="153" src=".github/assets/tech-github-pages.svg" alt="GitHub Pages">
-  <img height="34" width="115" src=".github/assets/tech-arduino.svg" alt="Arduino">
-  <img height="34" width="120" src=".github/assets/tech-pycharm.svg" alt="PyCharm">
+  <picture><source media="(prefers-color-scheme: dark)" srcset=".github/assets/badges-v2/docker-dark.svg"><img height="42" width="112" src=".github/assets/badges-v2/docker-light.svg" alt="Docker"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset=".github/assets/badges-v2/git-dark.svg"><img height="42" width="79" src=".github/assets/badges-v2/git-light.svg" alt="Git"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset=".github/assets/badges-v2/github-pages-dark.svg"><img height="42" width="164" src=".github/assets/badges-v2/github-pages-light.svg" alt="GitHub Pages"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset=".github/assets/badges-v2/arduino-dark.svg"><img height="42" width="120" src=".github/assets/badges-v2/arduino-light.svg" alt="Arduino"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset=".github/assets/badges-v2/pycharm-dark.svg"><img height="42" width="129" src=".github/assets/badges-v2/pycharm-light.svg" alt="PyCharm"></picture>
 </p>
 
 ## Explore
