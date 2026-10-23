@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420">
+<title>VibeShop — Turbo Layout. Featured project.</title>
+<defs>
+<linearGradient id="bg" x2="1" y2="1"><stop stop-color="#081521"/><stop offset="1" stop-color="#17102c"/></linearGradient>
+<linearGradient id="accent"><stop stop-color="#41d9ff"/><stop offset="1" stop-color="#aa83ff"/></linearGradient>
+<pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#a5b8e0" stroke-opacity=".045"/></pattern>
+</defs>
+<rect width="1200" height="420" rx="20" fill="url(#bg)"/>
+<rect width="1200" height="420" rx="20" fill="url(#grid)"/>
+<rect x="20" y="20" width="1160" height="380" rx="14" fill="none" stroke="#526183" stroke-opacity=".5"/>
+<rect x="48" y="48" width="4" height="24" rx="2" fill="#41d9ff"/>
+<text x="68" y="65" font-family="monospace" font-size="14" letter-spacing="3" fill="#8acfea">SELECTED WORK / 01</text>
+<text x="48" y="139" font-family="Arial,sans-serif" font-size="54" font-weight="700" fill="#f1f5ff">VibeShop</text>
+<text x="50" y="173" font-family="monospace" font-size="18" fill="#af99e7" letter-spacing="3">TURBO LAYOUT</text>
+<text x="50" y="220" font-family="Arial,sans-serif" font-size="18" fill="#a4b5cc">Live music. Concerts. Merchandise.</text>
+<text x="50" y="250" font-family="Arial,sans-serif" font-size="16" fill="#7f93b0">Team project · Università degli Studi di Salerno</text>
+<rect x="48" y="284" width="454" height="40" rx="7" fill="#121f32" stroke="#334a69"/>
+<text x="68" y="309" font-family="monospace" font-size="14" fill="#c5ddf0">JAVA / JSP / SERVLET / HTML / CSS</text>
+<text x="50" y="371" font-family="monospace" font-size="12" letter-spacing="2" fill="#7c94b4">EXPLORE REPOSITORY</text>
+<path d="M240 366h40m-8-7 8 7-8 7" fill="none" stroke="#41d9ff" stroke-width="2"/>
+<g transform="translate(650 80)">
+<rect width="478" height="246" rx="12" fill="#0a111d" stroke="#34415f"/>
+<path d="M0 38h478" stroke="#34415f"/>
+<circle cx="20" cy="19" r="4" fill="#a280d2"/><circle cx="35" cy="19" r="4" fill="#56718e"/><circle cx="50" cy="19" r="4" fill="#42bcd9"/>
+<text x="73" y="23" font-family="monospace" font-size="10" fill="#7e91ae">website-turbo-layout</text>
+<text x="27" y="77" font-family="monospace" font-size="12" fill="#a5b7d2">VIBESHOP // LIVE MUSIC</text>
+<g stroke="url(#accent)" stroke-width="5" stroke-linecap="round">
+<path d="M31 142v20M50 130v44M69 116v72M88 136v32M107 100v104M126 122v60M145 136v32M164 112v80M183 130v44M202 142v20M221 122v60M240 108v88M259 132v40M278 142v20"/>
+</g>
+<rect x="318" y="102" width="126" height="93" rx="8" fill="#171d32" stroke="#49416c"/>
+<path d="M349 128h60m-60 14h46m-46 14h54" stroke="#697492" stroke-width="4" stroke-linecap="round"/>
+<rect x="347" y="172" width="55" height="6" rx="3" fill="#a487e5"/>
+<text x="27" y="225" font-family="monospace" font-size="10" letter-spacing="2" fill="#637f9c">CONCEPT INTERFACE / PROJECT IDENTITY</text>
+</g>
+</svg>
