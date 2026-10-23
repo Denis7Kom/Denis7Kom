@@ -50,6 +50,19 @@ Concerts, artists and merchandise, with customer accounts, orders and an adminis
   <img src="https://img.shields.io/badge/HTML5-0B1D31?style=flat-square&logo=html5&logoColor=E34F26" alt="HTML5">
   <img src="https://img.shields.io/badge/CSS3-0B1D31?style=flat-square&logo=css&logoColor=1572B6" alt="CSS3">
   <img src="https://img.shields.io/badge/JavaScript-0B1D31?style=flat-square&logo=javascript&logoColor=F7DF1E" alt="JavaScript">
+  <img src="https://img.shields.io/badge/Python-0B1D31?style=flat-square&logo=python&logoColor=3776AB" alt="Python">
+  <img src="https://img.shields.io/badge/C-0B1D31?style=flat-square&logo=c&logoColor=A8B9CC" alt="C">
+  <img src="https://img.shields.io/badge/C%23-0B1D31?style=flat-square&logo=dotnet&logoColor=512BD4" alt="C#">
+  <img src="https://img.shields.io/badge/C%2B%2B-0B1D31?style=flat-square&logo=cplusplus&logoColor=00599C" alt="C++">
+  <img src="https://img.shields.io/badge/PHP-0B1D31?style=flat-square&logo=php&logoColor=777BB4" alt="PHP">
+  <img src="https://img.shields.io/badge/Ruby-0B1D31?style=flat-square&logo=ruby&logoColor=CC342D" alt="Ruby">
+  <img src="https://img.shields.io/badge/Arduino-0B1D31?style=flat-square&logo=arduino&logoColor=00878F" alt="Arduino">
+  <img src="https://img.shields.io/badge/SQL-0B1D31?style=flat-square&logo=postgresql&logoColor=4169E1" alt="SQL">
+  <img src="https://img.shields.io/badge/Bash-0B1D31?style=flat-square&logo=gnubash&logoColor=4EAA25" alt="Bash">
+  <img src="https://img.shields.io/badge/Assembler-0B1D31?style=flat-square&logo=assemblyscript&logoColor=007AAC" alt="Assembler">
+  <img src="https://img.shields.io/badge/React-0B1D31?style=flat-square&logo=react&logoColor=61DAFB" alt="React">
+  <img src="https://img.shields.io/badge/Docker-0B1D31?style=flat-square&logo=docker&logoColor=2496ED" alt="Docker">
+  <img src="https://img.shields.io/badge/PyCharm-0B1D31?style=flat-square&logo=pycharm&logoColor=FFFFFF" alt="PyCharm">
   <img src="https://img.shields.io/badge/Git-0B1D31?style=flat-square&logo=git&logoColor=F05032" alt="Git">
   <img src="https://img.shields.io/badge/GitHub%20Pages-0B1D31?style=flat-square&logo=githubpages&logoColor=FFFFFF" alt="GitHub Pages">
 </p>
