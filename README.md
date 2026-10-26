@@ -25,6 +25,7 @@ I care about how software behaves beneath the interface: how state changes, how 
 ## Selected engineering work
 
 <p><img width="100%" src=".github/assets/engineering-vibeshop.svg" alt="01 / VibeShop"></p>
+
 **Java web application · University team project**
 
 Live-music e-commerce with customer accounts, a shopping cart, orders and an administration area. Developed with the **Turbo Layout** team for the Web Software Technologies course at the University of Salerno.
@@ -37,6 +38,7 @@ Live-music e-commerce with customer accounts, a shopping cart, orders and an adm
 <sub>Team: Denis Komarov · Ivan Perruolo · Giulio Alessandro Peluso</sub>
 
 <p><img width="100%" src=".github/assets/engineering-aviation.svg" alt="02 / Aviation"></p>
+
 **Procedural 3D · Interactive browser application**
 
 Aircraft models with moving components, a flight network, a logbook and a local flight-control demo. The project separates geometry, fleet data and application code, with a custom renderer and regression checks.
@@ -47,6 +49,7 @@ Aircraft models with moving components, a flight network, a logbook and a local 
 [Live experience ↗](https://denis7kom.github.io/denis-aviation/) · [Source](https://github.com/Denis7Kom/denis-aviation) · [Architecture](https://github.com/Denis7Kom/denis-aviation/blob/main/docs/architecture.md)
 
 <p><img width="100%" src=".github/assets/engineering-binario.svg" alt="03 / BINARIO"></p>
+
 **Multilingual railway guide · Interactive 3D**
 
 A guide to Italian trains with Russian, English and Italian editions, schematic illustrations and an interactive station scene. Published as static pages, with development checks for formatting and content preservation.
@@ -57,6 +60,7 @@ A guide to Italian trains with Russian, English and Italian editions, schematic 
 [Live experience ↗](https://denis7kom.github.io/trains_it/en/) · [Source & checks](https://github.com/Denis7Kom/trains_it)
 
 <p><img width="100%" src=".github/assets/engineering-goblin.svg" alt="04 / Goblin"></p>
+
 **C programming · Console RPG prototype**
 
 An Italian-language game with combat, a shop, character statistics and timed events. An early prototype with documented limitations and a roadmap for safer input handling, correctness and game balance.
