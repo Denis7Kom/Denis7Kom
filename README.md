@@ -4,7 +4,7 @@
 
 <br />
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;size=20&amp;duration=2600&amp;pause=800&amp;color=35D0BA&amp;center=true&amp;vCenter=true&amp;width=760&amp;lines=Building+software+from+ideas;Exploring+interactive+systems+and+3D;Expanding+into+application+security" alt="Building software, exploring systems, learning application security" width="100%" />
+<img src=".github/assets/lab-typing.svg" alt="Building software, exploring systems, learning application security" width="100%" />
 
 <br />
 
@@ -29,7 +29,7 @@ I enjoy understanding what happens behind an interface: how state changes, how d
 </td>
 <td width="45%" valign="middle">
 
-<img src=".github/assets/lab-arcade.svg" alt="Animated current quest: build software, explore systems, learn security" width="100%" />
+<img src=".github/assets/lab-arcade.svg?v=2" alt="Animated current quest: build software, explore systems, learn security" width="100%" />
 
 </td>
 </tr>
