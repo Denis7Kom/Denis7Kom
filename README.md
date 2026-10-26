@@ -1,9 +1,7 @@
 <!-- Profile content uses native GitHub Markdown and repository-hosted artwork. -->
 <p align="center">
-  <img width="100%" src=".github/assets/hero-orbit.svg" alt="Denis Komarov — programmer and cybersecurity learner">
+  <img width="100%" src=".github/assets/engineering-hero.svg" alt="Denis Komarov — programmer and cybersecurity learner">
 </p>
-
-<h1 align="center">Software development. Interactive systems. Security.</h1>
 
 <p align="center">
   <b>Denis Komarov · Denis7Kom</b><br>
@@ -18,7 +16,7 @@
   &nbsp; · &nbsp; <a href="#cybersecurity-direction">Security</a>
 </p>
 
----
+<p><img width="100%" height="36" src=".github/assets/engineering-signal.svg" alt=""></p>
 
 I work across application logic, interfaces and interactive graphics. My public projects span a Java e-commerce application, procedural aircraft rendering, a multilingual railway guide and a console RPG in C.
 
@@ -26,7 +24,7 @@ I care about how software behaves beneath the interface: how state changes, how 
 
 ## Selected engineering work
 
-### 01 / VibeShop
+<p><img width="100%" src=".github/assets/engineering-vibeshop.svg" alt="01 / VibeShop"></p>
 **Java web application · University team project**
 
 Live-music e-commerce with customer accounts, a shopping cart, orders and an administration area. Developed with the **Turbo Layout** team for the Web Software Technologies course at the University of Salerno.
@@ -38,7 +36,7 @@ Live-music e-commerce with customer accounts, a shopping cart, orders and an adm
 
 <sub>Team: Denis Komarov · Ivan Perruolo · Giulio Alessandro Peluso</sub>
 
-### 02 / Aviation
+<p><img width="100%" src=".github/assets/engineering-aviation.svg" alt="02 / Aviation"></p>
 **Procedural 3D · Interactive browser application**
 
 Aircraft models with moving components, a flight network, a logbook and a local flight-control demo. The project separates geometry, fleet data and application code, with a custom renderer and regression checks.
@@ -48,7 +46,7 @@ Aircraft models with moving components, a flight network, a logbook and a local 
 
 [Live experience ↗](https://denis7kom.github.io/denis-aviation/) · [Source](https://github.com/Denis7Kom/denis-aviation) · [Architecture](https://github.com/Denis7Kom/denis-aviation/blob/main/docs/architecture.md)
 
-### 03 / BINARIO
+<p><img width="100%" src=".github/assets/engineering-binario.svg" alt="03 / BINARIO"></p>
 **Multilingual railway guide · Interactive 3D**
 
 A guide to Italian trains with Russian, English and Italian editions, schematic illustrations and an interactive station scene. Published as static pages, with development checks for formatting and content preservation.
@@ -58,7 +56,7 @@ A guide to Italian trains with Russian, English and Italian editions, schematic 
 
 [Live experience ↗](https://denis7kom.github.io/trains_it/en/) · [Source & checks](https://github.com/Denis7Kom/trains_it)
 
-### 04 / Goblin
+<p><img width="100%" src=".github/assets/engineering-goblin.svg" alt="04 / Goblin"></p>
 **C programming · Console RPG prototype**
 
 An Italian-language game with combat, a shop, character statistics and timed events. An early prototype with documented limitations and a roadmap for safer input handling, correctness and game balance.
@@ -88,8 +86,18 @@ An Italian-language game with combat, a shop, character statistics and timed eve
 | Development workflow | Git, Node.js tooling, GitHub Actions, GitHub Pages |
 | Programming fundamentals | C, console applications, explicit state management |
 
+<p>
+<picture><source media="(prefers-color-scheme: dark)" srcset=".github/assets/badges-v2/python-dark.svg"><img height="36" width="93" src=".github/assets/badges-v2/python-light.svg" alt="Python"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset=".github/assets/badges-v2/cpp-dark.svg"><img height="36" width="75" src=".github/assets/badges-v2/cpp-light.svg" alt="C++"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset=".github/assets/badges-v2/csharp-dark.svg"><img height="36" width="68" src=".github/assets/badges-v2/csharp-light.svg" alt="C#"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset=".github/assets/badges-v2/php-dark.svg"><img height="36" width="78" src=".github/assets/badges-v2/php-light.svg" alt="PHP"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset=".github/assets/badges-v2/ruby-dark.svg"><img height="36" width="82" src=".github/assets/badges-v2/ruby-light.svg" alt="Ruby"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset=".github/assets/badges-v2/bash-dark.svg"><img height="36" width="82" src=".github/assets/badges-v2/bash-light.svg" alt="Bash"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset=".github/assets/badges-v2/assembler-dark.svg"><img height="36" width="115" src=".github/assets/badges-v2/assembler-light.svg" alt="Assembly"></picture>
+</p>
+
 <details>
-<summary><b>Broader toolkit & ongoing exploration</b></summary>
+<summary><b>Broader toolkit & ongoing exploration</b> — expand</summary>
 
 <br>
 
@@ -98,6 +106,8 @@ My broader toolkit includes **Python, C++, C#, PHP, Ruby, Bash and assembly**, a
 </details>
 
 ## Cybersecurity direction
+
+<p><img width="100%" src=".github/assets/engineering-security.svg" alt="Application security learning: trace input, check boundaries, verify fixes"></p>
 
 I am extending my software development work into **application security**: understanding how implementation choices create vulnerabilities, testing assumptions and learning how to make fixes verifiable.
 
@@ -116,6 +126,6 @@ Photography, aerial video and aviation also shape my visual work.
 
 [Personal portfolio ↗](https://denis7kom.github.io/denis-komarov/) · [Drone & Camera](https://denis7kom.github.io/Denis-Komarov-PH/) · [Shutterstock](https://www.shutterstock.com/g/Denis+Komarov%20PH?rid=259170704) · [Books](https://www.amazon.it/stores/Denis-Komarov/author/B0CCSK74QC)
 
----
+<p><img width="100%" height="36" src=".github/assets/engineering-signal.svg" alt=""></p>
 
 <p align="center"><sub>Build with intent. Understand the system. Verify the change.</sub></p>
