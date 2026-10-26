@@ -1,135 +1,169 @@
-<!-- Profile content uses native GitHub Markdown and repository-hosted artwork. -->
-<p align="center">
-  <img width="100%" src=".github/assets/engineering-hero.svg" alt="Denis Komarov — programmer and cybersecurity learner">
-</p>
+<div align="center">
 
-<p align="center">
-  <b>Denis Komarov · Denis7Kom</b><br>
-  Building web applications and browser-based 3D experiences.<br>
-  Expanding my expertise in cybersecurity and secure software development.
-</p>
+<img src=".github/assets/lab-terminal.svg" alt="Denis7Kom — software and security lab" width="100%" />
 
-<p align="center">
-  <a href="https://denis7kom.github.io/denis-komarov/"><b>Portfolio ↗</b></a>
-  &nbsp; · &nbsp; <a href="#selected-engineering-work">Projects</a>
-  &nbsp; · &nbsp; <a href="#languages--toolkit">Toolkit</a>
-  &nbsp; · &nbsp; <a href="#cybersecurity-direction">Security</a>
-</p>
+<br />
 
-<p><img width="100%" height="36" src=".github/assets/engineering-signal.svg" alt=""></p>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;size=20&amp;duration=2600&amp;pause=800&amp;color=35D0BA&amp;center=true&amp;vCenter=true&amp;width=760&amp;lines=Building+software+from+ideas;Exploring+interactive+systems+and+3D;Expanding+into+application+security" alt="Building software, exploring systems, learning application security" width="100%" />
 
-I work across application logic, interfaces and interactive graphics. My public projects span a Java e-commerce application, procedural aircraft rendering, a multilingual railway guide and a console RPG in C.
+<br />
 
-I care about how software behaves beneath the interface: how state changes, how data moves, how geometry is generated, and how a change can be checked.
+<a href="#featured-work"><img src="https://img.shields.io/badge/PORTFOLIO%20%C2%B7%20SELECTED%20PROJECTS-35D0BA?style=flat-square" alt="PORTFOLIO · SELECTED PROJECTS" /></a>
+<a href="#cybersecurity"><img src="https://img.shields.io/badge/FOCUS%20%C2%B7%20SOFTWARE%20%2B%20SECURITY-F5C451?style=flat-square" alt="FOCUS · SOFTWARE + SECURITY" /></a>
+<a href="https://denis7kom.github.io/denis-komarov/"><img src="https://img.shields.io/badge/WEBSITE%20%C2%B7%20VIEW%20PORTFOLIO-8B5CF6?style=flat-square" alt="WEBSITE · VIEW PORTFOLIO" /></a>
 
-## Selected engineering work
+</div>
 
-<p><img width="100%" src=".github/assets/engineering-vibeshop.svg" alt="01 / VibeShop"></p>
+<br />
 
-**Java web application · University team project**
+<table>
+<tr>
+<td width="55%" valign="top">
 
-Live-music e-commerce with customer accounts, a shopping cart, orders and an administration area. Developed with the **Turbo Layout** team for the Web Software Technologies course at the University of Salerno.
+## I’m Denis
 
-**Stack:** Java · JSP · Servlets · HTML · CSS · Relational database  
-**Engineering focus:** application flows, persistent data and separate customer/admin interfaces.
+I build web applications, interactive browser experiences and visual projects. My work spans Java applications, procedural 3D graphics, multilingual interfaces and C programming.
 
-[Source & documentation ↗](https://github.com/Denis7Kom/website-turbo-layout)
+I enjoy understanding what happens behind an interface: how state changes, how data moves and how a system responds when its assumptions fail. I am expanding that work into cybersecurity and secure software development.
+
+</td>
+<td width="45%" valign="middle">
+
+<img src=".github/assets/lab-arcade.svg" alt="Animated current quest: build software, explore systems, learn security" width="100%" />
+
+</td>
+</tr>
+</table>
+
+## What I Build
+
+| `01` **Applications** | `02` **Interactive Systems** | `03` **Security Foundations** |
+| :---: | :---: | :---: |
+| Web flows, interfaces and persistent data | Procedural geometry, rendering and simulation | Input handling, access boundaries and verifiable fixes |
+
+## Featured Work
+
+### 🛒 Web Applications
+
+**[VibeShop — Turbo Layout](https://github.com/Denis7Kom/website-turbo-layout)**
+
+Live-music e-commerce with accounts, a shopping cart, orders and an administration area. A university team project built with **Java, JSP, Servlets and a relational database** for the University of Salerno.
 
 <sub>Team: Denis Komarov · Ivan Perruolo · Giulio Alessandro Peluso</sub>
 
-<p><img width="100%" src=".github/assets/engineering-aviation.svg" alt="02 / Aviation"></p>
+### ✈️ Interactive Graphics
 
-**Procedural 3D · Interactive browser application**
+**[Aviation — Procedural Aircraft & Flight Systems](https://github.com/Denis7Kom/denis-aviation)** · [Live experience](https://denis7kom.github.io/denis-aviation/) · [Architecture](https://github.com/Denis7Kom/denis-aviation/blob/main/docs/architecture.md)
 
-Aircraft models with moving components, a flight network, a logbook and a local flight-control demo. The project separates geometry, fleet data and application code, with a custom renderer and regression checks.
+Browser-based aircraft models with moving components, a flight network, a logbook and a local flight-control demo. **JavaScript, custom WebGL rendering, cached geometry and regression checks.**
 
-**Stack:** JavaScript · WebGL · HTML · CSS · Node.js development tooling  
-**Engineering focus:** mesh generation, depth handling, cached wireframes and geometry invariants.
+<table>
+<tr>
+<td width="50%" valign="top">
 
-[Live experience ↗](https://denis7kom.github.io/denis-aviation/) · [Source](https://github.com/Denis7Kom/denis-aviation) · [Architecture](https://github.com/Denis7Kom/denis-aviation/blob/main/docs/architecture.md)
+### 🚆 Interactive Guides
 
-<p><img width="100%" src=".github/assets/engineering-binario.svg" alt="03 / BINARIO"></p>
+**[BINARIO — Italian Railway Guide](https://github.com/Denis7Kom/trains_it)** · [Live experience](https://denis7kom.github.io/trains_it/en/)
 
-**Multilingual railway guide · Interactive 3D**
+A multilingual railway guide with an interactive 3D station, schematic illustrations and Russian, English and Italian editions.
 
-A guide to Italian trains with Russian, English and Italian editions, schematic illustrations and an interactive station scene. Published as static pages, with development checks for formatting and content preservation.
+**JavaScript · Three.js · HTML · CSS**
 
-**Stack:** JavaScript · Three.js · HTML · CSS · GitHub Actions  
-**Engineering focus:** localisation, interactive visualisation and a fallback for browsers without WebGL.
+</td>
+<td width="50%" valign="top">
 
-[Live experience ↗](https://denis7kom.github.io/trains_it/en/) · [Source & checks](https://github.com/Denis7Kom/trains_it)
+### 🎮 C Programming
 
-<p><img width="100%" src=".github/assets/engineering-goblin.svg" alt="04 / Goblin"></p>
+**[Goblin — Console RPG](https://github.com/Denis7Kom/goblin)** · [Roadmap](https://github.com/Denis7Kom/goblin/blob/main/ROADMAP.md)
 
-**C programming · Console RPG prototype**
+An Italian-language RPG prototype with combat, character statistics, a shop and timed events. Known input-handling and correctness issues are documented for future work.
 
-An Italian-language game with combat, a shop, character statistics and timed events. An early prototype with documented limitations and a roadmap for safer input handling, correctness and game balance.
+**C · Console · Game State**
 
-**Stack:** C  
-**Engineering focus:** control flow, state transitions, input handling and resource management.
+</td>
+</tr>
+</table>
 
-[Source ↗](https://github.com/Denis7Kom/goblin) · [Development roadmap](https://github.com/Denis7Kom/goblin/blob/main/ROADMAP.md)
+## Cybersecurity
 
-## Languages & toolkit
+I am developing my application-security knowledge through code review, testing and understanding implementation failures.
 
-**At work in the featured projects**
+- **Input handling:** malformed data, validation and memory-safety failures.
+- **Authentication & authorisation:** identity, sessions and access boundaries.
+- **Secure code review:** data flow, assumptions and failure paths.
+- **Verification:** reproduce the problem, understand its cause and check the fix.
 
-<p>
-  <picture><source media="(prefers-color-scheme: dark)" srcset=".github/assets/badges-v2/java-dark.svg"><img height="36" width="81" src=".github/assets/badges-v2/java-light.svg" alt="Java"></picture>
-  <picture><source media="(prefers-color-scheme: dark)" srcset=".github/assets/badges-v2/javascript-dark.svg"><img height="36" width="118" src=".github/assets/badges-v2/javascript-light.svg" alt="JavaScript"></picture>
-  <picture><source media="(prefers-color-scheme: dark)" srcset=".github/assets/badges-v2/c-dark.svg"><img height="36" width="58" src=".github/assets/badges-v2/c-light.svg" alt="C"></picture>
-  <picture><source media="(prefers-color-scheme: dark)" srcset=".github/assets/badges-v2/sql-dark.svg"><img height="36" width="76" src=".github/assets/badges-v2/sql-light.svg" alt="SQL"></picture>
-  <picture><source media="(prefers-color-scheme: dark)" srcset=".github/assets/badges-v2/html5-dark.svg"><img height="36" width="96" src=".github/assets/badges-v2/html5-light.svg" alt="HTML5"></picture>
-  <picture><source media="(prefers-color-scheme: dark)" srcset=".github/assets/badges-v2/css3-dark.svg"><img height="36" width="90" src=".github/assets/badges-v2/css3-light.svg" alt="CSS3"></picture>
+## Toolkit
+
+<p align="center"><em>Languages and tools across projects and ongoing exploration; depth varies by technology.</em></p>
+
+<p align="center"><strong>Languages</strong><br />
+<img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&amp;logo=openjdk&amp;logoColor=white" alt="Java" />
+<img src="https://img.shields.io/badge/JavaScript-B99A00?style=flat-square&amp;logo=javascript&amp;logoColor=white" alt="JavaScript" />
+<img src="https://img.shields.io/badge/C-566C9C?style=flat-square&amp;logo=c&amp;logoColor=white" alt="C" />
+<img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&amp;logo=cplusplus&amp;logoColor=white" alt="C++" />
+<img src="https://img.shields.io/badge/C%23-764ABC?style=flat-square" alt="C#" />
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&amp;logo=python&amp;logoColor=white" alt="Python" />
+<img src="https://img.shields.io/badge/SQL-336791?style=flat-square" alt="SQL" />
+<img src="https://img.shields.io/badge/Bash-4EAA25?style=flat-square&amp;logo=gnubash&amp;logoColor=white" alt="Bash" />
+<img src="https://img.shields.io/badge/PHP-777BB4?style=flat-square&amp;logo=php&amp;logoColor=white" alt="PHP" />
+<img src="https://img.shields.io/badge/Ruby-CC342D?style=flat-square&amp;logo=ruby&amp;logoColor=white" alt="Ruby" />
+<img src="https://img.shields.io/badge/Assembly-555555?style=flat-square" alt="Assembly" />
 </p>
 
-| Area | Technologies |
-| :--- | :--- |
-| Web applications | Java, JSP, Servlets, relational databases |
-| Interfaces & graphics | JavaScript, HTML, CSS, WebGL, Three.js |
-| Development workflow | Git, Node.js tooling, GitHub Actions, GitHub Pages |
-| Programming fundamentals | C, console applications, explicit state management |
-
-<p>
-<picture><source media="(prefers-color-scheme: dark)" srcset=".github/assets/badges-v2/python-dark.svg"><img height="36" width="93" src=".github/assets/badges-v2/python-light.svg" alt="Python"></picture>
-<picture><source media="(prefers-color-scheme: dark)" srcset=".github/assets/badges-v2/cpp-dark.svg"><img height="36" width="75" src=".github/assets/badges-v2/cpp-light.svg" alt="C++"></picture>
-<picture><source media="(prefers-color-scheme: dark)" srcset=".github/assets/badges-v2/csharp-dark.svg"><img height="36" width="68" src=".github/assets/badges-v2/csharp-light.svg" alt="C#"></picture>
-<picture><source media="(prefers-color-scheme: dark)" srcset=".github/assets/badges-v2/php-dark.svg"><img height="36" width="78" src=".github/assets/badges-v2/php-light.svg" alt="PHP"></picture>
-<picture><source media="(prefers-color-scheme: dark)" srcset=".github/assets/badges-v2/ruby-dark.svg"><img height="36" width="82" src=".github/assets/badges-v2/ruby-light.svg" alt="Ruby"></picture>
-<picture><source media="(prefers-color-scheme: dark)" srcset=".github/assets/badges-v2/bash-dark.svg"><img height="36" width="82" src=".github/assets/badges-v2/bash-light.svg" alt="Bash"></picture>
-<picture><source media="(prefers-color-scheme: dark)" srcset=".github/assets/badges-v2/assembler-dark.svg"><img height="36" width="115" src=".github/assets/badges-v2/assembler-light.svg" alt="Assembly"></picture>
+<p align="center"><strong>Web & Interactive Graphics</strong><br />
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&amp;logo=html5&amp;logoColor=white" alt="HTML5" />
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square" alt="CSS3" />
+<img src="https://img.shields.io/badge/JSP-E76F00?style=flat-square" alt="JSP" />
+<img src="https://img.shields.io/badge/Servlets-E76F00?style=flat-square" alt="Servlets" />
+<img src="https://img.shields.io/badge/WebGL-990000?style=flat-square&amp;logo=webgl&amp;logoColor=white" alt="WebGL" />
+<img src="https://img.shields.io/badge/Three.js-222222?style=flat-square&amp;logo=threedotjs&amp;logoColor=white" alt="Three.js" />
+<img src="https://img.shields.io/badge/React-20232A?style=flat-square&amp;logo=react&amp;logoColor=white" alt="React" />
 </p>
 
-<details>
-<summary><b>Broader toolkit & ongoing exploration</b> — expand</summary>
+<p align="center"><strong>Workflow & Platforms</strong><br />
+<img src="https://img.shields.io/badge/Git-F05032?style=flat-square&amp;logo=git&amp;logoColor=white" alt="Git" />
+<img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&amp;logo=github&amp;logoColor=white" alt="GitHub" />
+<img src="https://img.shields.io/badge/Node.js%20tooling-339933?style=flat-square&amp;logo=nodedotjs&amp;logoColor=white" alt="Node.js tooling" />
+<img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&amp;logo=githubactions&amp;logoColor=white" alt="GitHub Actions" />
+<img src="https://img.shields.io/badge/GitHub%20Pages-222222?style=flat-square&amp;logo=githubpages&amp;logoColor=white" alt="GitHub Pages" />
+<img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&amp;logo=docker&amp;logoColor=white" alt="Docker" />
+<img src="https://img.shields.io/badge/Arduino-00878F?style=flat-square&amp;logo=arduino&amp;logoColor=white" alt="Arduino" />
+<img src="https://img.shields.io/badge/PyCharm-000000?style=flat-square&amp;logo=pycharm&amp;logoColor=white" alt="PyCharm" />
+</p>
 
-<br>
+## GitHub Overview
 
-My broader toolkit includes **Python, C++, C#, PHP, Ruby, Bash and assembly**, alongside **React, Docker and Arduino**. Project depth varies by technology; the selected repositories above show concrete examples of my work.
+<div align="center">
 
-</details>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Denis7Kom&amp;theme=github_dark" alt="GitHub profile statistics" width="47%" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Denis7Kom&amp;theme=github_dark" alt="Repositories by language" width="47%" />
 
-## Cybersecurity direction
+<img src="https://streak-stats.demolab.com/?user=Denis7Kom&amp;theme=github-dark-blue&amp;hide_border=true" alt="GitHub contribution streak" width="70%" />
 
-<p><img width="100%" src=".github/assets/engineering-security.svg" alt="Application security learning: trace input, check boundaries, verify fixes"></p>
+</div>
 
-I am extending my software development work into **application security**: understanding how implementation choices create vulnerabilities, testing assumptions and learning how to make fixes verifiable.
+## My Build Pattern
 
-My learning priorities:
+<img src=".github/assets/lab-pipeline.svg" alt="Animated workflow: understand, build, test, refine" width="100%" />
 
-- **Input handling:** validate data, handle malformed input and understand memory-safety failures.
-- **Authentication & authorisation:** understand identity, sessions and access boundaries.
-- **Secure code review:** trace data through an application and examine failure paths.
-- **Verification:** reproduce a problem, document its cause and check the fix.
+Understand the problem, make the implementation readable, test meaningful behaviour and document the trade-offs.
 
-The [Goblin roadmap](https://github.com/Denis7Kom/goblin/blob/main/ROADMAP.md) and [VibeShop development plans](https://github.com/Denis7Kom/website-turbo-layout#stato-del-progetto) identify concrete areas for future hardening.
-
-## Beyond the code
+## Beyond the Code
 
 Photography, aerial video and aviation also shape my visual work.
 
-[Personal portfolio ↗](https://denis7kom.github.io/denis-komarov/) · [Drone & Camera](https://denis7kom.github.io/Denis-Komarov-PH/) · [Shutterstock](https://www.shutterstock.com/g/Denis+Komarov%20PH?rid=259170704) · [Books](https://www.amazon.it/stores/Denis-Komarov/author/B0CCSK74QC)
+[Drone & Camera](https://denis7kom.github.io/Denis-Komarov-PH/) · [Shutterstock](https://www.shutterstock.com/g/Denis+Komarov%20PH?rid=259170704) · [Books](https://www.amazon.it/stores/Denis-Komarov/author/B0CCSK74QC)
 
-<p><img width="100%" height="36" src=".github/assets/engineering-signal.svg" alt=""></p>
+## Connect
 
-<p align="center"><sub>Build with intent. Understand the system. Verify the change.</sub></p>
+<div align="center">
+
+<a href="https://github.com/Denis7Kom"><img src="https://img.shields.io/badge/GitHub%20%C2%B7%20Denis7Kom-0D1117?style=flat-square&amp;logo=github&amp;logoColor=white" alt="GitHub · Denis7Kom" /></a>
+<a href="https://denis7kom.github.io/denis-komarov/"><img src="https://img.shields.io/badge/Portfolio%20%C2%B7%20Denis%20Komarov-8B5CF6?style=flat-square" alt="Portfolio · Denis Komarov" /></a>
+
+<br /><br />
+
+<img src=".github/assets/lab-quest.svg" alt="Pixel development quest: learn, build, test, repeat" width="100%" />
+
+</div>
