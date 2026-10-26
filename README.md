@@ -27,7 +27,7 @@
 
 ## whoami
 
-<img src=".github/assets/profile-whoami-v4.svg" alt="Animated Denis7Kom developer console with identity, current focus, application-security learning and engineering workflow" width="100%" />
+<img src=".github/assets/profile-whoami-v5.svg" alt="Animated Denis7Kom developer console with identity, current focus, application-security learning and engineering workflow" width="100%" />
 
 <details>
 <summary><b>$ inspect --identity</b> — developer profile &amp; current focus</summary>
