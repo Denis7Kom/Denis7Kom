@@ -1,16 +1,24 @@
 <div align="center">
 
-<img src=".github/assets/lab-terminal.svg" alt="Denis7Kom — software and security lab" width="100%" />
+<img src=".github/assets/lab-terminal-v2.svg" alt="Denis7Kom — software and security lab" width="100%" />
 
 <br />
 
-<img src=".github/assets/lab-typing.svg" alt="Building software, exploring systems, learning application security" width="100%" />
+<img src=".github/assets/lab-typing-v2.svg" alt="Building software, exploring systems, learning application security" width="100%" />
 
 <br />
 
 <a href="#featured-work"><img src="https://img.shields.io/badge/PORTFOLIO%20%C2%B7%20SELECTED%20PROJECTS-35D0BA?style=flat-square" alt="PORTFOLIO · SELECTED PROJECTS" /></a>
 <a href="#cybersecurity"><img src="https://img.shields.io/badge/FOCUS%20%C2%B7%20SOFTWARE%20%2B%20SECURITY-F5C451?style=flat-square" alt="FOCUS · SOFTWARE + SECURITY" /></a>
 <a href="https://denis7kom.github.io/denis-komarov/"><img src="https://img.shields.io/badge/WEBSITE%20%C2%B7%20VIEW%20PORTFOLIO-8B5CF6?style=flat-square" alt="WEBSITE · VIEW PORTFOLIO" /></a>
+
+<p>
+<a href="#featured-work">Projects</a> &nbsp; / &nbsp;
+<a href="#cybersecurity">Security</a> &nbsp; / &nbsp;
+<a href="#toolkit">Toolkit</a> &nbsp; / &nbsp;
+<a href="#github-overview">Activity</a> &nbsp; / &nbsp;
+<a href="#connect">Connect</a>
+</p>
 
 </div>
 
@@ -24,12 +32,12 @@
 
 I build web applications, interactive browser experiences and visual projects. My work spans Java applications, procedural 3D graphics, multilingual interfaces and C programming.
 
-I enjoy understanding what happens behind an interface: how state changes, how data moves and how a system responds when its assumptions fail. I am expanding that work into cybersecurity and secure software development.
+I focus on application logic, data flow and the behaviour behind the interface. I am expanding my expertise in cybersecurity and secure software development.
 
 </td>
 <td width="45%" valign="middle">
 
-<img src=".github/assets/lab-arcade.svg?v=2" alt="Animated current quest: build software, explore systems, learn security" width="100%" />
+<img src=".github/assets/lab-status.svg" alt="Animated current quest: build software, explore systems, learn security" width="100%" />
 
 </td>
 </tr>
@@ -51,6 +59,8 @@ Live-music e-commerce with accounts, a shopping cart, orders and an administrati
 
 <sub>Team: Denis Komarov · Ivan Perruolo · Giulio Alessandro Peluso</sub>
 
+[Explore the implementation →](https://github.com/Denis7Kom/website-turbo-layout#readme)
+
 ### ✈️ Interactive Graphics
 
 **[Aviation — Procedural Aircraft & Flight Systems](https://github.com/Denis7Kom/denis-aviation)** · [Live experience](https://denis7kom.github.io/denis-aviation/) · [Architecture](https://github.com/Denis7Kom/denis-aviation/blob/main/docs/architecture.md)
@@ -69,6 +79,8 @@ A multilingual railway guide with an interactive 3D station, schematic illustrat
 
 **JavaScript · Three.js · HTML · CSS**
 
+[Development workflow →](https://github.com/Denis7Kom/trains_it#проверки-для-разработки)
+
 </td>
 <td width="50%" valign="top">
 
@@ -79,6 +91,8 @@ A multilingual railway guide with an interactive 3D station, schematic illustrat
 An Italian-language RPG prototype with combat, character statistics, a shop and timed events. Known input-handling and correctness issues are documented for future work.
 
 **C · Console · Game State**
+
+[Source code →](https://github.com/Denis7Kom/goblin/blob/main/goblin.it.c)
 
 </td>
 </tr>
@@ -133,6 +147,8 @@ I am developing my application-security knowledge through code review, testing a
 </p>
 
 ## GitHub Overview
+
+<p align="center"><sub>Public GitHub activity. Language charts describe repository composition.</sub></p>
 
 <div align="center">
 
