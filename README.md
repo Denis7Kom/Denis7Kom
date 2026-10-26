@@ -30,9 +30,14 @@
 
 ## About Me
 
-I build web applications, interactive browser experiences and visual projects. My work spans Java applications, procedural 3D graphics, multilingual interfaces and C programming.
+<img src=".github/assets/motion-about.svg" alt="I build web applications, interactive browser experiences and visual projects. Java, 3D graphics, multilingual interfaces and C." width="100%" />
+
+<details>
+<summary><b>Explore my development focus</b></summary>
 
 I focus on application logic, data flow and the behaviour behind the interface. I am expanding my expertise in cybersecurity and secure software development.
+
+</details>
 
 </td>
 <td width="45%" valign="middle">
@@ -51,54 +56,65 @@ I focus on application logic, data flow and the behaviour behind the interface. 
 
 ## Featured Work
 
-### 🛒 Web Applications
+<sub>Click a card to open the project. Expand its panel for technical details.</sub>
 
-**[VibeShop — Turbo Layout](https://github.com/Denis7Kom/website-turbo-layout)**
+<a href="https://github.com/Denis7Kom/website-turbo-layout"><img src=".github/assets/motion-vibeshop.svg" alt="VibeShop: Live-music e-commerce with customer accounts, a shopping cart, orders and an administration area. Built with **Java, JSP, Servlets and a relational database** for the University of Salerno." width="100%" /></a>
 
-Live-music e-commerce with accounts, a shopping cart, orders and an administration area. A university team project built with **Java, JSP, Servlets and a relational database** for the University of Salerno.
+<details>
+<summary><b>Explore VibeShop</b> — implementation, stack &amp; links</summary>
+
+Live-music e-commerce with customer accounts, a shopping cart, orders and an administration area. Built with **Java, JSP, Servlets and a relational database** for the University of Salerno.
+
+[Source & documentation](https://github.com/Denis7Kom/website-turbo-layout)
 
 <sub>Team: Denis7Kom · Ivan Perruolo · Giulio Alessandro Peluso</sub>
 
-[Explore the implementation →](https://github.com/Denis7Kom/website-turbo-layout#readme)
+</details>
 
-### ✈️ Interactive Graphics
+<br />
+<a href="https://denis7kom.github.io/denis-aviation/"><img src=".github/assets/motion-aviation.svg" alt="Aviation: Browser-based procedural aircraft, moving components, a flight network, a logbook and a flight-control demo. **JavaScript, WebGL, cached geometry and regression checks.**" width="100%" /></a>
 
-**[Aviation — Procedural Aircraft & Flight Systems](https://github.com/Denis7Kom/denis-aviation)** · [Live experience](https://denis7kom.github.io/denis-aviation/) · [Architecture](https://github.com/Denis7Kom/denis-aviation/blob/main/docs/architecture.md)
+<details>
+<summary><b>Explore Aviation</b> — implementation, stack &amp; links</summary>
 
-Browser-based aircraft models with moving components, a flight network, a logbook and a local flight-control demo. **JavaScript, custom WebGL rendering, cached geometry and regression checks.**
+Browser-based procedural aircraft, moving components, a flight network, a logbook and a flight-control demo. **JavaScript, WebGL, cached geometry and regression checks.**
 
-<table>
-<tr>
-<td width="50%" valign="top">
+[Live experience](https://denis7kom.github.io/denis-aviation/) · [Source](https://github.com/Denis7Kom/denis-aviation) · [Architecture](https://github.com/Denis7Kom/denis-aviation/blob/main/docs/architecture.md)
 
-### 🚆 Interactive Guides
+</details>
 
-**[BINARIO — Italian Railway Guide](https://github.com/Denis7Kom/trains_it)** · [Live experience](https://denis7kom.github.io/trains_it/en/)
+<br />
+<a href="https://denis7kom.github.io/trains_it/en/"><img src=".github/assets/motion-binario.svg" alt="BINARIO: A multilingual railway guide with an interactive 3D station and Russian, English and Italian editions. **JavaScript, Three.js, HTML and CSS.**" width="100%" /></a>
 
-A multilingual railway guide with an interactive 3D station, schematic illustrations and Russian, English and Italian editions.
+<details>
+<summary><b>Explore BINARIO</b> — implementation, stack &amp; links</summary>
 
-**JavaScript · Three.js · HTML · CSS**
+A multilingual railway guide with an interactive 3D station and Russian, English and Italian editions. **JavaScript, Three.js, HTML and CSS.**
 
-[Development workflow →](https://github.com/Denis7Kom/trains_it#проверки-для-разработки)
+[Live guide](https://denis7kom.github.io/trains_it/en/) · [Source & workflow](https://github.com/Denis7Kom/trains_it)
 
-</td>
-<td width="50%" valign="top">
+</details>
 
-### 🎮 C Programming
+<br />
+<a href="https://github.com/Denis7Kom/goblin"><img src=".github/assets/motion-goblin.svg" alt="Goblin: An Italian-language console RPG prototype written in **C**, with combat, a shop, character statistics and timed events. Known input-handling and correctness issues are documented for future work." width="100%" /></a>
 
-**[Goblin — Console RPG](https://github.com/Denis7Kom/goblin)** · [Roadmap](https://github.com/Denis7Kom/goblin/blob/main/ROADMAP.md)
+<details>
+<summary><b>Explore Goblin</b> — implementation, stack &amp; links</summary>
 
-An Italian-language RPG prototype with combat, character statistics, a shop and timed events. Known input-handling and correctness issues are documented for future work.
+An Italian-language console RPG prototype written in **C**, with combat, a shop, character statistics and timed events. Known input-handling and correctness issues are documented for future work.
 
-**C · Console · Game State**
+[Source](https://github.com/Denis7Kom/goblin/blob/main/goblin.it.c) · [Roadmap](https://github.com/Denis7Kom/goblin/blob/main/ROADMAP.md)
 
-[Source code →](https://github.com/Denis7Kom/goblin/blob/main/goblin.it.c)
+</details>
 
-</td>
-</tr>
-</table>
+<br />
 
 ## Cybersecurity
+
+<img src=".github/assets/motion-security.svg" alt="Security learning: input handling, access boundaries, code review and verification" width="100%" />
+
+<details>
+<summary><b>Open security learning notes</b> — four areas of focus</summary>
 
 I am developing my application-security knowledge through code review, testing and understanding implementation failures.
 
@@ -106,6 +122,8 @@ I am developing my application-security knowledge through code review, testing a
 - **Authentication & authorisation:** identity, sessions and access boundaries.
 - **Secure code review:** data flow, assumptions and failure paths.
 - **Verification:** reproduce the problem, understand its cause and check the fix.
+
+</details>
 
 ## Toolkit
 
