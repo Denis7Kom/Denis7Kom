@@ -1,1 +1,88 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="960" height="260" viewBox="0 0 960 260" role="img" aria-label="Denis7Kom development lab"><title>Denis7Kom development lab</title><defs><pattern id="grid" width="26" height="26" patternUnits="userSpaceOnUse"><path d="M26 0H0V26" stroke="#263446" fill="none" opacity=".35"/></pattern><linearGradient id="bg"><stop stop-color="#172231"/><stop offset="1" stop-color="#0d1117"/></linearGradient></defs><style>text{font-family:Consolas,'Liberation Mono',monospace;fill:#e6edf3}.muted{fill:#91a0b5}.green{fill:#35d0ba}.gold{fill:#f5c451}.blink{animation:blink 1.2s steps(1) infinite}.walk{animation:walk 8s linear infinite}.pulse{animation:pulse 3s ease-in-out infinite}.packet{stroke-dasharray:12 220;animation:packet 5s linear infinite}@keyframes blink{50%{opacity:0}}@keyframes walk{0%{transform:translateX(0)}50%{transform:translateX(70px)}100%{transform:translateX(0)}}@keyframes pulse{50%{opacity:.35}}@keyframes packet{to{stroke-dashoffset:-464}}@media(prefers-reduced-motion:reduce){*{animation:none!important}}</style><rect width="960" height="260" rx="14" fill="url(#bg)"/><rect width="960" height="260" rx="14" fill="url(#grid)"/><rect x="34" y="30" width="892" height="200" rx="9" fill="#0d1117" stroke="#39475b" stroke-width="2"/><circle cx="58" cy="54" r="5" fill="#ff6b6b"/><circle cx="77" cy="54" r="5" fill="#f5c451"/><circle cx="96" cy="54" r="5" fill="#35d0ba"/><text x="121" y="59" font-size="11" class="muted">denis@software-security-lab</text><text x="67" y="109" font-size="17" class="green">$ whoami</text><text x="67" y="149" font-size="38" font-weight="700">Denis7Kom</text><text x="67" y="180" font-size="16" class="muted">software • interactive systems • cybersecurity</text><rect x="67" y="201" width="9" height="16" fill="#f5c451" class="blink"/><text x="87" y="214" font-size="12" class="green">building, testing, exploring</text><g fill="none" stroke="#35d0ba" stroke-width="2" opacity=".55"><path d="M751 101L723 124 751 147M824 101L852 124 824 147M805 94L771 155"/><path class="packet" d="M701 180H869" stroke-width="2"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="370" viewBox="0 0 960 370" role="img" aria-labelledby="main-title main-desc">
+<title id="main-title">Denis7Kom | Developer console</title>
+<desc id="main-desc">Animated terminal-style engineering profile. Software, interactive experiences and application security learning, with a visual build pipeline.</desc>
+<defs>
+  <linearGradient id="base" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#172438"/><stop offset="57%" stop-color="#101824"/><stop offset="100%" stop-color="#0b1019"/></linearGradient>
+  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#35d0ba"/><stop offset="55%" stop-color="#70a9e8"/><stop offset="100%" stop-color="#ad8df8"/></linearGradient>
+  <linearGradient id="soft" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#35d0ba" stop-opacity=".16"/><stop offset="1" stop-color="#35d0ba" stop-opacity="0"/></linearGradient>
+  <pattern id="grid" width="25" height="25" patternUnits="userSpaceOnUse"><path d="M25 0H0V25" fill="none" stroke="#34465a" stroke-opacity=".23"/></pattern>
+  <clipPath id="name-clip"><rect class="name-reveal" x="51" y="103" width="312" height="61"/></clipPath>
+  <clipPath id="panel-clip"><rect x="617" y="91" width="294" height="205" rx="10"/></clipPath>
+</defs>
+<style>
+text{font-family:Consolas,'Liberation Mono','DejaVu Sans Mono',monospace;fill:#e6edf3}
+.muted{fill:#9baec4}.cyan{fill:#35d0ba}.purple{fill:#bca8ff}.gold{fill:#f4c56a}
+.appear{animation:appear 7s ease-out both}.appear2{animation:appear 7s .18s ease-out both}
+.cursor{animation:blink 1s steps(1,end) infinite}.signal{animation:glow 3s ease-in-out infinite}
+.signal2{animation:glow 3s -1s ease-in-out infinite}.signal3{animation:glow 3s -2s ease-in-out infinite}
+.path{stroke-dasharray:7 15;animation:flow 3.6s linear infinite}
+.path2{stroke-dasharray:7 15;animation:flow 3.6s -1.2s linear infinite}
+.scan{animation:sweep 6s ease-in-out infinite}
+.name-reveal{animation:type 9s steps(9,end) infinite}
+.slide{animation:slide 4.5s ease-in-out infinite}
+@keyframes appear{0%{opacity:0;transform:translateY(7px)}15%,100%{opacity:1;transform:translateY(0)}}
+@keyframes blink{50%{opacity:0}}
+@keyframes glow{50%{opacity:.25}}
+@keyframes flow{to{stroke-dashoffset:-110}}
+@keyframes type{0%,3%{width:0}39%,95%,100%{width:312px}}
+@keyframes sweep{0%{transform:translateX(-180px)}50%,100%{transform:translateX(290px)}}
+@keyframes slide{50%{transform:translateX(8px)}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important}.name-reveal{width:312px!important}.appear,.appear2{opacity:1!important}}
+</style>
+<rect width="960" height="370" rx="16" fill="url(#base)"/>
+<rect width="960" height="370" rx="16" fill="url(#grid)"/>
+<rect x="17" y="16" width="926" height="338" rx="13" fill="#0c121c" stroke="#3a4a60" stroke-width="1.5"/>
+<path d="M17 55H943" fill="none" stroke="#334358"/>
+<circle cx="40" cy="35" r="5.4" fill="#fa6d80"/>
+<circle cx="59" cy="35" r="5.4" fill="#f4c56a"/>
+<circle cx="78" cy="35" r="5.4" fill="#35d0ba"/>
+<text x="101" y="40" font-size="12" class="muted">denis7kom@devbox : ~/profile</text>
+<rect x="807" y="26" width="112" height="19" rx="9.5" fill="#142b2a" stroke="#286b5d"/>
+<circle cx="822" cy="35" r="3" fill="#35d0ba" class="signal"/>
+<text x="832" y="39" font-size="9.5" class="cyan" letter-spacing=".5">BUILD MODE</text>
+<!-- Left console, uncluttered identity block -->
+<g class="appear">
+ <text x="51" y="94" font-size="16"><tspan class="cyan">$ </tspan>whoami --inspect</text>
+ <g clip-path="url(#name-clip)"><text x="50" y="153" font-size="46" letter-spacing="-1.3" font-weight="700">Denis7Kom</text></g>
+ <rect x="339" y="119" width="3.5" height="39" rx="1.5" fill="#35d0ba" class="cursor" opacity=".75"/>
+</g>
+<text x="51" y="185" font-size="12.4" class="muted" letter-spacing=".25">SOFTWARE  /  INTERACTIVE SYSTEMS  /  APPSEC</text>
+<path d="M51 204H573" stroke="#304155"/>
+<g class="appear2">
+ <text x="51" y="232" font-size="12.8"><tspan class="purple">work</tspan><tspan class="muted">     :</tspan> web apps + interactive experiences</text>
+ <text x="51" y="258" font-size="12.8"><tspan class="purple">security</tspan><tspan class="muted"> :</tspan> access boundaries + code review</text>
+ <text x="51" y="284" font-size="12.8"><tspan class="purple">mindset</tspan><tspan class="muted">  :</tspan> build → test → refine</text>
+</g>
+<path d="M594 91V292" stroke="#29394b"/>
+<!-- Visual engineering overview -->
+<rect x="617" y="81" width="294" height="215" rx="11" fill="#111b2a" stroke="#34485c"/>
+<g clip-path="url(#panel-clip)">
+ <rect x="614" y="90" width="294" height="210" fill="url(#soft)"/>
+ <rect x="621" y="90" width="51" height="205" fill="#35d0ba" opacity=".045" class="scan"/>
+</g>
+<text x="634" y="106" font-size="10.5" class="cyan" letter-spacing="1.5">ENGINEERING / FOCUS MAP</text>
+<text x="634" y="130" font-size="10" class="muted">AREAS OF WORK &amp; STUDY</text>
+<rect x="632" y="145" width="264" height="39" rx="6" fill="#15293a" stroke="#385769"/>
+<rect x="632" y="145" width="3" height="39" rx="1.5" fill="#35d0ba"/>
+<circle cx="652" cy="164.5" r="5" fill="#35d0ba" class="signal"/>
+<text x="666" y="169" font-size="11.5">01  SOFTWARE SYSTEMS</text>
+<rect x="632" y="191" width="264" height="39" rx="6" fill="#1b2440" stroke="#49517d"/>
+<rect x="632" y="191" width="3" height="39" rx="1.5" fill="#9b8cff"/>
+<circle cx="652" cy="210.5" r="5" fill="#a89afa" class="signal2"/>
+<text x="666" y="215" font-size="11.5">02  VISUAL EXPERIENCES</text>
+<rect x="632" y="237" width="264" height="39" rx="6" fill="#282538" stroke="#655474"/>
+<rect x="632" y="237" width="3" height="39" rx="1.5" fill="#f4c56a"/>
+<circle cx="652" cy="256.5" r="5" fill="#f4c56a" class="signal3"/>
+<text x="666" y="261" font-size="11.5">03  SECURITY LEARNING</text>
+<!-- Activity-independent workflow (not live telemetry) -->
+<path d="M51 312H909" stroke="#2b3c50"/>
+<text x="51" y="332" font-size="11.5"><tspan class="cyan">$ </tspan>workflow.run</text>
+<path d="M258 329H885" stroke="#34465b" stroke-width="2.6"/>
+<path d="M258 329H885" stroke="url(#accent)" stroke-width="2.6" class="path"/>
+<g fill="#101b28" stroke="#35d0ba" stroke-width="1.7">
+ <circle cx="280" cy="329" r="8"/><circle cx="465" cy="329" r="8"/><circle cx="650" cy="329" r="8"/><circle cx="835" cy="329" r="8"/>
+</g>
+<g font-size="9" text-anchor="middle" class="muted">
+ <text x="280" y="350">PLAN</text><text x="465" y="350">BUILD</text><text x="650" y="350">TEST</text><text x="835" y="350">ITERATE</text>
+</g>
+</svg>
