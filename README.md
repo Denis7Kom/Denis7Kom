@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src=".github/assets/lab-terminal-v2.svg" alt="Denis7Kom — software and security lab" width="100%" />
+<img src=".github/assets/lab-nickname.svg" alt="Denis7Kom — software and security lab" width="100%" />
 
 <br />
 
@@ -28,7 +28,7 @@
 <tr>
 <td width="55%" valign="top">
 
-## I’m Denis
+## About Me
 
 I build web applications, interactive browser experiences and visual projects. My work spans Java applications, procedural 3D graphics, multilingual interfaces and C programming.
 
@@ -57,7 +57,7 @@ I focus on application logic, data flow and the behaviour behind the interface. 
 
 Live-music e-commerce with accounts, a shopping cart, orders and an administration area. A university team project built with **Java, JSP, Servlets and a relational database** for the University of Salerno.
 
-<sub>Team: Denis Komarov · Ivan Perruolo · Giulio Alessandro Peluso</sub>
+<sub>Team: Denis7Kom · Ivan Perruolo · Giulio Alessandro Peluso</sub>
 
 [Explore the implementation →](https://github.com/Denis7Kom/website-turbo-layout#readme)
 
@@ -176,7 +176,7 @@ Photography, aerial video and aviation also shape my visual work.
 <div align="center">
 
 <a href="https://github.com/Denis7Kom"><img src="https://img.shields.io/badge/GitHub%20%C2%B7%20Denis7Kom-0D1117?style=flat-square&amp;logo=github&amp;logoColor=white" alt="GitHub · Denis7Kom" /></a>
-<a href="https://denis7kom.github.io/denis-komarov/"><img src="https://img.shields.io/badge/Portfolio%20%C2%B7%20Denis%20Komarov-8B5CF6?style=flat-square" alt="Portfolio · Denis Komarov" /></a>
+<a href="https://denis7kom.github.io/denis-komarov/"><img src="https://img.shields.io/badge/Portfolio%20%C2%B7%20Denis7Kom-8B5CF6?style=flat-square" alt="Portfolio · Denis7Kom" /></a>
 
 <br /><br />
 
