@@ -28,12 +28,12 @@
 <tr>
 <td width="55%" valign="top">
 
-## About Me
+## whoami
 
-<img src=".github/assets/motion-about.svg" alt="I build web applications, interactive browser experiences and visual projects. Java, 3D graphics, multilingual interfaces and C." width="100%" />
+<img src=".github/assets/profile-whoami-v3.svg" alt="Animated whoami terminal: Denis7Kom, software development, interactive systems, security learning and iterative engineering" width="100%" />
 
 <details>
-<summary><b>Explore my development focus</b></summary>
+<summary><b>$ cat about.md</b> — explore my working focus</summary>
 
 I focus on application logic, data flow and the behaviour behind the interface. I am expanding my expertise in cybersecurity and secure software development.
 
@@ -48,80 +48,162 @@ I focus on application logic, data flow and the behaviour behind the interface. 
 </tr>
 </table>
 
+
 ## What I Build
 
-| `01` **Applications** | `02` **Interactive Systems** | `03` **Security Foundations** |
-| :---: | :---: | :---: |
-| Web flows, interfaces and persistent data | Procedural geometry, rendering and simulation | Input handling, access boundaries and verifiable fixes |
+<img src=".github/assets/build-tracks-v3.svg" alt="Animated overview of software applications, interactive visual systems and security foundations" width="100%" />
+
+<sub>Click a topic to expand a technical view. These are areas of work and study, not a claim of equal proficiency in every technology.</sub>
+
+<details>
+<summary><b>01 / Applications</b> — interface → request handling → persistence</summary>
+
+**I build around behaviour, not just screens.** A feature is the full path from user interaction through business logic to stored data.
+
+- **Frontend:** accessible navigation, responsive layouts, meaningful interaction states.
+- **Backend:** request handling, validation, sessions, error paths and predictable business rules.
+- **Data layer:** relational models, persistence and consistent state across user journeys.
+- **Example:** in [VibeShop](https://github.com/Denis7Kom/website-turbo-layout), the customer journey connects JSP pages, Servlets, DAO classes and relational data.
+
+`USER ACTION → CONTROLLER → DOMAIN LOGIC → DATABASE → RESPONSE`
+
+</details>
+
+<details>
+<summary><b>02 / Interactive Systems</b> — visual logic, motion &amp; simulation</summary>
+
+A convincing interactive experience needs more than visual effects: the behaviour, animation state and user controls must agree.
+
+- Procedural geometry and interactive 3D scenes.
+- Event-driven updates, transitions and state-dependent visuals.
+- Controls designed for both desktop and mobile interfaces.
+- Iteration on usability and performance, not only appearance.
+
+`INPUT → UPDATE STATE → RENDER → FEEDBACK`
+
+</details>
+
+<details>
+<summary><b>03 / Security Foundations</b> — boundaries, assumptions &amp; verification</summary>
+
+My ongoing security learning focuses on the application's trust boundaries: where user-controlled input arrives, where identity is verified and where access must be checked.
+
+- Track data from entry points to sensitive operations.
+- Separate authentication (**who is the user?**) from authorisation (**can they access this object?**).
+- Review failure paths and look for missing checks.
+- Verify changes with positive **and** negative test cases.
+
+`DEFINE BOUNDARY → FIND ASSUMPTION → TEST FAILURE → VERIFY FIX`
+
+</details>
+
 
 ## Featured Work
 
-<sub>Click a card to open the project. Expand its panel for technical details.</sub>
+<sub>SELECTED PROJECT / 01 — the only featured work on this profile.</sub>
 
-<a href="https://github.com/Denis7Kom/website-turbo-layout"><img src=".github/assets/motion-vibeshop.svg" alt="VibeShop: Live-music e-commerce with customer accounts, a shopping cart, orders and an administration area. Built with **Java, JSP, Servlets and a relational database** for the University of Salerno." width="100%" /></a>
+<a href="https://github.com/Denis7Kom/website-turbo-layout"><img src=".github/assets/feature-vibeshop-v2.svg" alt="VibeShop — animated live-music e-commerce showcase with concerts, artists and merchandise" width="100%" /></a>
 
-<details>
-<summary><b>Explore VibeShop</b> — implementation, stack &amp; links</summary>
+### VibeShop · Turbo Layout
 
-Live-music e-commerce with customer accounts, a shopping cart, orders and an administration area. Built with **Java, JSP, Servlets and a relational database** for the University of Salerno.
+A **Java web application for live-music commerce**, developed as a team project for the University of Salerno. It connects **concert and artist discovery** with a real e-commerce workflow: accounts, product selection, cart, checkout, order history and administrative management.
 
-[Source & documentation](https://github.com/Denis7Kom/website-turbo-layout)
+**Stack:** `Java` · `JSP` · `Servlets` · `HTML/CSS` · `SQL` · `DAO`
 
-<sub>Team: Denis7Kom · Ivan Perruolo · Giulio Alessandro Peluso</sub>
+<img src=".github/assets/vibeshop-architecture-v3.svg" alt="VibeShop architecture: JSP frontend, Java Servlet controllers, DAO layer, relational SQL data and route guards" width="100%" />
 
-</details>
+<details open>
+<summary><b>Explore the customer journey</b> — guest → member → order</summary>
 
-<br />
-<a href="https://denis7kom.github.io/denis-aviation/"><img src=".github/assets/motion-aviation.svg" alt="Aviation: Browser-based procedural aircraft, moving components, a flight network, a logbook and a flight-control demo. **JavaScript, WebGL, cached geometry and regression checks.**" width="100%" /></a>
+| Stage | Behaviour |
+| :--- | :--- |
+| **Discover** | Browse concerts, artists and merchandise; search the catalogue. |
+| **Account** | Register, sign in and access an individual profile. |
+| **Select** | Add products to a cart and review the purchase. |
+| **Checkout** | Complete an order as an authenticated customer. |
+| **Track** | Review past orders and manage profile information. |
 
-<details>
-<summary><b>Explore Aviation</b> — implementation, stack &amp; links</summary>
-
-Browser-based procedural aircraft, moving components, a flight network, a logbook and a flight-control demo. **JavaScript, WebGL, cached geometry and regression checks.**
-
-[Live experience](https://denis7kom.github.io/denis-aviation/) · [Source](https://github.com/Denis7Kom/denis-aviation) · [Architecture](https://github.com/Denis7Kom/denis-aviation/blob/main/docs/architecture.md)
-
-</details>
-
-<br />
-<a href="https://denis7kom.github.io/trains_it/en/"><img src=".github/assets/motion-binario.svg" alt="BINARIO: A multilingual railway guide with an interactive 3D station and Russian, English and Italian editions. **JavaScript, Three.js, HTML and CSS.**" width="100%" /></a>
-
-<details>
-<summary><b>Explore BINARIO</b> — implementation, stack &amp; links</summary>
-
-A multilingual railway guide with an interactive 3D station and Russian, English and Italian editions. **JavaScript, Three.js, HTML and CSS.**
-
-[Live guide](https://denis7kom.github.io/trains_it/en/) · [Source & workflow](https://github.com/Denis7Kom/trains_it)
+**Flow:** `DISCOVER` → `PRODUCT` → `CART` → `CHECKOUT` → `ORDERS`
 
 </details>
 
-<br />
-<a href="https://github.com/Denis7Kom/goblin"><img src=".github/assets/motion-goblin.svg" alt="Goblin: An Italian-language console RPG prototype written in **C**, with combat, a shop, character statistics and timed events. Known input-handling and correctness issues are documented for future work." width="100%" /></a>
-
 <details>
-<summary><b>Explore Goblin</b> — implementation, stack &amp; links</summary>
+<summary><b>Explore the admin view</b> — catalogue, events &amp; operations</summary>
 
-An Italian-language console RPG prototype written in **C**, with combat, a shop, character statistics and timed events. Known input-handling and correctness issues are documented for future work.
+The project includes a separate administration area for maintaining concerts and merchandise, reviewing orders and managing support requests.
 
-[Source](https://github.com/Denis7Kom/goblin/blob/main/goblin.it.c) · [Roadmap](https://github.com/Denis7Kom/goblin/blob/main/ROADMAP.md)
+The source tree contains dedicated administrative Servlets and an `AdminFilter`. Their presence documents the application's routing structure; it does **not** by itself establish that every authorisation path has been independently audited.
 
 </details>
 
-<br />
+<details>
+<summary><b>Under the hood</b> — explore real source files</summary>
+
+| Layer | Implementation |
+| :--- | :--- |
+| **Views** | [JSP pages](https://github.com/Denis7Kom/website-turbo-layout/tree/main/VibeShop/src/main/webapp/jsp) for catalogue, cart, checkout, account and orders |
+| **Request layer** | [Java Servlets](https://github.com/Denis7Kom/website-turbo-layout/tree/main/VibeShop/src/main/java/com/turbolayout) including `CartServlet`, `CheckoutServlet`, `LoginServlet` and `SearchServlet` |
+| **Domain layer** | [Model classes](https://github.com/Denis7Kom/website-turbo-layout/tree/main/VibeShop/src/main/java/model) for users, products, concerts, cart items and orders |
+| **Data access** | [DAO classes](https://github.com/Denis7Kom/website-turbo-layout/tree/main/VibeShop/src/main/java/model/dao) for user, artist, concert, product and order data |
+| **Database** | [SQL schema](https://github.com/Denis7Kom/website-turbo-layout/blob/main/VibeShop/db/VIBESHOP_FINAL.sql) |
+| **Access filters** | [AuthFilter / AdminFilter](https://github.com/Denis7Kom/website-turbo-layout/tree/main/VibeShop/src/main/java/filter) |
+
+The university project is **completed**. Future refactoring and application-security hardening are listed as potential follow-up work, not finished features.
+
+</details>
+
+<p align="center">
+<a href="https://github.com/Denis7Kom/website-turbo-layout"><img src="https://img.shields.io/badge/EXPLORE%20SOURCE%20%26%20DOCS-8B5CF6?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="Explore VibeShop source and documentation" /></a>
+</p>
+
+<sub>Team: Denis7Kom · Ivan Perruolo · Giulio Alessandro Peluso.</sub>
+
 
 ## Cybersecurity
 
-<img src=".github/assets/motion-security.svg" alt="Security learning: input handling, access boundaries, code review and verification" width="100%" />
+<img src=".github/assets/security-path-v3.svg" alt="Animated application security map: trace input, check object access, review assumptions, and verify fixes" width="100%" />
+
+I am building my **application-security knowledge** by connecting security concepts to actual software behaviour. The emphasis is on reproducible findings, clear trust boundaries and verifiable fixes.
 
 <details>
-<summary><b>Open security learning notes</b> — four areas of focus</summary>
+<summary><b>01 / Threat modelling</b> — what can cross a trust boundary?</summary>
 
-I am developing my application-security knowledge through code review, testing and understanding implementation failures.
+**Threat modelling** is the practice of identifying assets, entry points, trust boundaries and plausible failure scenarios *before* assuming a feature is safe.
 
-- **Input handling:** malformed data, validation and memory-safety failures.
-- **Authentication & authorisation:** identity, sessions and access boundaries.
-- **Secure code review:** data flow, assumptions and failure paths.
-- **Verification:** reproduce the problem, understand its cause and check the fix.
+Example: a browser sends an order ID to a Servlet. The server must establish whether the authenticated user is allowed to access that specific order—not merely whether they are logged in.
+
+`USER INPUT → SESSION → OBJECT LOOKUP → OWNER CHECK → RESPONSE`
+
+</details>
+
+<details>
+<summary><b>02 / Authentication &amp; authorisation</b> — identity is not permission</summary>
+
+- **Authentication** establishes an identity, for example through a valid user session.
+- **Authorisation** evaluates an action against an object and its owner or role.
+- **IDOR/BOLA** describes missing object-level authorisation, such as reading another customer's order by changing an identifier.
+
+In VibeShop, `AuthFilter` and `AdminFilter` are concrete code locations to study. A filter alone is not proof that every object-level permission has been enforced.
+
+</details>
+
+<details>
+<summary><b>03 / Input &amp; data handling</b> — validate at each boundary</summary>
+
+I focus on where untrusted input meets business logic and storage: parameter validation, SQL query construction, output encoding and error handling.
+
+**Example review question:** when a search string reaches a DAO, is it safely bound as data rather than interpreted as query syntax? The answer requires inspecting the implementation, not trusting the UI.
+
+</details>
+
+<details>
+<summary><b>04 / Reproduction &amp; regression tests</b> — demonstrate the fix</summary>
+
+A useful security review produces evidence: initial conditions, a repeatable request, the observed result, the expected result and a test that prevents recurrence.
+
+`REPRODUCE → IDENTIFY ROOT CAUSE → CHANGE CODE → RETEST → DOCUMENT`
+
+**Status:** learning and exploring. These are focus areas and review methods, not claimed certifications, vulnerability discoveries or a completed audit of VibeShop.
 
 </details>
 
@@ -177,11 +259,48 @@ I am developing my application-security knowledge through code review, testing a
 
 </div>
 
+
 ## My Build Pattern
 
-<img src=".github/assets/lab-pipeline.svg" alt="Animated workflow: understand, build, test, refine" width="100%" />
+<img src=".github/assets/build-loop-v3.svg" alt="Animated engineering feedback loop: understand requirements, model, implement, verify and refine" width="100%" />
 
-Understand the problem, make the implementation readable, test meaningful behaviour and document the trade-offs.
+The goal is a **repeatable path from a requirement to observable behaviour**, with enough evidence to know whether the implementation meets the intended contract.
+
+<details>
+<summary><b>01 + 02 / Understand &amp; Model</b> — requirements, states and boundaries</summary>
+
+Start with the user journey and the system's constraints. Separate *what should happen* from *how it will be implemented*. Sketch state transitions, important data entities, expected errors and trust boundaries.
+
+**VibeShop example:** product discovery → cart → authenticated checkout → order history. Each transition implies a request, a change of state or an access rule.
+
+</details>
+
+<details>
+<summary><b>03 / Implement</b> — explicit responsibilities, readable code</summary>
+
+Separate view rendering, request coordination, domain state and persistence. Prefer descriptive names and small responsibilities over clever abstractions without a clear benefit.
+
+**VibeShop example:** JSP is the presentation layer; Servlets handle requests; model classes carry state; DAO classes interact with persistence.
+
+</details>
+
+<details>
+<summary><b>04 / Verify</b> — successful paths, failures and edge cases</summary>
+
+Review what happens when inputs are missing, an object does not exist, a session expires, permissions are insufficient or a request repeats. Validate the observable result rather than assuming a code change solved the problem.
+
+**Example test cases:** empty cart; expired session during checkout; account A requesting account B's order.
+
+</details>
+
+<details>
+<summary><b>05 / Refine</b> — performance, security &amp; documentation</summary>
+
+Measure the actual bottleneck before optimising. Reduce complexity where possible, revisit exposed trust boundaries and document the trade-offs that future maintainers need to understand.
+
+`OBSERVE → EXPLAIN → CHANGE ONE THING → VERIFY AGAIN`
+
+</details>
 
 ## Beyond the Code
 
