@@ -24,30 +24,35 @@
 
 <br />
 
-<table>
-<tr>
-<td width="55%" valign="top">
 
 ## whoami
 
-<img src=".github/assets/profile-whoami-v3.svg" alt="Animated whoami terminal: Denis7Kom, software development, interactive systems, security learning and iterative engineering" width="100%" />
+<img src=".github/assets/profile-whoami-v4.svg" alt="Animated Denis7Kom developer console with identity, current focus, application-security learning and engineering workflow" width="100%" />
 
 <details>
-<summary><b>$ cat about.md</b> — explore my working focus</summary>
+<summary><b>$ inspect --identity</b> — developer profile &amp; current focus</summary>
 
-I focus on application logic, data flow and the behaviour behind the interface. I am expanding my expertise in cybersecurity and secure software development.
+I build **software applications and interactive systems** with attention to behaviour, data flow and visual structure. Alongside software engineering, I study **application security**, especially trust boundaries, access control and verification.
+
+| Engineering lens | What it means in practice |
+| :--- | :--- |
+| **Build** | Understand the user journey, model the data and implement readable behaviour. |
+| **Experience** | Use movement, visual feedback and meaningful interaction rather than decoration alone. |
+| **Security** | Question assumptions, inspect permissions and test what happens when requests fail. |
+| **Improve** | Observe results, revise the implementation and document relevant trade-offs. |
 
 </details>
 
-</td>
-<td width="45%" valign="middle">
+<details>
+<summary><b>$ cat ./current-quest</b> — learning &amp; iteration</summary>
 
-<img src=".github/assets/lab-status.svg" alt="Animated current quest: build software, explore systems, learn security" width="100%" />
+<img src=".github/assets/lab-status.svg" alt="Animated development quest" width="75%" />
 
-</td>
-</tr>
-</table>
+**Working approach:** understand the problem → model the states → build → verify → refine.
 
+Focus areas describe projects, interests and ongoing learning, not unsupported claims about seniority or proficiency.
+
+</details>
 
 ## What I Build
 
@@ -302,11 +307,82 @@ Measure the actual bottleneck before optimising. Reduce complexity where possibl
 
 </details>
 
+
 ## Beyond the Code
 
-Photography, aerial video and aviation also shape my visual work.
+<img src=".github/assets/beyond-code-v1.svg" alt="Animated photography, aerial video and aviation illustration exploring composition, spatial movement and systems thinking" width="100%" />
 
-[Drone & Camera](https://denis7kom.github.io/Denis-Komarov-PH/) · [Shutterstock](https://www.shutterstock.com/g/Denis+Komarov%20PH?rid=259170704) · [Books](https://www.amazon.it/stores/Denis-Komarov/author/B0CCSK74QC)
+**Different disciplines, shared habits:** composition, movement and precision influence how I approach software and visual projects. Expand a subject to explore its connection to engineering.
+
+<details>
+<summary><b>01 / Photography</b> — composition, light &amp; attention to detail</summary>
+
+Photography is an exercise in deliberate choices: what belongs in the frame, what should stand out and what distracts from the subject.
+
+**Connection to software:** the same discipline applies to visual hierarchy, spacing, contrast and interface clarity.
+
+- **Composition → layout:** place important actions where users can find them.
+- **Light & contrast → readability:** separate content and interface states without visual noise.
+- **Editing → iteration:** compare alternatives and remove what does not communicate.
+
+**Practical example:** a dashboard can show correct data but still be difficult to use when every element competes for attention.
+
+[Drone & Camera portfolio](https://denis7kom.github.io/Denis-Komarov-PH/) · [Shutterstock photography](https://www.shutterstock.com/g/Denis+Komarov%20PH?rid=259170704)
+
+</details>
+
+<details>
+<summary><b>02 / Aerial Video</b> — perspective, motion &amp; spatial storytelling</summary>
+
+Aerial footage combines framing, movement and a changing point of view. Smooth camera work should help someone understand a scene rather than simply adding motion.
+
+**Connection to software:** interactive 3D scenes, camera controls and motion design also depend on predictable movement and feedback.
+
+- **Perspective → spatial reasoning:** understand objects in relation to their environment.
+- **Camera movement → interaction:** keep orientation clear while the viewpoint changes.
+- **Visual continuity → UX:** transitions should clarify what changed and where to look next.
+
+**Practical example:** when a user rotates a 3D model, stable controls and a clear focal point matter more than elaborate effects.
+
+[View aerial photography and video](https://denis7kom.github.io/Denis-Komarov-PH/)
+
+</details>
+
+<details>
+<summary><b>03 / Aviation</b> — systems thinking, procedures &amp; precision</summary>
+
+Aviation inspires my interest in interconnected systems, operational logic and interfaces that express changing states.
+
+**Connection to software:** understandable systems make dependencies, control inputs and failure cases explicit.
+
+- **Checklists → consistency:** document repeated steps and reviewable decisions.
+- **Cockpit displays → information design:** present relevant information at the right time.
+- **Aircraft systems → state modelling:** controls must correspond to coherent system states.
+- **Procedures → verification:** distinguish intended behaviour from what happened.
+
+**Practical example:** interactive aircraft models need consistent relationships between controls, flight surfaces, landing gear and the visible aircraft state.
+
+[Interactive aviation project](https://denis7kom.github.io/denis-aviation/) · [GitHub source](https://github.com/Denis7Kom/denis-aviation)
+
+</details>
+
+<details>
+<summary><b>04 / Writing</b> — structure, clarity &amp; documentation</summary>
+
+Writing is another way to organise complex material into something understandable. Good documentation asks the same questions as good storytelling: what does the reader need to know first, which context is missing and how does the argument progress?
+
+**Connection to software:** precise names, clear explanations and structured documentation make technical projects easier to understand and maintain.
+
+[My books](https://www.amazon.it/stores/Denis-Komarov/author/B0CCSK74QC)
+
+</details>
+
+<p align="center">
+<a href="https://denis7kom.github.io/Denis-Komarov-PH/"><img src="https://img.shields.io/badge/DRONE%20%26%20CAMERA-35D0BA?style=for-the-badge" alt="Drone and Camera portfolio" /></a>
+<a href="https://www.shutterstock.com/g/Denis+Komarov%20PH?rid=259170704"><img src="https://img.shields.io/badge/PHOTO%20GALLERY-8B5CF6?style=for-the-badge" alt="Photography gallery" /></a>
+<a href="https://denis7kom.github.io/denis-aviation/"><img src="https://img.shields.io/badge/AVIATION-F5C451?style=for-the-badge" alt="Interactive aviation project" /></a>
+<a href="https://www.amazon.it/stores/Denis-Komarov/author/B0CCSK74QC"><img src="https://img.shields.io/badge/BOOKS-5D6C82?style=for-the-badge" alt="Author books" /></a>
+</p>
 
 ## Connect
 
