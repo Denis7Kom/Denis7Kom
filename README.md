@@ -5,9 +5,9 @@
 <p><strong>Software · Interactive Systems · Application Security</strong></p>
 
 <p>
-<a href="#featured-work"><img src="https://img.shields.io/badge/EXPLORE%20PROJECTS-35D0BA?style=for-the-badge&amp;logo=github&amp;logoColor=0D1117" alt="Explore projects" /></a>
-<a href="#cybersecurity"><img src="https://img.shields.io/badge/SECURITY%20FOCUS-F5C451?style=for-the-badge&amp;logo=letsencrypt&amp;logoColor=0D1117" alt="Security focus" /></a>
-<a href="https://denis7kom.github.io/denis-komarov/"><img src="https://img.shields.io/badge/VISIT%20PORTFOLIO-8B5CF6?style=for-the-badge&amp;logo=firefoxbrowser&amp;logoColor=white" alt="Visit portfolio" /></a>
+<a href="#featured-work"><img src=".github/assets/nav-projects.svg" alt="Explore projects" width="220" /></a>
+<a href="#cybersecurity"><img src=".github/assets/nav-security.svg" alt="Security focus" width="220" /></a>
+<a href="https://denis7kom.github.io/denis-komarov/"><img src=".github/assets/nav-portfolio-flight.svg" alt="Visit portfolio" width="220" /></a>
 </p>
 
 <p>
