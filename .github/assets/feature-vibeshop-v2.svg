@@ -2,7 +2,7 @@
 <title id="title">VibeShop — Turbo Layout</title>
 <desc id="description">An animated live-music marketplace concept: storefront interface, concert stage, artist and merchandise tiles. University of Salerno team project. Click to open the repository.</desc>
 <defs>
-  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#111a2b"/><stop offset=".58" stop-color="#17192e"/><stop offset="1" stop-color="#22172f"/></linearGradient>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#142633"/><stop offset=".58" stop-color="#17192e"/><stop offset="1" stop-color="#080e18"/></linearGradient>
   <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#182943"/><stop offset="1" stop-color="#111b2d"/></linearGradient>
   <linearGradient id="show" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#552b77"/><stop offset=".46" stop-color="#253f71"/><stop offset="1" stop-color="#122337"/></linearGradient>
   <linearGradient id="beamA" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#cb86ff" stop-opacity=".34"/><stop offset="1" stop-color="#cb86ff" stop-opacity="0"/></linearGradient>
@@ -26,30 +26,30 @@
   @keyframes scan{from{transform:translateX(-300px)}to{transform:translateX(300px)}}
   @media(prefers-reduced-motion:reduce){*{animation:none!important}}
 </style>
-<rect x=".75" y=".75" width="958.5" height="316.5" rx="22" fill="url(#bg)" stroke="#36435c" stroke-width="1.5"/>
+<rect x=".75" y=".75" width="958.5" height="316.5" rx="22" fill="url(#bg)" stroke="#3b5564" stroke-width="1.5"/>
 <ellipse cx="765" cy="147" rx="215" ry="176" fill="url(#glow)"/>
 <path d="M575 18L736 18L806 221L684 221Z" fill="url(#beamA)" class="spot"/>
 <path d="M900 22L960 22L859 224L788 224Z" fill="url(#beamB)" class="spot2"/>
 <path d="M633 18L680 18L780 214L738 214Z" fill="#6d5cc0" opacity=".08"/>
-<text x="32" y="38" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#c4adff" letter-spacing="1.6">01 / SELECTED WORK</text>
-<text x="30" y="103" font-family="Arial,Helvetica,sans-serif" font-size="49" fill="#f2f5ff" font-weight="700" letter-spacing="-1.4">VibeShop</text>
-<text x="33" y="134" font-family="Arial,Helvetica,sans-serif" font-size="13" fill="#c7b2f2" letter-spacing="2.2">TURBO LAYOUT</text>
+<text x="32" y="38" font-family="Consolas,'Liberation Mono',monospace" font-size="12" fill="#c4adff" letter-spacing="1.6">01 / SELECTED WORK</text>
+<text x="30" y="103" font-family="Consolas,'Liberation Mono',monospace" font-size="49" fill="#f2f5ff" font-weight="700" letter-spacing="-1.4">VibeShop</text>
+<text x="33" y="134" font-family="Consolas,'Liberation Mono',monospace" font-size="13" fill="#c7b2f2" letter-spacing="2.2">TURBO LAYOUT</text>
 <path d="M33 153H430" stroke="#d7dff2" stroke-opacity=".13"/>
-<text x="33" y="178" font-family="Arial,Helvetica,sans-serif" font-size="17" fill="#e5e8f4">Live music, artists &amp; merchandise.</text>
-<text x="33" y="204" font-family="Arial,Helvetica,sans-serif" font-size="13" fill="#aebbd0">University of Salerno · Team project</text>
+<text x="33" y="178" font-family="Consolas,'Liberation Mono',monospace" font-size="17" fill="#e5e8f4">Live music, artists &amp; merchandise.</text>
+<text x="33" y="204" font-family="Consolas,'Liberation Mono',monospace" font-size="13" fill="#aebbd0">University of Salerno · Team project</text>
 <rect x="32" y="224" width="183" height="31" rx="15.5" fill="#302747" stroke="#695389"/>
-<text x="47" y="244" font-family="Arial,Helvetica,sans-serif" font-size="11" fill="#f0e8ff" font-weight="700" letter-spacing=".9">VIEW THE PROJECT</text>
+<text x="47" y="244" font-family="Consolas,'Liberation Mono',monospace" font-size="11" fill="#f0e8ff" font-weight="700" letter-spacing=".9">VIEW THE PROJECT</text>
 <path d="M187 241L195 233M188 233H195V240" fill="none" stroke="#e1d1ff" stroke-width="1.5"/>
 <g filter="url(#shadow)">
   <rect x="590" y="32" width="331" height="229" rx="17" fill="url(#glass)" stroke="#52627d" stroke-width="1.2"/>
   <path d="M591 67H920" stroke="#45536b"/>
   <circle cx="610" cy="50" r="4" fill="#ff668d"/><circle cx="624" cy="50" r="4" fill="#ffca70"/><circle cx="638" cy="50" r="4" fill="#58d6b4"/>
   <path d="M657 50h12m-6-6v12" stroke="#92a5c2" stroke-width="1.4" stroke-linecap="round"/>
-  <text x="680" y="54" font-family="Arial,Helvetica,sans-serif" font-size="10" fill="#e1e8f5" font-weight="700" letter-spacing="1.4">VIBESHOP</text>
-  <text x="766" y="54" font-family="Arial,Helvetica,sans-serif" font-size="9" fill="#9aaac3" letter-spacing=".7">DISCOVER</text>
+  <text x="680" y="54" font-family="Consolas,'Liberation Mono',monospace" font-size="10" fill="#e1e8f5" font-weight="700" letter-spacing="1.4">VIBESHOP</text>
+  <text x="766" y="54" font-family="Consolas,'Liberation Mono',monospace" font-size="9" fill="#9aaac3" letter-spacing=".7">DISCOVER</text>
   <rect x="844" y="42" width="58" height="17" rx="8.5" fill="#28374c" stroke="#435772"/>
   <circle cx="855" cy="50.5" r="2.5" fill="#58dec2" class="dot"/>
-  <text x="862" y="54" font-family="Arial,Helvetica,sans-serif" font-size="7.5" fill="#d9e6f3" letter-spacing=".4">LIVE</text>
+  <text x="862" y="54" font-family="Consolas,'Liberation Mono',monospace" font-size="7.5" fill="#d9e6f3" letter-spacing=".4">LIVE</text>
 </g>
 <g clip-path="url(#scene)">
   <rect x="617" y="83" width="294" height="101" fill="url(#show)"/>
@@ -67,10 +67,10 @@
   <g fill="#151c2e">
     <path d="M633 184v-19l-5-5 2-7 5 4 2 8v19zm31 0v-20l-4-5 2-6 4 4 2 7v20zm43 0v-18l-4-6 2-6 4 5 2 7v18zm54 0v-21l-4-5 2-7 4 4 2 8v21zm46 0v-19l-4-5 2-6 4 4 2 7v19zm51 0v-20l-4-6 2-6 4 4 2 8v20zm37 0v-18l-4-5 2-7 4 5 2 7v18z"/>
   </g>
-  <text x="631" y="101" font-family="Arial,Helvetica,sans-serif" font-size="8" fill="#e6d8ff" letter-spacing="1.7">FIND YOUR NEXT SHOW</text>
+  <text x="631" y="101" font-family="Consolas,'Liberation Mono',monospace" font-size="8" fill="#e6d8ff" letter-spacing="1.7">FIND YOUR NEXT SHOW</text>
   <rect x="631" y="109" width="85" height="18" rx="9" fill="#201d39" fill-opacity=".88" stroke="#9473c8" stroke-opacity=".7"/>
   <circle cx="641" cy="118" r="2.4" fill="#ed7eaf" class="dot"/>
-  <text x="648" y="121" font-family="Arial,Helvetica,sans-serif" font-size="7.4" fill="#f5eaff" letter-spacing=".7">ON STAGE</text>
+  <text x="648" y="121" font-family="Consolas,'Liberation Mono',monospace" font-size="7.4" fill="#f5eaff" letter-spacing=".7">ON STAGE</text>
   <g transform="translate(874 100)">
     <rect class="equal" x="0" y="9" width="3" height="9" rx="1.5" fill="#6de1e5"/>
     <rect class="equal" x="6" y="3" width="3" height="15" rx="1.5" fill="#ad8df2" style="animation-delay:-.4s"/>
@@ -84,17 +84,17 @@
   <rect x="617" y="192" width="139" height="51" rx="10" fill="#1a263a" stroke="#34445c"/>
   <circle cx="638" cy="217" r="12" fill="#382856" stroke="#745b9d"/>
   <path d="M631 220v-5l7-5 7 5v5m-10 0v-5m6 5v-5" fill="none" stroke="#d1b6ff" stroke-width="1.2" stroke-linecap="round"/>
-  <text x="658" y="214" font-family="Arial,Helvetica,sans-serif" font-size="8" fill="#91a5c1" letter-spacing=".8">EXPLORE</text>
-  <text x="658" y="228" font-family="Arial,Helvetica,sans-serif" font-size="11" fill="#edf1fa" font-weight="700">Concerts</text>
+  <text x="658" y="214" font-family="Consolas,'Liberation Mono',monospace" font-size="8" fill="#91a5c1" letter-spacing=".8">EXPLORE</text>
+  <text x="658" y="228" font-family="Consolas,'Liberation Mono',monospace" font-size="11" fill="#edf1fa" font-weight="700">Concerts</text>
   <path d="M735 216l5 5-5 5" fill="none" stroke="#8ea1be" stroke-width="1.3"/>
   <rect x="767" y="192" width="144" height="51" rx="10" fill="#1a263a" stroke="#34445c"/>
   <circle cx="788" cy="217" r="12" fill="#1d3946" stroke="#397283"/>
   <path d="M782 221v-8l6-4 6 4v8m-12-5h12" fill="none" stroke="#89e2e8" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
-  <text x="808" y="214" font-family="Arial,Helvetica,sans-serif" font-size="8" fill="#91a5c1" letter-spacing=".8">DISCOVER</text>
-  <text x="808" y="228" font-family="Arial,Helvetica,sans-serif" font-size="11" fill="#edf1fa" font-weight="700">Artists &amp; merch</text>
+  <text x="808" y="214" font-family="Consolas,'Liberation Mono',monospace" font-size="8" fill="#91a5c1" letter-spacing=".8">DISCOVER</text>
+  <text x="808" y="228" font-family="Consolas,'Liberation Mono',monospace" font-size="11" fill="#edf1fa" font-weight="700">Artists &amp; merch</text>
   <path d="M891 216l5 5-5 5" fill="none" stroke="#8ea1be" stroke-width="1.3"/>
 </g>
 <path d="M24 274H936" stroke="#74618d" stroke-opacity=".32"/>
-<text x="32" y="298" font-family="Arial,Helvetica,sans-serif" font-size="14" fill="#dfd2f4" font-weight="600">website-turbo-layout</text>
-<text x="928" y="298" font-family="Arial,Helvetica,sans-serif" font-size="10" fill="#b8c3d4" text-anchor="end" letter-spacing="1.25">JAVA · JSP · SERVLETS</text>
+<text x="32" y="298" font-family="Consolas,'Liberation Mono',monospace" font-size="14" fill="#dfd2f4" font-weight="600">website-turbo-layout</text>
+<text x="928" y="298" font-family="Consolas,'Liberation Mono',monospace" font-size="10" fill="#b8c3d4" text-anchor="end" letter-spacing="1.25">JAVA · JSP · SERVLETS</text>
 </svg>
