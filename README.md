@@ -1,12 +1,14 @@
 <div align="center">
 
-<img src=".github/assets/profile-header-lab.svg" alt="Denis7Kom — software, interactive systems and application security" width="100%" />
+<img src=".github/assets/profile-flight-deck.svg" alt="Denis7Kom — software, interactive systems and application security" width="100%" />
 
-<br />
+<p><strong>Software · Interactive Systems · Application Security</strong></p>
 
-<a href="#featured-work"><img src="https://img.shields.io/badge/PORTFOLIO%20%C2%B7%20SELECTED%20PROJECTS-35D0BA?style=flat-square" alt="PORTFOLIO · SELECTED PROJECTS" /></a>
-<a href="#cybersecurity"><img src="https://img.shields.io/badge/FOCUS%20%C2%B7%20SOFTWARE%20%2B%20SECURITY-F5C451?style=flat-square" alt="FOCUS · SOFTWARE + SECURITY" /></a>
-<a href="https://denis7kom.github.io/denis-komarov/"><img src="https://img.shields.io/badge/WEBSITE%20%C2%B7%20VIEW%20PORTFOLIO-8B5CF6?style=flat-square" alt="WEBSITE · VIEW PORTFOLIO" /></a>
+<p>
+<a href="#featured-work"><img src="https://img.shields.io/badge/EXPLORE%20PROJECTS-35D0BA?style=for-the-badge&amp;logo=github&amp;logoColor=0D1117" alt="Explore projects" /></a>
+<a href="#cybersecurity"><img src="https://img.shields.io/badge/SECURITY%20FOCUS-F5C451?style=for-the-badge&amp;logo=letsencrypt&amp;logoColor=0D1117" alt="Security focus" /></a>
+<a href="https://denis7kom.github.io/denis-komarov/"><img src="https://img.shields.io/badge/VISIT%20PORTFOLIO-8B5CF6?style=for-the-badge&amp;logo=firefoxbrowser&amp;logoColor=white" alt="Visit portfolio" /></a>
+</p>
 
 <p>
 <a href="#featured-work">Projects</a> &nbsp; / &nbsp;
