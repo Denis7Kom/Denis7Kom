@@ -1,10 +1,6 @@
 <div align="center">
 
-<img src=".github/assets/lab-nickname.svg" alt="Denis7Kom — software and security lab" width="100%" />
-
-<br />
-
-<img src=".github/assets/lab-typing-v2.svg" alt="Building software, exploring systems, learning application security" width="100%" />
+<img src=".github/assets/profile-header-lab.svg" alt="Denis7Kom — software, interactive systems and application security" width="100%" />
 
 <br />
 
