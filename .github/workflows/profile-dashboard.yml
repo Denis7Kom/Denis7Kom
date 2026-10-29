@@ -1,0 +1,42 @@
+name: Update profile dashboard
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/scripts/update-profile.py'
+      - '.github/workflows/profile-dashboard.yml'
+  pull_request:
+    paths:
+      - '.github/scripts/update-profile.py'
+      - '.github/workflows/profile-dashboard.yml'
+      - 'README.md'
+  schedule:
+    - cron: '17 */6 * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: profile-dashboard
+  cancel-in-progress: false
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Generate public profile assets
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 .github/scripts/update-profile.py
+      - name: Verify generated SVG files
+        run: python3 -c "import pathlib, xml.etree.ElementTree as E; files=list(pathlib.Path('.github/assets/live').glob('*.svg')); assert len(files) == 4; [E.parse(f) for f in files]; print('All four SVG files are valid XML')"
+      - name: Save updated assets
+        if: github.event_name != 'pull_request'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add .github/assets/live/
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "Update profile dashboard"
+          git pull --rebase origin main
+          git push origin HEAD:main
