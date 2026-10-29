@@ -1,1 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="760" height="100" viewBox="0 0 760 100"><rect width="760" height="100" rx="18" fill="#0d1923" stroke="#3b5564"/><text x="30" y="42" fill="#57dfcf" font-family="monospace" font-size="16">VIBESHOP</text><text x="30" y="72" fill="#a1b8c6" font-family="monospace" font-size="13">Waiting for the first GitHub Actions update</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="240" viewBox="0 0 760 240" role="img" aria-label="FEATURED PROJECT TELEMETRY">
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#142633"/><stop offset="1" stop-color="#080e18"/></linearGradient><pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#b5d6e0" opacity=".055"/></pattern></defs>
+<style>text{font-family:Consolas,'Liberation Mono',monospace;fill:#edf6f7}.muted{fill:#a1b8c6}.teal{fill:#57dfcf}.tiny{font-size:12px;letter-spacing:1px}.sweep{transform-origin:650px 125px;animation:spin 10s linear infinite}@keyframes spin{to{transform:rotate(360deg)}}@media(prefers-reduced-motion:reduce){.sweep{animation:none}}</style>
+<rect x="1" y="1" width="758" height="238" rx="18" fill="url(#bg)" stroke="#3b5564"/><rect x="2" y="2" width="756" height="236" rx="18" fill="url(#grid)"/>
+<circle cx="27" cy="25" r="4" fill="#55dfca"/><text x="41" y="30" class="teal tiny">FEATURED PROJECT TELEMETRY</text><text x="735" y="30" text-anchor="end" class="muted tiny">PUBLIC REPOSITORY</text><path d="M22 47H738" stroke="#344c5a"/>
+<text x="38" y="87" font-size="22" font-weight="700">VibeShop</text><text x="38" y="113" class="muted" font-size="13">TEAM PROJECT · LIVE-MUSIC COMMERCE</text>
+<text x="38" y="157" class="teal tiny">PRIMARY LANGUAGE</text><text x="38" y="181" font-size="17">Java</text>
+<text x="260" y="157" class="teal tiny">STARS / FORKS</text><text x="260" y="181" font-size="17">4 / 0</text>
+<text x="485" y="157" class="teal tiny">LAST PUSH</text><text x="485" y="181" font-size="17">2026-07-07</text>
+<text x="38" y="218" class="muted tiny">SOURCE · ARCHITECTURE · CUSTOMER JOURNEY</text></svg>
