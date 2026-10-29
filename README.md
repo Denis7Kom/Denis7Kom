@@ -4,8 +4,6 @@
 
 <p><strong>Software · Interactive Systems · Application Security</strong></p>
 
-<a href="https://github.com/Denis7Kom?tab=overview"><img src=".github/assets/live/activity.svg" alt="Recent public GitHub activity, updated automatically" width="100%" /></a>
-
 <p>
 <a href="#featured-work"><img src=".github/assets/nav-projects.svg" alt="Explore projects" width="220" /></a>
 <a href="#cybersecurity"><img src=".github/assets/nav-security.svg" alt="Security focus" width="220" /></a>
@@ -108,8 +106,6 @@ My ongoing security learning focuses on the application's trust boundaries: wher
 <sub>SELECTED PROJECT / 01 — the only featured work on this profile.</sub>
 
 <a href="https://github.com/Denis7Kom/website-turbo-layout"><img src=".github/assets/feature-vibeshop-v2.svg" alt="VibeShop — animated live-music e-commerce showcase with concerts, artists and merchandise" width="100%" /></a>
-
-<a href="https://github.com/Denis7Kom/website-turbo-layout"><img src=".github/assets/live/vibeshop.svg" alt="VibeShop public repository telemetry" width="100%" /></a>
 
 ### VibeShop · Turbo Layout
 
@@ -255,14 +251,17 @@ A useful security review produces evidence: initial conditions, a repeatable req
 
 ## GitHub Overview
 
-<p align="center"><sub>Public snapshot. The contribution calendar follows profile visibility; language counts describe each non-fork repository's primary language, not proficiency.</sub></p>
+<p align="center"><sub>Public GitHub activity. Language charts describe repository composition.</sub></p>
 
-<p align="center">
-<img src=".github/assets/live/overview.svg" alt="GitHub public repository and contribution overview" width="100%" />
-<img src=".github/assets/live/radar.svg" alt="Contribution radar showing the most recent activity calendar days" width="100%" />
-</p>
+<div align="center">
 
-<p align="center"><sub>Updated periodically by GitHub Actions. If an update fails, the last successful snapshot remains visible.</sub></p>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Denis7Kom&amp;theme=github_dark" alt="GitHub profile statistics" width="47%" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Denis7Kom&amp;theme=github_dark" alt="Repositories by language" width="47%" />
+
+<img src="https://streak-stats.demolab.com/?user=Denis7Kom&amp;theme=github-dark-blue&amp;hide_border=true" alt="GitHub contribution streak" width="70%" />
+
+</div>
+
 
 ## My Build Pattern
 
