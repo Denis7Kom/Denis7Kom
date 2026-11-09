@@ -124,7 +124,7 @@ assert check.n_frames >= FRAMES-4, check.n_frames
 assert check.info.get("loop") == 0
 total = 0
 for i in range(check.n_frames):
-    check.seek(i);total += check.info["duration"]
+    check.seek(i);check.load();total += check.info["duration"]
 assert total == 14000, total
 assert ImageStat.Stat(Image.open(STATIC)).stddev[0] > 10
 palette_source.resize((960,280)).save(ASSETS/"header-thunder-contact-v12.png")
