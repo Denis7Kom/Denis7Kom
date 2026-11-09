@@ -2,8 +2,8 @@
 
 <!-- Cylinder motion adapted from Emilio's 3D-rotate demo: https://codepen.io/emilio_ta/pen/NWYWNaW -->
 <picture>
-<source media="(prefers-reduced-motion: reduce)" srcset=".github/assets/header-rotate-v10.svg" />
-<img src=".github/assets/header-cylinder-v11.gif" alt="DEN7BEST — rotating text cylinder" width="100%" />
+<source media="(prefers-reduced-motion: reduce)" srcset=".github/assets/header-thunder-static-v12.png" />
+<img src=".github/assets/header-thunder-cylinder-v12.gif" alt="DEN7BEST. — Good Thunder inspired lettering on a rotating 3D text cylinder" width="100%" />
 </picture>
 
 <p><strong>Software · Interactive Systems · Application Security</strong></p>
