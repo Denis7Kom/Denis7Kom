@@ -14,11 +14,11 @@ from playwright.sync_api import sync_playwright
 ROOT = Path(__file__).resolve().parents[2]
 ASSETS = ROOT / ".github/assets"
 SOURCE = ASSETS / "header-thunder-source-v12.png"
-OUT = ASSETS / "header-thunder-cylinder-v12.gif"
+OUT = ASSETS / "header-thunder-smooth-v13.png"
 STATIC = ASSETS / "header-thunder-static-v12.png"
 W, H = 960, 280
-FPS = 16
-OW, OH = 768, 224
+FPS = 25
+OW, OH = W, H
 DURATION = 14
 FRAMES = FPS * DURATION
 
@@ -46,7 +46,7 @@ for y in range(mark.height):
         if y < mark.height * .13 or y > mark.height * .91:
             r,g,b,a = pix[x,y]
             pix[x,y] = (75, 226, 201, a)
-mark.thumbnail((1000, 350), Image.Resampling.LANCZOS)
+# Keep the full artwork resolution for close perspective views.
 buf = BytesIO()
 mark.save(buf, format="PNG", optimize=True)
 uri = "data:image/png;base64," + base64.b64encode(buf.getvalue()).decode()
@@ -113,11 +113,11 @@ with sync_playwright() as p:
 palette_source = Image.new("RGB",(W*4,H*2))
 for i,im in enumerate(samples):
     palette_source.paste(im,((i%4)*W,(i//4)*H))
-palette = palette_source.quantize(colors=64, method=Image.Quantize.MEDIANCUT)
+palette = palette_source.quantize(colors=256, method=Image.Quantize.MEDIANCUT)
 indexed = [f.resize((OW,OH), Image.Resampling.LANCZOS).quantize(palette=palette,dither=Image.Dither.NONE) for f in frames]
 delays = [10*(round((i+1)*100/FPS)-round(i*100/FPS)) for i in range(FRAMES)]
 indexed[0].save(OUT,save_all=True,append_images=indexed[1:],duration=delays,
-                loop=0,optimize=True,disposal=1)
+                loop=0,optimize=True,disposal=0,blend=0,compress_level=9)
 check = Image.open(OUT)
 assert check.size == (OW,OH)
 assert check.n_frames >= FRAMES-4, check.n_frames
@@ -128,8 +128,8 @@ for i in range(check.n_frames):
 assert total == 14000, total
 assert ImageStat.Stat(Image.open(STATIC)).stddev[0] > 10
 palette_source.resize((960,280)).save(ASSETS/"header-thunder-contact-v12.png")
-report = {"frames":check.n_frames,"duration_ms":total,"size":[OW,OH],"bytes":OUT.stat().st_size,
+report = {"frames":check.n_frames,"duration_ms":total,"size":[OW,OH],"bytes":OUT.stat().st_size,"fps":FPS,"format":"APNG","palette":256,
           "motion":"16 faces / 22.5deg / radius 109px / 7s alternate / perspective 500->50px",
           "wordmark":"custom Good Thunder inspired DEN7BEST. with final period"}
-(ASSETS/"header-thunder-validation-v12.json").write_text(json.dumps(report,indent=2)+"\n")
+(ASSETS/"header-thunder-validation-v13.json").write_text(json.dumps(report,indent=2)+"\n")
 print(json.dumps(report),flush=True)
