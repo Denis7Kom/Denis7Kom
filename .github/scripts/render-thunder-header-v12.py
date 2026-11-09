@@ -17,7 +17,8 @@ SOURCE = ASSETS / "header-thunder-source-v12.png"
 OUT = ASSETS / "header-thunder-cylinder-v12.gif"
 STATIC = ASSETS / "header-thunder-static-v12.png"
 W, H = 960, 280
-FPS = 20
+FPS = 16
+OW, OH = 768, 224
 DURATION = 14
 FRAMES = FPS * DURATION
 
@@ -92,7 +93,7 @@ with sync_playwright() as p:
         frame = Image.open(BytesIO(screenshot)).convert("RGB")
         assert frame.size == (W,H)
         frames.append(frame)
-        if n in [0,35,70,105,140,175,210,245]:
+        if n in [round(FRAMES*i/8) for i in range(8)]:
             samples.append(frame.copy())
         if n % 40 == 0:
             print(f"Rendered {n}/{FRAMES}", flush=True)
@@ -112,12 +113,13 @@ with sync_playwright() as p:
 palette_source = Image.new("RGB",(W*4,H*2))
 for i,im in enumerate(samples):
     palette_source.paste(im,((i%4)*W,(i//4)*H))
-palette = palette_source.quantize(colors=128, method=Image.Quantize.MEDIANCUT)
-indexed = [f.quantize(palette=palette,dither=Image.Dither.NONE) for f in frames]
-indexed[0].save(OUT,save_all=True,append_images=indexed[1:],duration=1000//FPS,
+palette = palette_source.quantize(colors=64, method=Image.Quantize.MEDIANCUT)
+indexed = [f.resize((OW,OH), Image.Resampling.LANCZOS).quantize(palette=palette,dither=Image.Dither.NONE) for f in frames]
+delays = [10*(round((i+1)*100/FPS)-round(i*100/FPS)) for i in range(FRAMES)]
+indexed[0].save(OUT,save_all=True,append_images=indexed[1:],duration=delays,
                 loop=0,optimize=True,disposal=1)
 check = Image.open(OUT)
-assert check.size == (W,H)
+assert check.size == (OW,OH)
 assert check.n_frames >= FRAMES-4, check.n_frames
 assert check.info.get("loop") == 0
 total = 0
@@ -126,7 +128,7 @@ for i in range(check.n_frames):
 assert total == 14000, total
 assert ImageStat.Stat(Image.open(STATIC)).stddev[0] > 10
 palette_source.resize((960,280)).save(ASSETS/"header-thunder-contact-v12.png")
-report = {"frames":check.n_frames,"duration_ms":total,"size":[W,H],"bytes":OUT.stat().st_size,
+report = {"frames":check.n_frames,"duration_ms":total,"size":[OW,OH],"bytes":OUT.stat().st_size,
           "motion":"16 faces / 22.5deg / radius 109px / 7s alternate / perspective 500->50px",
           "wordmark":"custom Good Thunder inspired DEN7BEST. with final period"}
 (ASSETS/"header-thunder-validation-v12.json").write_text(json.dumps(report,indent=2)+"\n")
