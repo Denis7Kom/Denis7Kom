@@ -1,0 +1,19 @@
+{
+  "frames": 420,
+  "duration_ms": 14000,
+  "size": [
+    1440,
+    420
+  ],
+  "bytes": 24929084,
+  "fps": 30,
+  "format": "animated WebP",
+  "quality": 88,
+  "colours": {
+    "DEN": "#ecf3f8",
+    "7": "#4be2c9",
+    "BEST.": "#bfa2ff"
+  },
+  "motion": "16 faces / 22.5deg / radius 109px / 7s alternate / perspective 500->50px",
+  "wordmark": "custom Good Thunder inspired DEN7BEST. with final period"
+}
