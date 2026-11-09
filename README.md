@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src=".github/assets/signature-denistina-v6.svg" alt="DEN7BEST — software, interactive systems and application security" width="100%" />
+<img src=".github/assets/signature-hello-january-v7.svg" alt="DEN7BEST — software, interactive systems and application security" width="100%" />
 
 <p><strong>Software · Interactive Systems · Application Security</strong></p>
 
