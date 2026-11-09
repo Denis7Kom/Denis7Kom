@@ -116,7 +116,7 @@ for i,im in enumerate(samples):
 palette = palette_source.quantize(colors=256, method=Image.Quantize.MEDIANCUT)
 indexed = frames
 delays = [10*(round((i+1)*100/FPS)-round(i*100/FPS)) for i in range(FRAMES)]
-indexed[0].save(OUT,format="WEBP",quality=95,method=5,lossless=False,save_all=True,append_images=indexed[1:],duration=delays,
+indexed[0].save(OUT,format="WEBP",quality=80,method=6,lossless=False,save_all=True,append_images=indexed[1:],duration=delays,
                 loop=0,minimize_size=True)
 check = Image.open(OUT)
 assert check.size == (OW,OH)
@@ -128,7 +128,7 @@ for i in range(check.n_frames):
 assert total == 14000, total
 assert ImageStat.Stat(Image.open(STATIC)).stddev[0] > 10
 palette_source.resize((960,280)).save(ASSETS/"header-thunder-contact-v12.png")
-report = {"frames":check.n_frames,"duration_ms":total,"size":[OW,OH],"bytes":OUT.stat().st_size,"fps":FPS,"format":"animated WebP","quality":95,
+report = {"frames":check.n_frames,"duration_ms":total,"size":[OW,OH],"bytes":OUT.stat().st_size,"fps":FPS,"format":"animated WebP","quality":80,
           "motion":"16 faces / 22.5deg / radius 109px / 7s alternate / perspective 500->50px",
           "wordmark":"custom Good Thunder inspired DEN7BEST. with final period"}
 (ASSETS/"header-thunder-validation-v13.json").write_text(json.dumps(report,indent=2)+"\n")
