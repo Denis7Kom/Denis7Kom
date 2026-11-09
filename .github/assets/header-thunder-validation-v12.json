@@ -1,11 +1,11 @@
 {
-  "frames": 280,
+  "frames": 224,
   "duration_ms": 14000,
   "size": [
-    960,
-    280
+    768,
+    224
   ],
-  "bytes": 14456356,
+  "bytes": 8465656,
   "motion": "16 faces / 22.5deg / radius 109px / 7s alternate / perspective 500->50px",
   "wordmark": "custom Good Thunder inspired DEN7BEST. with final period"
 }
