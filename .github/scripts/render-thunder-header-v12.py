@@ -14,11 +14,11 @@ from playwright.sync_api import sync_playwright
 ROOT = Path(__file__).resolve().parents[2]
 ASSETS = ROOT / ".github/assets"
 SOURCE = ASSETS / "header-thunder-source-v12.png"
-OUT = ASSETS / "header-thunder-color-v14.webp"
-STATIC = ASSETS / "header-thunder-static-v14.png"
+OUT = ASSETS / "header-thunder-color-v15.webp"
+STATIC = ASSETS / "header-thunder-static-v15.png"
 W, H = 960, 280
-FPS = 25
-OW, OH = W, H
+FPS = 30
+OW, OH = 1440, 420
 DURATION = 14
 FRAMES = FPS * DURATION
 
@@ -67,7 +67,7 @@ html,body{width:960px;height:280px;overflow:hidden;background:#0d1117}
 .box span{position:absolute;width:420px;height:42.56px;padding:0 10px;white-space:nowrap;
 background:linear-gradient(90deg,rgba(0,0,0,.1),rgba(0,0,0,.5) 90%,transparent);
 transform-style:preserve-3d;transform:translate(-50%,-50%) rotateX(calc(var(--i)*22.5deg)) translateZ(109px)}
-.box span img{display:block;width:400px;height:42.56px;filter:drop-shadow(0 10px 15px rgba(0,0,0,.3))}
+.box span img{display:block;width:400px;height:42.56px;filter:drop-shadow(0 2px 3px rgba(0,0,0,.35))}
 @keyframes animate{
 0%{transform:perspective(500px) rotateX(0deg) rotate(5deg)}
 100%{transform:perspective(50px) rotateX(360deg) rotate(5deg)}
@@ -79,7 +79,7 @@ frames = []
 samples = []
 with sync_playwright() as p:
     browser = p.chromium.launch()
-    page = browser.new_page(viewport={"width":W,"height":H}, device_scale_factor=1)
+    page = browser.new_page(viewport={"width":W,"height":H}, device_scale_factor=1.5)
     page.set_content(html, wait_until="load")
     page.locator(".box img").first.wait_for()
     assert page.locator(".box span").count() == 16
@@ -96,7 +96,7 @@ with sync_playwright() as p:
         }""", [n*1000/FPS, DURATION*1000])
         screenshot = page.screenshot(type="png")
         frame = Image.open(BytesIO(screenshot)).convert("RGB")
-        assert frame.size == (W,H)
+        assert frame.size == (OW,OH)
         frames.append(frame)
         if n in [round(FRAMES*i/8) for i in range(8)]:
             samples.append(frame.copy())
@@ -117,11 +117,11 @@ with sync_playwright() as p:
 # A shared palette avoids flickering colours between frames.
 palette_source = Image.new("RGB",(W*4,H*2))
 for i,im in enumerate(samples):
-    palette_source.paste(im,((i%4)*W,(i//4)*H))
+    palette_source.paste(im.resize((W,H),Image.Resampling.LANCZOS),((i%4)*W,(i//4)*H))
 palette = palette_source.quantize(colors=256, method=Image.Quantize.MEDIANCUT)
 indexed = frames
-delays = [10*(round((i+1)*100/FPS)-round(i*100/FPS)) for i in range(FRAMES)]
-indexed[0].save(OUT,format="WEBP",quality=80,method=4,lossless=False,save_all=True,append_images=indexed[1:],duration=delays,
+delays = [round((i+1)*1000/FPS)-round(i*1000/FPS) for i in range(FRAMES)]
+indexed[0].save(OUT,format="WEBP",quality=88,method=4,lossless=False,save_all=True,append_images=indexed[1:],duration=delays,
                 loop=0,minimize_size=True)
 check = Image.open(OUT)
 assert check.size == (OW,OH)
@@ -132,12 +132,12 @@ for i in range(check.n_frames):
     check.seek(i);check.load();total += check.info["duration"]
 assert total == 14000, total
 assert ImageStat.Stat(Image.open(STATIC)).stddev[0] > 10
-palette_source.resize((960,280)).save(ASSETS/"header-thunder-contact-v14.png")
+palette_source.resize((960,280)).save(ASSETS/"header-thunder-contact-v15.png")
 # Matching GIF for browsers without animated WebP support.
 fallback = [f.resize((768,224), Image.Resampling.LANCZOS).quantize(palette=palette,dither=Image.Dither.NONE) for f in frames[::2]]
-fallback[0].save(ASSETS/"header-thunder-color-v14.gif",save_all=True,append_images=fallback[1:],duration=80,loop=0,optimize=True)
-report = {"frames":check.n_frames,"duration_ms":total,"size":[OW,OH],"bytes":OUT.stat().st_size,"fps":FPS,"format":"animated WebP","quality":80,"colours":{"DEN":"#ecf3f8","7":"#4be2c9","BEST.":"#bfa2ff"},
+fallback[0].save(ASSETS/"header-thunder-color-v15.gif",save_all=True,append_images=fallback[1:],duration=[10*(round((i+1)*200/FPS)-round(i*200/FPS)) for i in range(len(fallback))],loop=0,optimize=True)
+report = {"frames":check.n_frames,"duration_ms":total,"size":[OW,OH],"bytes":OUT.stat().st_size,"fps":FPS,"format":"animated WebP","quality":88,"colours":{"DEN":"#ecf3f8","7":"#4be2c9","BEST.":"#bfa2ff"},
           "motion":"16 faces / 22.5deg / radius 109px / 7s alternate / perspective 500->50px",
           "wordmark":"custom Good Thunder inspired DEN7BEST. with final period"}
-(ASSETS/"header-thunder-validation-v14.json").write_text(json.dumps(report,indent=2)+"\n")
+(ASSETS/"header-thunder-validation-v15.json").write_text(json.dumps(report,indent=2)+"\n")
 print(json.dumps(report),flush=True)
