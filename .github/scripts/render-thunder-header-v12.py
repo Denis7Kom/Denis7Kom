@@ -116,7 +116,7 @@ for i,im in enumerate(samples):
 palette = palette_source.quantize(colors=256, method=Image.Quantize.MEDIANCUT)
 indexed = frames
 delays = [10*(round((i+1)*100/FPS)-round(i*100/FPS)) for i in range(FRAMES)]
-indexed[0].save(OUT,format="WEBP",quality=80,method=6,lossless=False,save_all=True,append_images=indexed[1:],duration=delays,
+indexed[0].save(OUT,format="WEBP",quality=80,method=4,lossless=False,save_all=True,append_images=indexed[1:],duration=delays,
                 loop=0,minimize_size=True)
 check = Image.open(OUT)
 assert check.size == (OW,OH)
