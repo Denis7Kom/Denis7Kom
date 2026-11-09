@@ -14,8 +14,8 @@ from playwright.sync_api import sync_playwright
 ROOT = Path(__file__).resolve().parents[2]
 ASSETS = ROOT / ".github/assets"
 SOURCE = ASSETS / "header-thunder-source-v12.png"
-OUT = ASSETS / "header-thunder-smooth-v13.webp"
-STATIC = ASSETS / "header-thunder-static-v12.png"
+OUT = ASSETS / "header-thunder-color-v14.webp"
+STATIC = ASSETS / "header-thunder-static-v14.png"
 W, H = 960, 280
 FPS = 25
 OW, OH = W, H
@@ -39,13 +39,18 @@ bbox = alpha.getbbox()
 alpha = alpha.crop(bbox)
 mark = Image.new("RGBA", alpha.size, (236, 243, 248, 255))
 mark.putalpha(alpha)
-# The detached speed lines inherit the established teal accent.
+# Follow the lettering's forward slant so colour boundaries stay between letters.
+# Boundaries measured in the original 2172px-wide reference artwork.
+colours = {"DEN": (236, 243, 248), "7": (75, 226, 201), "BEST.": (191, 162, 255)}
 pix = mark.load()
 for y in range(mark.height):
     for x in range(mark.width):
+        r,g,b,a = pix[x,y]
+        u = (x + bbox[0] + .38 * (y + bbox[1])) / art.width
+        colour = colours["DEN"] if u < 1050/2172 else (colours["7"] if u < 1270/2172 else colours["BEST."])
         if y < mark.height * .13 or y > mark.height * .91:
-            r,g,b,a = pix[x,y]
-            pix[x,y] = (75, 226, 201, a)
+            colour = colours["7"]
+        pix[x,y] = (*colour, a)
 # Keep the full artwork resolution for close perspective views.
 buf = BytesIO()
 mark.save(buf, format="PNG", optimize=True)
@@ -127,9 +132,12 @@ for i in range(check.n_frames):
     check.seek(i);check.load();total += check.info["duration"]
 assert total == 14000, total
 assert ImageStat.Stat(Image.open(STATIC)).stddev[0] > 10
-palette_source.resize((960,280)).save(ASSETS/"header-thunder-contact-v12.png")
-report = {"frames":check.n_frames,"duration_ms":total,"size":[OW,OH],"bytes":OUT.stat().st_size,"fps":FPS,"format":"animated WebP","quality":80,
+palette_source.resize((960,280)).save(ASSETS/"header-thunder-contact-v14.png")
+# Matching GIF for browsers without animated WebP support.
+fallback = [f.resize((768,224), Image.Resampling.LANCZOS).quantize(palette=palette,dither=Image.Dither.NONE) for f in frames[::2]]
+fallback[0].save(ASSETS/"header-thunder-color-v14.gif",save_all=True,append_images=fallback[1:],duration=80,loop=0,optimize=True)
+report = {"frames":check.n_frames,"duration_ms":total,"size":[OW,OH],"bytes":OUT.stat().st_size,"fps":FPS,"format":"animated WebP","quality":80,"colours":{"DEN":"#ecf3f8","7":"#4be2c9","BEST.":"#bfa2ff"},
           "motion":"16 faces / 22.5deg / radius 109px / 7s alternate / perspective 500->50px",
           "wordmark":"custom Good Thunder inspired DEN7BEST. with final period"}
-(ASSETS/"header-thunder-validation-v13.json").write_text(json.dumps(report,indent=2)+"\n")
+(ASSETS/"header-thunder-validation-v14.json").write_text(json.dumps(report,indent=2)+"\n")
 print(json.dumps(report),flush=True)
