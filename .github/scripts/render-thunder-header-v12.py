@@ -14,11 +14,11 @@ from playwright.sync_api import sync_playwright
 ROOT = Path(__file__).resolve().parents[2]
 ASSETS = ROOT / ".github/assets"
 SOURCE = ASSETS / "header-thunder-source-v12.png"
-OUT = ASSETS / "header-thunder-color-v16.webp"
-STATIC = ASSETS / "header-thunder-static-v16.png"
+OUT = ASSETS / "header-thunder-color-v17.webp"
+STATIC = ASSETS / "header-thunder-static-v17.png"
 W, H = 960, 280
-FPS = 30
-OW, OH = 1920, 560
+FPS = 32
+OW, OH = 960, 280
 DURATION = 14
 FRAMES = FPS * DURATION
 
@@ -79,7 +79,7 @@ frames = []
 samples = []
 with sync_playwright() as p:
     browser = p.chromium.launch()
-    page = browser.new_page(viewport={"width":W,"height":H}, device_scale_factor=2)
+    page = browser.new_page(viewport={"width":W,"height":H}, device_scale_factor=1)
     page.set_content(html, wait_until="load")
     page.locator(".box img").first.wait_for()
     assert page.locator(".box span").count() == 16
@@ -132,12 +132,12 @@ for i in range(check.n_frames):
     check.seek(i);check.load();total += check.info["duration"]
 assert total == 14000, total
 assert ImageStat.Stat(Image.open(STATIC)).stddev[0] > 10
-palette_source.resize((960,280)).save(ASSETS/"header-thunder-contact-v16.png")
+palette_source.resize((960,280)).save(ASSETS/"header-thunder-contact-v17.png")
 # Matching GIF for browsers without animated WebP support.
 fallback = [f.resize((768,224), Image.Resampling.LANCZOS).quantize(palette=palette,dither=Image.Dither.NONE) for f in frames[::2]]
-fallback[0].save(ASSETS/"header-thunder-color-v16.gif",save_all=True,append_images=fallback[1:],duration=[10*(round((i+1)*200/FPS)-round(i*200/FPS)) for i in range(len(fallback))],loop=0,optimize=True)
+fallback[0].save(ASSETS/"header-thunder-color-v17.gif",save_all=True,append_images=fallback[1:],duration=[10*(round((i+1)*200/FPS)-round(i*200/FPS)) for i in range(len(fallback))],loop=0,optimize=True)
 report = {"frames":check.n_frames,"duration_ms":total,"size":[OW,OH],"bytes":OUT.stat().st_size,"fps":FPS,"format":"animated WebP","quality":88,"colours":{"DEN":"#ecf3f8","7":"#4be2c9","BEST.":"#bfa2ff"},
           "motion":"16 faces / 22.5deg / radius 109px / 7s alternate / perspective 500->50px",
           "wordmark":"custom Good Thunder inspired DEN7BEST. with final period"}
-(ASSETS/"header-thunder-validation-v16.json").write_text(json.dumps(report,indent=2)+"\n")
+(ASSETS/"header-thunder-validation-v17.json").write_text(json.dumps(report,indent=2)+"\n")
 print(json.dumps(report),flush=True)
