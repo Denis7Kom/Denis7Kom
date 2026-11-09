@@ -1,0 +1,36 @@
+name: Render Good Thunder profile header
+on:
+  push:
+    paths:
+      - '.github/scripts/render-thunder-header-v12.py'
+      - '.github/assets/header-thunder-source-v12.png'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: render-thunder-header-v12
+  cancel-in-progress: true
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install renderer
+        run: |
+          python -m pip install Pillow==11.3.0 playwright==1.56.0
+          python -m playwright install --with-deps chromium
+      - name: Render and validate full animation
+        run: python .github/scripts/render-thunder-header-v12.py
+      - name: Save verified output
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add .github/assets/header-thunder-cylinder-v12.gif .github/assets/header-thunder-static-v12.png .github/assets/header-thunder-contact-v12.png .github/assets/header-thunder-validation-v12.json
+          git diff --cached --quiet && exit 0
+          git commit -m "Render verified Good Thunder profile header"
+          git pull --rebase origin main
+          git push origin HEAD:main
