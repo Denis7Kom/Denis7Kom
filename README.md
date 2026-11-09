@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src=".github/assets/wordmark-impact-v2.svg" alt="Denis7Kom — software, interactive systems and application security" width="100%" />
+<img src=".github/assets/wordmark-battley-v3.svg" alt="Denis7Kom — software, interactive systems and application security" width="100%" />
 
 <p><strong>Software · Interactive Systems · Application Security</strong></p>
 
