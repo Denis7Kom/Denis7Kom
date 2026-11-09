@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="310" viewBox="0 0 960 310" role="img" aria-labelledby="title desc">
+  <title id="title">Denis7Kom</title>
+  <desc id="desc">A custom wordmark drops onto a ruled baseline. A lime full stop lands last.</desc>
+  <defs>
+    <linearGradient id="paper" x2="1" y2=".3"><stop stop-color="#10181a"/><stop offset="1" stop-color="#223331"/></linearGradient>
+    <pattern id="ticks" width="20" height="9" patternUnits="userSpaceOnUse"><path d="M1 0v6" stroke="#83968a" opacity=".55"/></pattern>
+  </defs>
+  <style>
+    @keyframes drop {
+      0% { opacity:0; transform:translateY(-88px) }
+      20% { opacity:1; transform:translateY(-85px) }
+      65% { transform:translateY(-72px); animation-timing-function:cubic-bezier(.66,0,1,.55) }
+      94% { transform:translateY(0) scaleY(1) }
+      96% { transform:translateY(0) scaleY(.965) }
+      100% { transform:translateY(0) scaleY(1) }
+    }
+    @keyframes stamp {
+      0% { opacity:0; transform:translateY(-115px) }
+      30% { opacity:1; transform:translateY(-110px); animation-timing-function:cubic-bezier(.7,0,1,.5) }
+      100% { transform:translateY(0) }
+    }
+    @keyframes impact { 0% {opacity:.8;transform:scaleX(.02)} 100% {opacity:0;transform:scaleX(1)} }
+    @media (prefers-reduced-motion:no-preference) {
+      .letter { animation:drop 1.55s linear var(--delay) both }
+      .stop { animation:stamp .62s linear 2.02s both }
+      .wave { transform-origin:821px 236px; animation:impact .44s ease-out 2.64s forwards }
+    }
+  </style>
+  <rect width="960" height="310" rx="16" fill="url(#paper)"/>
+  <g fill="none" stroke="#849988" opacity=".17">
+    <path d="M590 0q-65 52 91 85t180 95"/>
+    <path d="M609 0q-65 55 91 90t180 95"/>
+    <path d="M628 0q-65 58 91 95t180 95"/>
+    <path d="M647 0q-65 61 91 100t180 95"/>
+    <path d="M666 0q-65 64 91 105t180 95"/>
+    <path d="M685 0q-65 67 91 110t180 95"/>
+    <path d="M704 0q-65 70 91 115t180 95"/>
+    <path d="M723 0q-65 73 91 120t180 95"/>
+    <path d="M742 0q-65 76 91 125t180 95"/>
+    <path d="M761 0q-65 79 91 130t180 95"/>
+    <path d="M780 0q-65 82 91 135t180 95"/>
+    <path d="M799 0q-65 85 91 140t180 95"/>
+  </g>
+  <g fill="#c4fb69"><rect x="54" y="36" width="32" height="5"/><rect x="90" y="36" width="8" height="5"/></g>
+  <path d="M44 236H916" stroke="#8d9e90" opacity=".7"/>
+  <rect x="44" y="243" width="872" height="9" fill="url(#ticks)"/>
+  <g transform="translate(56 226) scale(1.05)" fill="none" stroke-width="12" stroke-linejoin="round" stroke-linecap="butt">
+    <g transform="translate(0 0)"><path class="letter" style="--delay:0ms" stroke="#f2f4e9" d="M9 0V-84H35Q68 -84 68 -45V-39Q68 0 35 0Z"/></g>
+    <g transform="translate(86 0)"><path class="letter" style="--delay:85ms" stroke="#f2f4e9" d="M58 -24H9Q8 -58 33 -58Q59 -58 58 -25M9 -24Q10 2 34 2Q47 2 56 -7"/></g>
+    <g transform="translate(165 0)"><path class="letter" style="--delay:170ms" stroke="#f2f4e9" d="M9 2V-56M9 -36Q13 -57 33 -57Q56 -57 56 -33V2"/></g>
+    <g transform="translate(241 0)"><path class="letter" style="--delay:255ms" stroke="#f2f4e9" d="M13 -56V2M13 -82V-72"/></g>
+    <g transform="translate(277 0)"><path class="letter" style="--delay:340ms" stroke="#f2f4e9" d="M51 -48Q43 -59 28 -57Q7 -56 9 -41Q10 -32 29 -28Q52 -24 51 -12Q50 2 29 2Q15 2 7 -8"/></g>
+    <g transform="translate(349 0)"><path class="letter" style="--delay:425ms" stroke="#c4fb69" d="M6 -82H66L22 2"/></g>
+    <g transform="translate(431 0)"><path class="letter" style="--delay:510ms" stroke="#f2f4e9" d="M9 2V-82M67 -82L12 -28M35 -51L72 2"/></g>
+    <g transform="translate(520 0)"><path class="letter" style="--delay:595ms" stroke="#f2f4e9" d="M59 -28Q59 2 35 2Q10 2 10 -28Q10 -57 35 -57Q59 -57 59 -28Z"/></g>
+    <g transform="translate(600 0)"><path class="letter" style="--delay:680ms" stroke="#f2f4e9" d="M9 2V-56M9 -38Q12 -57 28 -57Q48 -57 48 -37V2M48 -38Q53 -57 71 -57Q91 -57 91 -36V2"/></g>
+  </g>
+  <rect class="stop" x="812" y="217" width="18" height="18" rx="1" fill="#c4fb69"/>
+  <path class="wave" d="M704 236h211" stroke="#c4fb69" stroke-width="3" opacity="0"/>
+</svg>
