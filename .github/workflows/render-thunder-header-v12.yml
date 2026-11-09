@@ -2,6 +2,7 @@ name: Render Good Thunder profile header
 on:
   push:
     paths:
+      - '.github/workflows/render-thunder-header-v12.yml'
       - '.github/scripts/render-thunder-header-v12.py'
       - '.github/assets/header-thunder-source-v12.png'
   workflow_dispatch:
@@ -12,7 +13,7 @@ concurrency:
   cancel-in-progress: true
 jobs:
   render:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
