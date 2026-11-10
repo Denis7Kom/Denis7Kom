@@ -4,7 +4,8 @@
 <picture>
 <source media="(prefers-reduced-motion: reduce)" srcset=".github/assets/header-thunder-static-v16.png" />
 <source media="(min-width: 800px) and (min-resolution: 1.5dppx)" srcset=".github/assets/header-thunder-color-v15.webp" />
-<img src=".github/assets/header-thunder-color-v19.webp" alt="DEN7BEST. — Good Thunder inspired lettering on a rotating 3D text cylinder" width="100%" />
+<source media="(min-width: 769px)" srcset=".github/assets/header-thunder-color-v20.webp" />
+<img src=".github/assets/header-thunder-mobile-v20.webp" alt="DEN7BEST. — Good Thunder inspired lettering on a rotating 3D text cylinder" width="100%" />
 </picture>
 
 <p><strong>Software · Interactive Systems · Application Security</strong></p>
