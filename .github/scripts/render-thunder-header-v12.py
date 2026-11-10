@@ -8,16 +8,15 @@ from io import BytesIO
 import base64
 import json
 import xml.etree.ElementTree as ET
-from PIL import Image, ImageChops, ImageOps, ImageStat
+from PIL import Image, ImageOps
 from playwright.sync_api import sync_playwright
 
 ROOT = Path(__file__).resolve().parents[2]
 ASSETS = ROOT / ".github/assets"
 SOURCE = ASSETS / "header-thunder-source-v12.png"
-OUT = ASSETS / "header-thunder-color-v17.webp"
-STATIC = ASSETS / "header-thunder-static-v17.png"
+OUT = ASSETS / "header-thunder-color-v18.webp"
 W, H = 960, 280
-FPS = 32
+FPS = 60
 OW, OH = 960, 280
 DURATION = 14
 FRAMES = FPS * DURATION
@@ -76,7 +75,6 @@ transform-style:preserve-3d;transform:translate(-50%,-50%) rotateX(calc(var(--i)
 </style><div class="scene"><div class="backdrop">""" + background + '</div><div class="container"><div class="box">' + faces + "</div></div></div></html>"
 
 frames = []
-samples = []
 with sync_playwright() as p:
     browser = p.chromium.launch()
     page = browser.new_page(viewport={"width":W,"height":H}, device_scale_factor=1)
@@ -98,30 +96,12 @@ with sync_playwright() as p:
         frame = Image.open(BytesIO(screenshot)).convert("RGB")
         assert frame.size == (OW,OH)
         frames.append(frame)
-        if n in [round(FRAMES*i/8) for i in range(8)]:
-            samples.append(frame.copy())
         if n % 40 == 0:
             print(f"Rendered {n}/{FRAMES}", flush=True)
-    # A genuinely static readable fallback; no old typeface or animation.
-    page.emulate_media(reduced_motion="reduce")
-    page.evaluate("""() => {
-      document.querySelector('.container').remove();
-      const img=document.createElement('img');img.src=document.querySelector('body').dataset.mark;
-      Object.assign(img.style,{position:'absolute',width:'650px',height:'auto',left:'155px',top:'55px'});
-      img.alt='DEN7BEST.';document.querySelector('.scene').append(img)
-    }""".replace("document.querySelector('body').dataset.mark", json.dumps(uri)))
-    page.locator(".scene > img").evaluate("(x)=>x.decode()")
-    page.screenshot(path=str(STATIC))
     browser.close()
 
-# A shared palette avoids flickering colours between frames.
-palette_source = Image.new("RGB",(W*4,H*2))
-for i,im in enumerate(samples):
-    palette_source.paste(im.resize((W,H),Image.Resampling.LANCZOS),((i%4)*W,(i//4)*H))
-palette = palette_source.quantize(colors=256, method=Image.Quantize.MEDIANCUT)
-indexed = frames
 delays = [round((i+1)*1000/FPS)-round(i*1000/FPS) for i in range(FRAMES)]
-indexed[0].save(OUT,format="WEBP",quality=88,method=4,lossless=False,save_all=True,append_images=indexed[1:],duration=delays,
+frames[0].save(OUT,format="WEBP",quality=88,method=4,lossless=False,save_all=True,append_images=frames[1:],duration=delays,
                 loop=0,minimize_size=True)
 check = Image.open(OUT)
 assert check.size == (OW,OH)
@@ -131,13 +111,8 @@ total = 0
 for i in range(check.n_frames):
     check.seek(i);check.load();total += check.info["duration"]
 assert total == 14000, total
-assert ImageStat.Stat(Image.open(STATIC)).stddev[0] > 10
-palette_source.resize((960,280)).save(ASSETS/"header-thunder-contact-v17.png")
-# Matching GIF for browsers without animated WebP support.
-fallback = [f.resize((768,224), Image.Resampling.LANCZOS).quantize(palette=palette,dither=Image.Dither.NONE) for f in frames[::2]]
-fallback[0].save(ASSETS/"header-thunder-color-v17.gif",save_all=True,append_images=fallback[1:],duration=[10*(round((i+1)*200/FPS)-round(i*200/FPS)) for i in range(len(fallback))],loop=0,optimize=True)
 report = {"frames":check.n_frames,"duration_ms":total,"size":[OW,OH],"bytes":OUT.stat().st_size,"fps":FPS,"format":"animated WebP","quality":88,"colours":{"DEN":"#ecf3f8","7":"#4be2c9","BEST.":"#bfa2ff"},
           "motion":"16 faces / 22.5deg / radius 109px / 7s alternate / perspective 500->50px",
           "wordmark":"custom Good Thunder inspired DEN7BEST. with final period"}
-(ASSETS/"header-thunder-validation-v17.json").write_text(json.dumps(report,indent=2)+"\n")
+(ASSETS/"header-thunder-validation-v18.json").write_text(json.dumps(report,indent=2)+"\n")
 print(json.dumps(report),flush=True)
