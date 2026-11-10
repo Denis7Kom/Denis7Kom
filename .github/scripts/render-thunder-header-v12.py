@@ -14,9 +14,8 @@ from playwright.sync_api import sync_playwright
 ROOT = Path(__file__).resolve().parents[2]
 ASSETS = ROOT / ".github/assets"
 SOURCE = ASSETS / "header-thunder-source-v12.png"
-OUT = ASSETS / "header-thunder-color-v19.webp"
 W, H = 960, 280
-FPS = 45
+FPS = 40
 OW, OH = 960, 280
 DURATION = 14
 FRAMES = FPS * DURATION
@@ -100,19 +99,31 @@ with sync_playwright() as p:
             print(f"Rendered {n}/{FRAMES}", flush=True)
     browser.close()
 
-delays = [round((i+1)*1000/FPS)-round(i*1000/FPS) for i in range(FRAMES)]
-frames[0].save(OUT,format="WEBP",quality=88,method=4,lossless=False,save_all=True,append_images=frames[1:],duration=delays,
-                loop=0,minimize_size=True)
-check = Image.open(OUT)
-assert check.size == (OW,OH)
-assert check.n_frames >= FRAMES-4, check.n_frames
-assert check.info.get("loop") == 0
-total = 0
-for i in range(check.n_frames):
-    check.seek(i);check.load();total += check.info["duration"]
-assert total == 14000, total
-report = {"frames":check.n_frames,"duration_ms":total,"size":[OW,OH],"bytes":OUT.stat().st_size,"fps":FPS,"format":"animated WebP","quality":88,"colours":{"DEN":"#ecf3f8","7":"#4be2c9","BEST.":"#bfa2ff"},
-          "motion":"16 faces / 22.5deg / radius 109px / 7s alternate / perspective 500->50px",
-          "wordmark":"custom Good Thunder inspired DEN7BEST. with final period"}
-(ASSETS/"header-thunder-validation-v19.json").write_text(json.dumps(report,indent=2)+"\n")
-print(json.dumps(report),flush=True)
+
+def save_animation(images, name, quality):
+    output = ASSETS / f"header-thunder-{name}-v20.webp"
+    delay = 1000 // FPS
+    images[0].save(output, format="WEBP", quality=quality, method=4,
+                   save_all=True, append_images=images[1:], duration=delay,
+                   loop=0, minimize_size=True)
+    with Image.open(output) as check:
+        assert check.size == images[0].size
+        assert check.info["loop"] == 0
+        assert FRAMES - 4 <= check.n_frames <= FRAMES
+        total = 0
+        for i in range(check.n_frames):
+            check.seek(i)
+            check.load()
+            assert check.info["duration"] % delay == 0
+            total += check.info["duration"]
+        assert total == DURATION * 1000
+        return {"frames": check.n_frames, "duration_ms": total, "size": check.size,
+                "bytes": output.stat().st_size, "fps": FPS, "quality": quality}
+
+
+desktop = save_animation(frames, "color", 88)
+mobile_frames = [frame.resize((624, 182), Image.Resampling.LANCZOS) for frame in frames]
+mobile = save_animation(mobile_frames, "mobile", 82)
+report = json.dumps({"desktop": desktop, "mobile": mobile}, indent=2)
+(ASSETS / "header-thunder-validation-v20.json").write_text(report + "\n")
+print(report, flush=True)
