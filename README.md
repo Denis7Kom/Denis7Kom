@@ -3,8 +3,8 @@
 <!-- Cylinder motion adapted from Emilio's 3D-rotate demo: https://codepen.io/emilio_ta/pen/NWYWNaW -->
 <picture>
 <source media="(prefers-reduced-motion: reduce)" srcset=".github/assets/header-thunder-static-v16.png" />
-<source type="image/webp" srcset=".github/assets/header-thunder-color-v16.webp" />
-<img src=".github/assets/header-thunder-color-v16.gif" alt="DEN7BEST. — Good Thunder inspired lettering on a rotating 3D text cylinder" width="100%" />
+<source media="(min-width: 800px) and (min-resolution: 1.5dppx)" srcset=".github/assets/header-thunder-color-v15.webp" />
+<img src=".github/assets/header-thunder-color-v17.webp" alt="DEN7BEST. — Good Thunder inspired lettering on a rotating 3D text cylinder" width="100%" />
 </picture>
 
 <p><strong>Software · Interactive Systems · Application Security</strong></p>
