@@ -3,6 +3,7 @@
 <!-- Cylinder motion adapted from Emilio's 3D-rotate demo: https://codepen.io/emilio_ta/pen/NWYWNaW -->
 <picture>
 <source media="(prefers-reduced-motion: reduce)" srcset=".github/assets/header-thunder-static-v16.png" />
+<source media="(max-width: 768px), (pointer: coarse) and (orientation: landscape) and (max-height: 540px) and (max-width: 1024px)" type="image/avif" srcset=".github/assets/header-thunder-mobile-v21.avif" />
 <source media="(min-width: 800px) and (min-resolution: 1.5dppx)" srcset=".github/assets/header-thunder-color-v15.webp" />
 <source media="(min-width: 769px)" srcset=".github/assets/header-thunder-color-v20.webp" />
 <img src=".github/assets/header-thunder-mobile-v20.webp" alt="DEN7BEST. — Good Thunder inspired lettering on a rotating 3D text cylinder" width="100%" />
