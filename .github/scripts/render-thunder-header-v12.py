@@ -14,9 +14,9 @@ from playwright.sync_api import sync_playwright
 ROOT = Path(__file__).resolve().parents[2]
 ASSETS = ROOT / ".github/assets"
 SOURCE = ASSETS / "header-thunder-source-v12.png"
-OUT = ASSETS / "header-thunder-color-v18.webp"
+OUT = ASSETS / "header-thunder-color-v19.webp"
 W, H = 960, 280
-FPS = 60
+FPS = 45
 OW, OH = 960, 280
 DURATION = 14
 FRAMES = FPS * DURATION
@@ -114,5 +114,5 @@ assert total == 14000, total
 report = {"frames":check.n_frames,"duration_ms":total,"size":[OW,OH],"bytes":OUT.stat().st_size,"fps":FPS,"format":"animated WebP","quality":88,"colours":{"DEN":"#ecf3f8","7":"#4be2c9","BEST.":"#bfa2ff"},
           "motion":"16 faces / 22.5deg / radius 109px / 7s alternate / perspective 500->50px",
           "wordmark":"custom Good Thunder inspired DEN7BEST. with final period"}
-(ASSETS/"header-thunder-validation-v18.json").write_text(json.dumps(report,indent=2)+"\n")
+(ASSETS/"header-thunder-validation-v19.json").write_text(json.dumps(report,indent=2)+"\n")
 print(json.dumps(report),flush=True)

@@ -30,7 +30,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add .github/assets/header-thunder-color-v18.webp .github/assets/header-thunder-validation-v18.json
+          git add .github/assets/header-thunder-color-v19.webp .github/assets/header-thunder-validation-v19.json
           git diff --cached --quiet && exit 0
           git commit -m "Render verified Good Thunder profile header"
           git pull --rebase origin main
