@@ -7,6 +7,8 @@ from pathlib import Path
 from io import BytesIO
 import base64
 import json
+import subprocess
+import sys
 import xml.etree.ElementTree as ET
 from PIL import Image, ImageOps
 from playwright.sync_api import sync_playwright
@@ -73,10 +75,11 @@ transform-style:preserve-3d;transform:translate(-50%,-50%) rotateX(calc(var(--i)
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important}}
 </style><div class="scene"><div class="backdrop">""" + background + '</div><div class="container"><div class="box">' + faces + "</div></div></div></html>"
 
+mobile_only = '--mobile' in sys.argv
 frames = []
 with sync_playwright() as p:
     browser = p.chromium.launch()
-    page = browser.new_page(viewport={"width":W,"height":H}, device_scale_factor=1)
+    page = browser.new_page(viewport={"width":W,"height":H}, device_scale_factor=2 if mobile_only else 1)
     page.set_content(html, wait_until="load")
     page.locator(".box img").first.wait_for()
     assert page.locator(".box span").count() == 16
@@ -93,6 +96,8 @@ with sync_playwright() as p:
         }""", [n*1000/FPS, DURATION*1000])
         screenshot = page.screenshot(type="png")
         frame = Image.open(BytesIO(screenshot)).convert("RGB")
+        if mobile_only:
+            frame = frame.resize((W, H), Image.Resampling.LANCZOS)
         assert frame.size == (OW,OH)
         frames.append(frame)
         if n % 40 == 0:
@@ -120,6 +125,37 @@ def save_animation(images, name, quality):
         return {"frames": check.n_frames, "duration_ms": total, "size": check.size,
                 "bytes": output.stat().st_size, "fps": FPS, "quality": quality}
 
+
+if mobile_only:
+    output = ASSETS / "header-thunder-mobile-v21.avif"
+    command = ["ffmpeg", "-v", "error", "-y", "-f", "rawvideo", "-pix_fmt", "rgb24",
+               "-s", f"{W}x{H}", "-r", str(FPS), "-i", "pipe:0", "-c:v", "libaom-av1",
+               "-pix_fmt", "yuv420p", "-crf", "23", "-b:v", "0", "-cpu-used", "6",
+               "-row-mt", "1", "-threads", "4", "-g", str(FPS), "-loop", "0", str(output)]
+    with subprocess.Popen(command, stdin=subprocess.PIPE) as encoder:
+        for frame in frames:
+            encoder.stdin.write(frame.tobytes())
+        encoder.stdin.close()
+        if encoder.wait():
+            raise RuntimeError("Mobile AVIF encoding failed")
+    previous = ASSETS / "header-thunder-mobile-v20.webp"
+    assert output.stat().st_size < previous.stat().st_size
+    with Image.open(output) as check:
+        assert check.size == (W, H) and check.n_frames == FRAMES
+        total = 0
+        for index in range(check.n_frames):
+            check.seek(index)
+            check.load()
+            total += check.info["duration"]
+        assert total == DURATION * 1000
+    with sync_playwright() as p:
+        browser = p.chromium.launch()
+        page = browser.new_page(viewport={"width": 390, "height": 844}, device_scale_factor=3)
+        page.goto(output.as_uri())
+        assert page.locator("img").evaluate("async img => {await img.decode(); return img.naturalWidth}") == W
+        browser.close()
+    print(f"Validated {output.stat().st_size} bytes, {FRAMES} frames, {total} ms", flush=True)
+    sys.exit(0)
 
 desktop = save_animation(frames, "color", 88)
 mobile_frames = [frame.resize((624, 182), Image.Resampling.LANCZOS) for frame in frames]
