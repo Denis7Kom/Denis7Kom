@@ -1,0 +1,24 @@
+{
+  "desktop": {
+    "frames": 560,
+    "duration_ms": 14000,
+    "size": [
+      960,
+      280
+    ],
+    "bytes": 20012910,
+    "fps": 40,
+    "quality": 88
+  },
+  "mobile": {
+    "frames": 560,
+    "duration_ms": 14000,
+    "size": [
+      624,
+      182
+    ],
+    "bytes": 9282274,
+    "fps": 40,
+    "quality": 82
+  }
+}
