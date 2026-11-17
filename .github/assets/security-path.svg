@@ -1,39 +1,31 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 372" role="img" aria-labelledby="t d">
-  <title id="t">Application security review loop</title>
-  <desc id="d">Four repeating steps: define the boundary, find the assumption, test the failure, verify the fix. An example access-control question, and a status panel: learning, with no audit or findings claimed.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 262" role="img" aria-labelledby="t d">
+  <title id="t">Security review loop</title>
+  <desc id="d">Four repeating steps: boundary, assumption, failure, verify. Status: learning OWASP Top 10 and SQL injection.</desc>
   <style>.m{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace}.s{font-family:ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif}@media (prefers-reduced-motion:reduce){*{animation:none!important}}
 .hl{opacity:0;animation:hl 8s linear infinite}
 .flow{animation:flow 2s linear infinite}
 .pulse{animation:pulse 2.4s ease-in-out infinite}
 @keyframes hl{0%{opacity:0}2%,25%{opacity:1}27%,100%{opacity:0}}
-@keyframes flow{to{stroke-dashoffset:-20}}
+@keyframes flow{to{stroke-dashoffset:-22}}
 @keyframes pulse{50%{opacity:.3}}
 </style>
   <defs>
-    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#141d28" stroke-width="1"/></pattern>
-    <radialGradient id="vig" cx=".5" cy=".4" r=".85"><stop offset="0" stop-color="#101a26"/><stop offset="1" stop-color="#0a0e13"/></radialGradient>
-    <clipPath id="card"><rect x="2" y="2" width="896" height="368" rx="13"/></clipPath>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#141d28" stroke-width="1"/></pattern>
+    <radialGradient id="vig" cx=".5" cy=".4" r=".9"><stop offset="0" stop-color="#101a26"/><stop offset="1" stop-color="#0a0e13"/></radialGradient>
     
   </defs>
-  <rect x="1" y="1" width="898" height="370" rx="14" fill="url(#vig)" stroke="#243242" stroke-width="2"/>
-  <rect x="1" y="1" width="898" height="370" rx="14" fill="url(#grid)"/>
+  <rect x="1" y="1" width="638" height="260" rx="14" fill="url(#vig)" stroke="#243242" stroke-width="2"/>
+  <rect x="1" y="1" width="638" height="260" rx="14" fill="url(#grid)"/>
 
-  <text class="s" x="36" y="46" font-size="20" font-weight="700" fill="#e6f1ff">Security review loop</text>
-<rect x="36" y="72" width="190" height="64" rx="10" fill="#111821" stroke="#3a4d63" stroke-width="1.5"/><rect class="hl" style="animation-delay:0s" x="36" y="72" width="190" height="64" rx="10" fill="none" stroke="#3ddc97" stroke-width="3"/><text class="m" x="131.0" y="100" font-size="13" font-weight="700" fill="#5ad1ff" text-anchor="middle">01 BOUNDARY</text><text class="m" x="131.0" y="120" font-size="12" fill="#9fb3c8" text-anchor="middle">where input enters</text><rect x="246" y="72" width="190" height="64" rx="10" fill="#111821" stroke="#3a4d63" stroke-width="1.5"/><rect class="hl" style="animation-delay:2s" x="246" y="72" width="190" height="64" rx="10" fill="none" stroke="#3ddc97" stroke-width="3"/><text class="m" x="341.0" y="100" font-size="13" font-weight="700" fill="#5ad1ff" text-anchor="middle">02 ASSUMPTION</text><text class="m" x="341.0" y="120" font-size="12" fill="#9fb3c8" text-anchor="middle">what is trusted</text><rect x="456" y="72" width="190" height="64" rx="10" fill="#111821" stroke="#3a4d63" stroke-width="1.5"/><rect class="hl" style="animation-delay:4s" x="456" y="72" width="190" height="64" rx="10" fill="none" stroke="#3ddc97" stroke-width="3"/><text class="m" x="551.0" y="100" font-size="13" font-weight="700" fill="#5ad1ff" text-anchor="middle">03 FAILURE</text><text class="m" x="551.0" y="120" font-size="12" fill="#9fb3c8" text-anchor="middle">try to break it</text><rect x="666" y="72" width="198" height="64" rx="10" fill="#111821" stroke="#3a4d63" stroke-width="1.5"/><rect class="hl" style="animation-delay:6s" x="666" y="72" width="198" height="64" rx="10" fill="none" stroke="#3ddc97" stroke-width="3"/><text class="m" x="765.0" y="100" font-size="13" font-weight="700" fill="#5ad1ff" text-anchor="middle">04 VERIFY</text><text class="m" x="765.0" y="120" font-size="12" fill="#9fb3c8" text-anchor="middle">retest after the fix</text>
-<path d="M244 104l-8-5v10z" fill="#3a4d63"/><path d="M454 104l-8-5v10z" fill="#3a4d63"/><path d="M664 104l-8-5v10z" fill="#3a4d63"/>
-<path class="flow" d="M765 136C765 190 131 190 131 140" fill="none" stroke="#3ddc97" stroke-opacity=".7" stroke-width="2" stroke-dasharray="6 5"/><path d="M131 138l-6 9h12z" fill="#3ddc97" fill-opacity=".8"/><text class="m" x="448" y="186" font-size="11" fill="#7a8ba0" text-anchor="middle">repeat after every change</text>
-  <rect x="36" y="212" width="408" height="108" rx="12" fill="#0d1520" stroke="#243242" stroke-width="1.5"/>
-  <text class="m" x="54" y="236" font-size="11" letter-spacing="1.5" fill="#7a8ba0">EXAMPLE QUESTION (NOT A FINDING)</text>
-  <text class="m" x="54" y="264" font-size="14" fill="#e6f1ff"><tspan fill="#5ad1ff">GET</tspan> /order?id=1042</text>
-  <text class="m" x="54" y="286" font-size="14" fill="#e6f1ff">session.user == order.owner ?</text>
-  <text class="m" x="54" y="308" font-size="14" fill="#9fb3c8"><tspan fill="#3ddc97">yes</tspan> → 200   ·   <tspan fill="#f5c451">no</tspan> → 403</text>
-
-  <rect x="464" y="212" width="400" height="108" rx="12" fill="#0d1520" stroke="#243242" stroke-width="1.5"/>
-  <circle class="pulse" cx="484" cy="234" r="5" fill="#f5c451"/>
-  <text class="m" x="500" y="239" font-size="13" font-weight="700" fill="#f5c451">STATUS: LEARNING</text>
-  <text class="m" x="484" y="264" font-size="12.5" fill="#e6f1ff">Studied: OWASP Top 10 · SQL injection</text>
-  <text class="m" x="484" y="284" font-size="12.5" fill="#9fb3c8">Following: Cisco annual cybersecurity events,</text>
-  <text class="m" x="484" y="302" font-size="12.5" fill="#9fb3c8">404 Media security coverage</text>
-  <text class="m" x="36" y="350" font-size="12" fill="#7a8ba0">No audit, certification or reported vulnerability is claimed.</text>
-  <path d="M16 36V16H36 M864 16H884V36 M16 336V356H36 M864 356H884V336" fill="none" stroke="#3ddc97" stroke-opacity=".55" stroke-width="2" stroke-linecap="round"/>
+  <text class="s" x="30" y="44" font-size="22" font-weight="700" fill="#e6f1ff">Security review loop</text>
+<rect x="14" y="64" width="142" height="62" rx="10" fill="#111821" stroke="#3a4d63" stroke-width="1.5"/><rect class="hl" style="animation-delay:0s" x="14" y="64" width="142" height="62" rx="10" fill="none" stroke="#3ddc97" stroke-width="3"/><text class="m" x="85" y="88" font-size="13" fill="#8497ad" text-anchor="middle">01</text><text class="m" x="85" y="112" font-size="16" font-weight="700" fill="#5ad1ff" text-anchor="middle">BOUNDARY</text><rect x="170" y="64" width="142" height="62" rx="10" fill="#111821" stroke="#3a4d63" stroke-width="1.5"/><rect class="hl" style="animation-delay:2s" x="170" y="64" width="142" height="62" rx="10" fill="none" stroke="#3ddc97" stroke-width="3"/><text class="m" x="241" y="88" font-size="13" fill="#8497ad" text-anchor="middle">02</text><text class="m" x="241" y="112" font-size="16" font-weight="700" fill="#5ad1ff" text-anchor="middle">ASSUMPTION</text><rect x="326" y="64" width="142" height="62" rx="10" fill="#111821" stroke="#3a4d63" stroke-width="1.5"/><rect class="hl" style="animation-delay:4s" x="326" y="64" width="142" height="62" rx="10" fill="none" stroke="#3ddc97" stroke-width="3"/><text class="m" x="397" y="88" font-size="13" fill="#8497ad" text-anchor="middle">03</text><text class="m" x="397" y="112" font-size="16" font-weight="700" fill="#5ad1ff" text-anchor="middle">FAILURE</text><rect x="482" y="64" width="142" height="62" rx="10" fill="#111821" stroke="#3a4d63" stroke-width="1.5"/><rect class="hl" style="animation-delay:6s" x="482" y="64" width="142" height="62" rx="10" fill="none" stroke="#3ddc97" stroke-width="3"/><text class="m" x="553" y="88" font-size="13" fill="#8497ad" text-anchor="middle">04</text><text class="m" x="553" y="112" font-size="16" font-weight="700" fill="#5ad1ff" text-anchor="middle">VERIFY</text>
+<path d="M164 95l-8-6v12z" fill="#3a4d63" transform="translate(0 0)"/><path d="M320 95l-8-6v12z" fill="#3a4d63" transform="translate(0 0)"/><path d="M476 95l-8-6v12z" fill="#3a4d63" transform="translate(0 0)"/>
+  <path class="flow" d="M555 128C555 162 85 162 85 132" fill="none" stroke="#3ddc97" stroke-opacity=".7" stroke-width="2" stroke-dasharray="6 5"/>
+  <path d="M85 130l-6 9h12z" fill="#3ddc97" fill-opacity=".8"/>
+  <text class="m" x="320" y="180" font-size="14" fill="#8497ad" text-anchor="middle">repeat after every change</text>
+  <rect x="14" y="194" width="612" height="42" rx="10" fill="#0d1520" stroke="#243242" stroke-width="1.5"/>
+  <circle class="pulse" cx="38" cy="215" r="5" fill="#f5c451"/>
+  <text class="m" x="52" y="220" font-size="15" font-weight="700" fill="#f5c451">LEARNING</text>
+  <text class="m" x="156" y="220" font-size="15" fill="#e6f1ff">OWASP Top 10 · SQL injection</text>
+  <path d="M14 32V14H32 M608 14H626V32 M14 230V248H32 M608 248H626V230" fill="none" stroke="#3ddc97" stroke-opacity=".5" stroke-width="2" stroke-linecap="round"/>
 </svg>

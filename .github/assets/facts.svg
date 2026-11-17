@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 140" role="img" aria-labelledby="t d">
+  <title id="t">Three facts: team lead, completed VibeShop, learning OWASP Top 10</title>
+  <desc id="d">Role: team lead of a three-person project. Completed: VibeShop in Java, JSP and MySQL. Learning: OWASP Top 10 and web application security.</desc>
+  <style>.m{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace}.s{font-family:ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif}@media (prefers-reduced-motion:reduce){*{animation:none!important}}</style>
+  <defs>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#141d28" stroke-width="1"/></pattern>
+    <radialGradient id="vig" cx=".5" cy=".4" r=".9"><stop offset="0" stop-color="#101a26"/><stop offset="1" stop-color="#0a0e13"/></radialGradient>
+    
+  </defs>
+  <rect x="1" y="1" width="638" height="138" rx="14" fill="url(#vig)" stroke="#243242" stroke-width="2"/>
+  <rect x="1" y="1" width="638" height="138" rx="14" fill="url(#grid)"/>
+<rect x="14" y="14" width="196" height="112" rx="12" fill="#0d1520" stroke="#243242" stroke-width="1.5"/><rect x="14" y="14" width="196" height="5" rx="2.5" fill="#3ddc97" opacity=".85"/><text class="m" x="32" y="52" font-size="13" letter-spacing="1.5" fill="#8497ad">ROLE</text><text class="s" x="32" y="86" font-size="23" font-weight="700" fill="#e6f1ff">Team lead</text><text class="m" x="32" y="110" font-size="14" fill="#9fb3c8">3-person project</text><rect x="222" y="14" width="196" height="112" rx="12" fill="#0d1520" stroke="#243242" stroke-width="1.5"/><rect x="222" y="14" width="196" height="5" rx="2.5" fill="#5ad1ff" opacity=".85"/><text class="m" x="240" y="52" font-size="13" letter-spacing="1.5" fill="#8497ad">COMPLETED</text><text class="s" x="240" y="86" font-size="23" font-weight="700" fill="#e6f1ff">VibeShop</text><text class="m" x="240" y="110" font-size="14" fill="#9fb3c8">Java · JSP · MySQL</text><rect x="430" y="14" width="196" height="112" rx="12" fill="#0d1520" stroke="#243242" stroke-width="1.5"/><rect x="430" y="14" width="196" height="5" rx="2.5" fill="#f5c451" opacity=".85"/><text class="m" x="448" y="52" font-size="13" letter-spacing="1.5" fill="#8497ad">LEARNING</text><text class="s" x="448" y="86" font-size="23" font-weight="700" fill="#e6f1ff">OWASP Top 10</text><text class="m" x="448" y="110" font-size="14" fill="#9fb3c8">web app security</text>
+  
+</svg>
