@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 440" role="img" aria-labelledby="t d">
+  <title id="t">VibeShop architecture</title>
+  <desc id="d">A request travels from JSP pages through servlets and DAO classes to the MySQL database and back, with access filters guarding the servlets. Below, the customer journey: discover, product, cart, checkout, orders.</desc>
+  <style>.m{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace}.s{font-family:ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif}@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+.req{animation:req 7s linear infinite}
+.res{animation:res 7s linear infinite 3.5s}
+.glow{animation:glow 5s ease-in-out infinite}
+.hl{opacity:0;animation:hl 10s linear infinite}
+@keyframes req{0%{transform:translateX(0);opacity:0}6%{opacity:1}94%{opacity:1}100%{transform:translateX(682px);opacity:0}}
+@keyframes res{0%{transform:translateX(0);opacity:0}6%{opacity:1}94%{opacity:1}100%{transform:translateX(-682px);opacity:0}}
+@keyframes glow{0%,100%{opacity:.55}50%{opacity:1}}
+@keyframes hl{0%{opacity:0}3%,18%{opacity:1}22%,100%{opacity:0}}
+</style>
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#141d28" stroke-width="1"/></pattern>
+    <radialGradient id="vig" cx=".5" cy=".4" r=".85"><stop offset="0" stop-color="#101a26"/><stop offset="1" stop-color="#0a0e13"/></radialGradient>
+    <clipPath id="card"><rect x="2" y="2" width="896" height="436" rx="13"/></clipPath>
+    
+  </defs>
+  <rect x="1" y="1" width="898" height="438" rx="14" fill="url(#vig)" stroke="#243242" stroke-width="2"/>
+  <rect x="1" y="1" width="898" height="438" rx="14" fill="url(#grid)"/>
+
+  <text class="s" x="36" y="50" font-size="24" font-weight="700" fill="#e6f1ff">VibeShop · Turbo Layout</text>
+  <text class="m" x="36" y="76" font-size="13.5" fill="#9fb3c8">Java web app for live-music commerce · University of Salerno team project · I was team lead</text>
+  <rect x="716" y="30" width="148" height="28" rx="14" fill="#0f1a16" stroke="#3ddc97"/>
+  <text class="m" x="790" y="49" font-size="12" font-weight="700" fill="#3ddc97" text-anchor="middle">COMPLETED</text>
+
+  <rect class="glow" x="226" y="100" width="234" height="28" rx="14" fill="#0f1a16" stroke="#3ddc97" stroke-dasharray="4 4"/>
+  <text class="m" x="343" y="119" font-size="12" fill="#3ddc97" text-anchor="middle">AuthFilter · AdminFilter</text>
+  <path d="M343 128V150" stroke="#3ddc97" stroke-dasharray="3 3"/>
+
+  <path d="M111 190H793M793 210H111" stroke="#243242" stroke-width="2"/>
+  <circle class="req" cx="111" cy="190" r="5.5" fill="#3ddc97"/>
+  <circle class="res" cx="793" cy="210" r="5.5" fill="#5ad1ff"/>
+<rect x="36" y="150" width="150" height="90" rx="10" fill="#111821" stroke="#5ad1ff" stroke-width="1.5"/><text class="m" x="111.0" y="182" font-size="15" font-weight="700" fill="#5ad1ff" text-anchor="middle">JSP pages</text><text class="m" x="111.0" y="205" font-size="11.5" fill="#9fb3c8" text-anchor="middle">catalogue · cart</text><text class="m" x="111.0" y="221" font-size="11.5" fill="#9fb3c8" text-anchor="middle">checkout · orders</text><text class="m" x="111.0" y="260" font-size="10.5" fill="#7a8ba0" text-anchor="middle">webapp/jsp</text><rect x="258" y="150" width="170" height="90" rx="10" fill="#111821" stroke="#3ddc97" stroke-width="1.5"/><text class="m" x="343.0" y="182" font-size="15" font-weight="700" fill="#3ddc97" text-anchor="middle">Servlets</text><text class="m" x="343.0" y="205" font-size="11.5" fill="#9fb3c8" text-anchor="middle">Cart · Checkout</text><text class="m" x="343.0" y="221" font-size="11.5" fill="#9fb3c8" text-anchor="middle">Login · Search</text><text class="m" x="343.0" y="260" font-size="10.5" fill="#7a8ba0" text-anchor="middle">com/turbolayout</text><rect x="500" y="150" width="150" height="90" rx="10" fill="#111821" stroke="#f5c451" stroke-width="1.5"/><text class="m" x="575.0" y="182" font-size="15" font-weight="700" fill="#f5c451" text-anchor="middle">DAO</text><text class="m" x="575.0" y="205" font-size="11.5" fill="#9fb3c8" text-anchor="middle">user · artist · concert</text><text class="m" x="575.0" y="221" font-size="11.5" fill="#9fb3c8" text-anchor="middle">product · order</text><text class="m" x="575.0" y="260" font-size="10.5" fill="#7a8ba0" text-anchor="middle">model/dao</text><rect x="722" y="150" width="142" height="90" rx="10" fill="#111821" stroke="#b79cff" stroke-width="1.5"/><text class="m" x="793.0" y="182" font-size="15" font-weight="700" fill="#b79cff" text-anchor="middle">MySQL</text><text class="m" x="793.0" y="205" font-size="11.5" fill="#9fb3c8" text-anchor="middle">relational schema</text><text class="m" x="793.0" y="221" font-size="11.5" fill="#9fb3c8" text-anchor="middle"></text><text class="m" x="793.0" y="260" font-size="10.5" fill="#7a8ba0" text-anchor="middle">db/VIBESHOP_FINAL.sql</text>
+<path d="M218 185l8 5l-8 5z" fill="#3a4d63"/><path d="M226 205l-8 5l8 5z" fill="#3a4d63"/><path d="M460 185l8 5l-8 5z" fill="#3a4d63"/><path d="M468 205l-8 5l8 5z" fill="#3a4d63"/><path d="M682 185l8 5l-8 5z" fill="#3a4d63"/><path d="M690 205l-8 5l8 5z" fill="#3a4d63"/>
+  <text class="m" x="36" y="302" font-size="11" letter-spacing="1.5" fill="#7a8ba0">CUSTOMER JOURNEY</text>
+<rect x="36" y="318" width="118" height="30" rx="8" fill="#111821" stroke="#3a4d63"/><text class="m" x="95" y="338" font-size="12" font-weight="700" fill="#e6f1ff" text-anchor="middle">DISCOVER</text><rect class="hl" style="animation-delay:0s" x="36" y="318" width="118" height="30" rx="8" fill="none" stroke="#3ddc97" stroke-width="2.5"/><path d="M160 326l8 7l-8 7z" fill="#3a4d63"/><rect x="176" y="318" width="118" height="30" rx="8" fill="#111821" stroke="#3a4d63"/><text class="m" x="235" y="338" font-size="12" font-weight="700" fill="#e6f1ff" text-anchor="middle">PRODUCT</text><rect class="hl" style="animation-delay:2s" x="176" y="318" width="118" height="30" rx="8" fill="none" stroke="#3ddc97" stroke-width="2.5"/><path d="M300 326l8 7l-8 7z" fill="#3a4d63"/><rect x="316" y="318" width="118" height="30" rx="8" fill="#111821" stroke="#3a4d63"/><text class="m" x="375" y="338" font-size="12" font-weight="700" fill="#e6f1ff" text-anchor="middle">CART</text><rect class="hl" style="animation-delay:4s" x="316" y="318" width="118" height="30" rx="8" fill="none" stroke="#3ddc97" stroke-width="2.5"/><path d="M440 326l8 7l-8 7z" fill="#3a4d63"/><rect x="456" y="318" width="118" height="30" rx="8" fill="#111821" stroke="#3a4d63"/><text class="m" x="515" y="338" font-size="12" font-weight="700" fill="#e6f1ff" text-anchor="middle">CHECKOUT</text><rect class="hl" style="animation-delay:6s" x="456" y="318" width="118" height="30" rx="8" fill="none" stroke="#3ddc97" stroke-width="2.5"/><path d="M580 326l8 7l-8 7z" fill="#3a4d63"/><rect x="596" y="318" width="118" height="30" rx="8" fill="#111821" stroke="#3a4d63"/><text class="m" x="655" y="338" font-size="12" font-weight="700" fill="#e6f1ff" text-anchor="middle">ORDERS</text><rect class="hl" style="animation-delay:8s" x="596" y="318" width="118" height="30" rx="8" fill="none" stroke="#3ddc97" stroke-width="2.5"/>
+  <text class="m" x="36" y="392" font-size="12.5" fill="#9fb3c8">Stack: Java · JSP · Servlets · DAO · MySQL · HTML/CSS</text>
+  <text class="m" x="36" y="414" font-size="12.5" fill="#7a8ba0">Access filters exist in the source; object-level authorisation has not been independently audited.</text>
+  <path d="M16 36V16H36 M864 16H884V36 M16 404V424H36 M864 424H884V404" fill="none" stroke="#3ddc97" stroke-opacity=".55" stroke-width="2" stroke-linecap="round"/>
+</svg>

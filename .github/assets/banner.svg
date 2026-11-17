@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 272" role="img" aria-labelledby="t d">
+  <title id="t">DEN7BEST: software, web applications and application security</title>
+  <desc id="d">Dark avionics-style banner with the name DEN7BEST, a role line, the city Naples, an open-to-work badge, an artificial-horizon instrument and a scrolling heading tape.</desc>
+  <style>.m{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace}.s{font-family:ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif}@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+.scan{animation:scan 9s linear infinite}
+.tape{animation:tape 72s linear infinite}
+.bank{transform-origin:850px 112px;animation:bank 7s ease-in-out infinite alternate}
+.blink{animation:blink 1.1s steps(1) infinite}
+.pulse{animation:pulse 2s ease-in-out infinite}
+@keyframes scan{from{transform:translateX(-220px)}to{transform:translateX(1060px)}}
+@keyframes tape{to{transform:translateX(-1200px)}}
+@keyframes bank{from{transform:rotate(-7deg) translateY(-4px)}to{transform:rotate(7deg) translateY(4px)}}
+@keyframes blink{50%{opacity:0}}
+@keyframes pulse{50%{opacity:.25}}
+</style>
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#141d28" stroke-width="1"/></pattern>
+    <radialGradient id="vig" cx=".5" cy=".4" r=".85"><stop offset="0" stop-color="#101a26"/><stop offset="1" stop-color="#0a0e13"/></radialGradient>
+    <clipPath id="card"><rect x="2" y="2" width="996" height="268" rx="13"/></clipPath>
+    
+    <linearGradient id="sweep" x1="0" x2="1"><stop offset="0" stop-color="#5ad1ff" stop-opacity="0"/><stop offset=".5" stop-color="#5ad1ff" stop-opacity=".18"/><stop offset="1" stop-color="#5ad1ff" stop-opacity="0"/></linearGradient>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0d2236"/><stop offset="1" stop-color="#15385a"/></linearGradient>
+    <linearGradient id="gnd" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#22391f"/><stop offset="1" stop-color="#111c12"/></linearGradient>
+    <clipPath id="ai"><circle cx="850" cy="112" r="72"/></clipPath>
+    <filter id="glow" x="-10%" y="-30%" width="120%" height="160%"><feGaussianBlur stdDeviation="6"/></filter>
+
+  </defs>
+  <rect x="1" y="1" width="998" height="270" rx="14" fill="url(#vig)" stroke="#243242" stroke-width="2"/>
+  <rect x="1" y="1" width="998" height="270" rx="14" fill="url(#grid)"/>
+
+  <g clip-path="url(#card)"><rect class="scan" x="0" y="2" width="180" height="268" fill="url(#sweep)"/></g>
+  <text class="m" x="48" y="44" font-size="13" fill="#7a8ba0">// PROFILE · NAV-01</text>
+  <text class="m" x="48" y="108" font-size="64" font-weight="700" fill="#3ddc97" opacity=".28" filter="url(#glow)">DEN7BEST</text>
+  <text class="m" x="48" y="108" font-size="64" font-weight="700" fill="#e6f1ff">DEN7BEST<tspan class="blink" fill="#3ddc97">_</tspan></text>
+  <text class="m" x="50" y="144" font-size="19" fill="#5ad1ff">Software · Web applications · Application security</text>
+  <text class="m" x="50" y="170" font-size="14" fill="#9fb3c8">Computer Science (L-31), University of Salerno</text>
+  <g class="m" font-size="13">
+    <rect x="48" y="188" width="176" height="32" rx="16" fill="#0f1a16" stroke="#3ddc97" stroke-width="1.5"/>
+    <circle class="pulse" cx="70" cy="204" r="5" fill="#3ddc97"/>
+    <text x="86" y="209" font-weight="700" fill="#3ddc97">OPEN TO WORK</text>
+    <rect x="236" y="188" width="132" height="32" rx="16" fill="#111821" stroke="#3a4d63"/>
+    <text x="302" y="209" text-anchor="middle" fill="#e6f1ff">NAPLES · IT</text>
+    <rect x="380" y="188" width="150" height="32" rx="16" fill="#111821" stroke="#3a4d63"/>
+    <text x="455" y="209" text-anchor="middle" fill="#e6f1ff">UNISA · L-31</text>
+  </g>
+
+  <g>
+    <circle cx="850" cy="112" r="80" fill="#0a0e13" stroke="#243242" stroke-width="2"/>
+    <g clip-path="url(#ai)"><g class="bank">
+      <rect x="650" y="-60" width="400" height="172" fill="url(#sky)"/>
+      <rect x="650" y="112" width="400" height="220" fill="url(#gnd)"/>
+      <path d="M650 112H1050" stroke="#5ad1ff" stroke-width="2"/>
+      <g stroke="#e6f1ff" stroke-opacity=".7" stroke-width="1.5"><path d="M828 72H872"/><path d="M836 92H864"/><path d="M836 132H864"/><path d="M828 152H872"/></g>
+    </g></g>
+    <circle cx="850" cy="112" r="72" fill="none" stroke="#3a4d63" stroke-width="2"/>
+    <g stroke="#9fb3c8" stroke-width="1.5"><path d="M785.9 75.0L779.0 71.0"/><path d="M797.7 59.7L794.8 56.8"/><path d="M813.0 47.9L809.0 41.0"/><path d="M824.7 42.5L823.3 38.7"/><path d="M837.2 39.1L836.5 35.2"/><path d="M850.0 38.0L850.0 30.0"/><path d="M862.8 39.1L863.5 35.2"/><path d="M875.3 42.5L876.7 38.7"/><path d="M887.0 47.9L891.0 41.0"/><path d="M902.3 59.7L905.2 56.8"/><path d="M914.1 75.0L921.0 71.0"/></g>
+    <path d="M850 30l-6 -10h12z" fill="#f5c451"/>
+    <path d="M814 112H838M862 112H886" stroke="#f5c451" stroke-width="3" stroke-linecap="round"/>
+    <path d="M838 112L850 124L862 112" fill="none" stroke="#f5c451" stroke-width="3" stroke-linejoin="round"/>
+  </g>
+<g clip-path="url(#card)"><g class="tape"><g stroke="#3a4d63" stroke-width="1.5"><path d="M0 238v14"/><path d="M20 238v8"/><path d="M40 238v8"/><path d="M60 238v8"/><path d="M80 238v8"/><path d="M100 238v14"/><path d="M120 238v8"/><path d="M140 238v8"/><path d="M160 238v8"/><path d="M180 238v8"/><path d="M200 238v14"/><path d="M220 238v8"/><path d="M240 238v8"/><path d="M260 238v8"/><path d="M280 238v8"/><path d="M300 238v14"/><path d="M320 238v8"/><path d="M340 238v8"/><path d="M360 238v8"/><path d="M380 238v8"/><path d="M400 238v14"/><path d="M420 238v8"/><path d="M440 238v8"/><path d="M460 238v8"/><path d="M480 238v8"/><path d="M500 238v14"/><path d="M520 238v8"/><path d="M540 238v8"/><path d="M560 238v8"/><path d="M580 238v8"/><path d="M600 238v14"/><path d="M620 238v8"/><path d="M640 238v8"/><path d="M660 238v8"/><path d="M680 238v8"/><path d="M700 238v14"/><path d="M720 238v8"/><path d="M740 238v8"/><path d="M760 238v8"/><path d="M780 238v8"/><path d="M800 238v14"/><path d="M820 238v8"/><path d="M840 238v8"/><path d="M860 238v8"/><path d="M880 238v8"/><path d="M900 238v14"/><path d="M920 238v8"/><path d="M940 238v8"/><path d="M960 238v8"/><path d="M980 238v8"/><path d="M1000 238v14"/><path d="M1020 238v8"/><path d="M1040 238v8"/><path d="M1060 238v8"/><path d="M1080 238v8"/><path d="M1100 238v14"/><path d="M1120 238v8"/><path d="M1140 238v8"/><path d="M1160 238v8"/><path d="M1180 238v8"/><path d="M1200 238v14"/><path d="M1220 238v8"/><path d="M1240 238v8"/><path d="M1260 238v8"/><path d="M1280 238v8"/><path d="M1300 238v14"/><path d="M1320 238v8"/><path d="M1340 238v8"/><path d="M1360 238v8"/><path d="M1380 238v8"/><path d="M1400 238v14"/><path d="M1420 238v8"/><path d="M1440 238v8"/><path d="M1460 238v8"/><path d="M1480 238v8"/><path d="M1500 238v14"/><path d="M1520 238v8"/><path d="M1540 238v8"/><path d="M1560 238v8"/><path d="M1580 238v8"/><path d="M1600 238v14"/><path d="M1620 238v8"/><path d="M1640 238v8"/><path d="M1660 238v8"/><path d="M1680 238v8"/><path d="M1700 238v14"/><path d="M1720 238v8"/><path d="M1740 238v8"/><path d="M1760 238v8"/><path d="M1780 238v8"/><path d="M1800 238v14"/><path d="M1820 238v8"/><path d="M1840 238v8"/><path d="M1860 238v8"/><path d="M1880 238v8"/><path d="M1900 238v14"/><path d="M1920 238v8"/><path d="M1940 238v8"/><path d="M1960 238v8"/><path d="M1980 238v8"/><path d="M2000 238v14"/><path d="M2020 238v8"/><path d="M2040 238v8"/><path d="M2060 238v8"/><path d="M2080 238v8"/><path d="M2100 238v14"/><path d="M2120 238v8"/><path d="M2140 238v8"/><path d="M2160 238v8"/><path d="M2180 238v8"/><path d="M2200 238v14"/><path d="M2220 238v8"/><path d="M2240 238v8"/><path d="M2260 238v8"/><path d="M2280 238v8"/><path d="M2300 238v14"/><path d="M2320 238v8"/><path d="M2340 238v8"/><path d="M2360 238v8"/><path d="M2380 238v8"/></g><g class="m" font-size="10" fill="#7a8ba0"><text x="0" y="268" text-anchor="middle">000</text><text x="100" y="268" text-anchor="middle">030</text><text x="200" y="268" text-anchor="middle">060</text><text x="300" y="268" text-anchor="middle">090</text><text x="400" y="268" text-anchor="middle">120</text><text x="500" y="268" text-anchor="middle">150</text><text x="600" y="268" text-anchor="middle">180</text><text x="700" y="268" text-anchor="middle">210</text><text x="800" y="268" text-anchor="middle">240</text><text x="900" y="268" text-anchor="middle">270</text><text x="1000" y="268" text-anchor="middle">300</text><text x="1100" y="268" text-anchor="middle">330</text><text x="1200" y="268" text-anchor="middle">000</text><text x="1300" y="268" text-anchor="middle">030</text><text x="1400" y="268" text-anchor="middle">060</text><text x="1500" y="268" text-anchor="middle">090</text><text x="1600" y="268" text-anchor="middle">120</text><text x="1700" y="268" text-anchor="middle">150</text><text x="1800" y="268" text-anchor="middle">180</text><text x="1900" y="268" text-anchor="middle">210</text><text x="2000" y="268" text-anchor="middle">240</text><text x="2100" y="268" text-anchor="middle">270</text><text x="2200" y="268" text-anchor="middle">300</text><text x="2300" y="268" text-anchor="middle">330</text></g></g></g>
+  <path d="M16 36V16H36 M964 16H984V36 M16 236V256H36 M964 256H984V236" fill="none" stroke="#3ddc97" stroke-opacity=".55" stroke-width="2" stroke-linecap="round"/>
+</svg>

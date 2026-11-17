@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 392" role="img" aria-labelledby="t d">
+  <title id="t">Toolkit</title>
+  <desc id="d">Two panels. Used in my projects: Java, SQL, JavaScript, HTML5, CSS3, JSP, Servlets, DAO / MVC, MySQL, Git, GitHub, GitHub Pages. Currently learning: Python, C, C++, C#, Bash, PHP, Ruby, Assembly, React, Three.js, WebGL, Node.js tooling, Docker, GitHub Actions, Arduino.</desc>
+  <style>.m{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace}.s{font-family:ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif}@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+.c{animation:show .35s backwards}
+.p{animation:pulse 2.4s ease-in-out infinite}
+@keyframes show{from{opacity:0;transform:translateY(4px)}}
+@keyframes pulse{50%{opacity:.3}}
+</style>
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#141d28" stroke-width="1"/></pattern>
+    <radialGradient id="vig" cx=".5" cy=".4" r=".85"><stop offset="0" stop-color="#101a26"/><stop offset="1" stop-color="#0a0e13"/></radialGradient>
+    <clipPath id="card"><rect x="2" y="2" width="896" height="388" rx="13"/></clipPath>
+    
+  </defs>
+  <rect x="1" y="1" width="898" height="390" rx="14" fill="url(#vig)" stroke="#243242" stroke-width="2"/>
+  <rect x="1" y="1" width="898" height="390" rx="14" fill="url(#grid)"/>
+<g transform="translate(24,24)">
+<rect width="418" height="344" rx="12" fill="#0d1520" stroke="#243242" stroke-width="1.5"/>
+<circle class="p" cx="24" cy="34" r="5" fill="#3ddc97"/>
+<text class="m" x="40" y="39" font-size="15" font-weight="700" fill="#3ddc97">USED IN MY PROJECTS</text>
+<text class="m" x="20" y="62" font-size="12" fill="#9fb3c8">technologies visible in my repositories</text>
+<text class="m" x="20" y="84" font-size="11" letter-spacing="1.5" fill="#7a8ba0">LANGUAGES</text>
+<text class="m" x="20" y="148" font-size="11" letter-spacing="1.5" fill="#7a8ba0">WEB &amp; DATA</text>
+<text class="m" x="20" y="250" font-size="11" letter-spacing="1.5" fill="#7a8ba0">WORKFLOW</text>
+<g class="c" style="animation-delay:0.20s" transform="translate(20,94)"><rect width="67" height="30" rx="8" fill="#111821" stroke="#3ddc97" stroke-opacity=".7"/><circle cx="14" cy="15" r="3" fill="#3ddc97"/><text class="m" x="26" y="20" font-size="13" fill="#e6f1ff">Java</text></g>
+<g class="c" style="animation-delay:0.30s" transform="translate(95,94)"><rect width="59" height="30" rx="8" fill="#111821" stroke="#3ddc97" stroke-opacity=".7"/><circle cx="14" cy="15" r="3" fill="#3ddc97"/><text class="m" x="26" y="20" font-size="13" fill="#e6f1ff">SQL</text></g>
+<g class="c" style="animation-delay:0.40s" transform="translate(162,94)"><rect width="115" height="30" rx="8" fill="#111821" stroke="#3ddc97" stroke-opacity=".7"/><circle cx="14" cy="15" r="3" fill="#3ddc97"/><text class="m" x="26" y="20" font-size="13" fill="#e6f1ff">JavaScript</text></g>
+<g class="c" style="animation-delay:0.50s" transform="translate(20,158)"><rect width="75" height="30" rx="8" fill="#111821" stroke="#3ddc97" stroke-opacity=".7"/><circle cx="14" cy="15" r="3" fill="#3ddc97"/><text class="m" x="26" y="20" font-size="13" fill="#e6f1ff">HTML5</text></g>
+<g class="c" style="animation-delay:0.60s" transform="translate(103,158)"><rect width="67" height="30" rx="8" fill="#111821" stroke="#3ddc97" stroke-opacity=".7"/><circle cx="14" cy="15" r="3" fill="#3ddc97"/><text class="m" x="26" y="20" font-size="13" fill="#e6f1ff">CSS3</text></g>
+<g class="c" style="animation-delay:0.70s" transform="translate(178,158)"><rect width="59" height="30" rx="8" fill="#111821" stroke="#3ddc97" stroke-opacity=".7"/><circle cx="14" cy="15" r="3" fill="#3ddc97"/><text class="m" x="26" y="20" font-size="13" fill="#e6f1ff">JSP</text></g>
+<g class="c" style="animation-delay:0.80s" transform="translate(245,158)"><rect width="99" height="30" rx="8" fill="#111821" stroke="#3ddc97" stroke-opacity=".7"/><circle cx="14" cy="15" r="3" fill="#3ddc97"/><text class="m" x="26" y="20" font-size="13" fill="#e6f1ff">Servlets</text></g>
+<g class="c" style="animation-delay:0.90s" transform="translate(20,196)"><rect width="107" height="30" rx="8" fill="#111821" stroke="#3ddc97" stroke-opacity=".7"/><circle cx="14" cy="15" r="3" fill="#3ddc97"/><text class="m" x="26" y="20" font-size="13" fill="#e6f1ff">DAO / MVC</text></g>
+<g class="c" style="animation-delay:1.00s" transform="translate(135,196)"><rect width="75" height="30" rx="8" fill="#111821" stroke="#3ddc97" stroke-opacity=".7"/><circle cx="14" cy="15" r="3" fill="#3ddc97"/><text class="m" x="26" y="20" font-size="13" fill="#e6f1ff">MySQL</text></g>
+<g class="c" style="animation-delay:1.10s" transform="translate(20,260)"><rect width="59" height="30" rx="8" fill="#111821" stroke="#3ddc97" stroke-opacity=".7"/><circle cx="14" cy="15" r="3" fill="#3ddc97"/><text class="m" x="26" y="20" font-size="13" fill="#e6f1ff">Git</text></g>
+<g class="c" style="animation-delay:1.20s" transform="translate(87,260)"><rect width="83" height="30" rx="8" fill="#111821" stroke="#3ddc97" stroke-opacity=".7"/><circle cx="14" cy="15" r="3" fill="#3ddc97"/><text class="m" x="26" y="20" font-size="13" fill="#e6f1ff">GitHub</text></g>
+<g class="c" style="animation-delay:1.30s" transform="translate(178,260)"><rect width="130" height="30" rx="8" fill="#111821" stroke="#3ddc97" stroke-opacity=".7"/><circle cx="14" cy="15" r="3" fill="#3ddc97"/><text class="m" x="26" y="20" font-size="13" fill="#e6f1ff">GitHub Pages</text></g>
+</g>
+<g transform="translate(458,24)">
+<rect width="418" height="344" rx="12" fill="#0d1520" stroke="#243242" stroke-width="1.5"/>
+<circle class="p" cx="24" cy="34" r="5" fill="#5ad1ff"/>
+<text class="m" x="40" y="39" font-size="15" font-weight="700" fill="#5ad1ff">LEARNING</text>
+<text class="m" x="20" y="62" font-size="12" fill="#9fb3c8">studying now, not yet in a finished project</text>
+<text class="m" x="20" y="84" font-size="11" letter-spacing="1.5" fill="#7a8ba0">LANGUAGES</text>
+<text class="m" x="20" y="186" font-size="11" letter-spacing="1.5" fill="#7a8ba0">WEB &amp; GRAPHICS</text>
+<text class="m" x="20" y="250" font-size="11" letter-spacing="1.5" fill="#7a8ba0">TOOLS &amp; HARDWARE</text>
+<g class="c" style="animation-delay:0.60s" transform="translate(20,94)"><rect width="83" height="30" rx="8" fill="#111821" stroke="#5ad1ff" stroke-opacity=".7"/><circle cx="14" cy="15" r="3" fill="#5ad1ff"/><text class="m" x="26" y="20" font-size="13" fill="#e6f1ff">Python</text></g>
+<g class="c" style="animation-delay:0.70s" transform="translate(111,94)"><rect width="43" height="30" rx="8" fill="#111821" stroke="#5ad1ff" stroke-opacity=".7"/><circle cx="14" cy="15" r="3" fill="#5ad1ff"/><text class="m" x="26" y="20" font-size="13" fill="#e6f1ff">C</text></g>
+<g class="c" style="animation-delay:0.80s" transform="translate(162,94)"><rect width="59" height="30" rx="8" fill="#111821" stroke="#5ad1ff" stroke-opacity=".7"/><circle cx="14" cy="15" r="3" fill="#5ad1ff"/><text class="m" x="26" y="20" font-size="13" fill="#e6f1ff">C++</text></g>
+<g class="c" style="animation-delay:0.90s" transform="translate(229,94)"><rect width="51" height="30" rx="8" fill="#111821" stroke="#5ad1ff" stroke-opacity=".7"/><circle cx="14" cy="15" r="3" fill="#5ad1ff"/><text class="m" x="26" y="20" font-size="13" fill="#e6f1ff">C#</text></g>
+<g class="c" style="animation-delay:1.00s" transform="translate(288,94)"><rect width="67" height="30" rx="8" fill="#111821" stroke="#5ad1ff" stroke-opacity=".7"/><circle cx="14" cy="15" r="3" fill="#5ad1ff"/><text class="m" x="26" y="20" font-size="13" fill="#e6f1ff">Bash</text></g>
+<g class="c" style="animation-delay:1.10s" transform="translate(20,132)"><rect width="59" height="30" rx="8" fill="#111821" stroke="#5ad1ff" stroke-opacity=".7"/><circle cx="14" cy="15" r="3" fill="#5ad1ff"/><text class="m" x="26" y="20" font-size="13" fill="#e6f1ff">PHP</text></g>
+<g class="c" style="animation-delay:1.20s" transform="translate(87,132)"><rect width="67" height="30" rx="8" fill="#111821" stroke="#5ad1ff" stroke-opacity=".7"/><circle cx="14" cy="15" r="3" fill="#5ad1ff"/><text class="m" x="26" y="20" font-size="13" fill="#e6f1ff">Ruby</text></g>
+<g class="c" style="animation-delay:1.30s" transform="translate(162,132)"><rect width="99" height="30" rx="8" fill="#111821" stroke="#5ad1ff" stroke-opacity=".7"/><circle cx="14" cy="15" r="3" fill="#5ad1ff"/><text class="m" x="26" y="20" font-size="13" fill="#e6f1ff">Assembly</text></g>
+<g class="c" style="animation-delay:1.40s" transform="translate(20,196)"><rect width="75" height="30" rx="8" fill="#111821" stroke="#5ad1ff" stroke-opacity=".7"/><circle cx="14" cy="15" r="3" fill="#5ad1ff"/><text class="m" x="26" y="20" font-size="13" fill="#e6f1ff">React</text></g>
+<g class="c" style="animation-delay:1.50s" transform="translate(103,196)"><rect width="99" height="30" rx="8" fill="#111821" stroke="#5ad1ff" stroke-opacity=".7"/><circle cx="14" cy="15" r="3" fill="#5ad1ff"/><text class="m" x="26" y="20" font-size="13" fill="#e6f1ff">Three.js</text></g>
+<g class="c" style="animation-delay:1.60s" transform="translate(210,196)"><rect width="75" height="30" rx="8" fill="#111821" stroke="#5ad1ff" stroke-opacity=".7"/><circle cx="14" cy="15" r="3" fill="#5ad1ff"/><text class="m" x="26" y="20" font-size="13" fill="#e6f1ff">WebGL</text></g>
+<g class="c" style="animation-delay:1.70s" transform="translate(20,260)"><rect width="154" height="30" rx="8" fill="#111821" stroke="#5ad1ff" stroke-opacity=".7"/><circle cx="14" cy="15" r="3" fill="#5ad1ff"/><text class="m" x="26" y="20" font-size="13" fill="#e6f1ff">Node.js tooling</text></g>
+<g class="c" style="animation-delay:1.80s" transform="translate(182,260)"><rect width="83" height="30" rx="8" fill="#111821" stroke="#5ad1ff" stroke-opacity=".7"/><circle cx="14" cy="15" r="3" fill="#5ad1ff"/><text class="m" x="26" y="20" font-size="13" fill="#e6f1ff">Docker</text></g>
+<g class="c" style="animation-delay:1.90s" transform="translate(20,298)"><rect width="146" height="30" rx="8" fill="#111821" stroke="#5ad1ff" stroke-opacity=".7"/><circle cx="14" cy="15" r="3" fill="#5ad1ff"/><text class="m" x="26" y="20" font-size="13" fill="#e6f1ff">GitHub Actions</text></g>
+<g class="c" style="animation-delay:2.00s" transform="translate(174,298)"><rect width="91" height="30" rx="8" fill="#111821" stroke="#5ad1ff" stroke-opacity=".7"/><circle cx="14" cy="15" r="3" fill="#5ad1ff"/><text class="m" x="26" y="20" font-size="13" fill="#e6f1ff">Arduino</text></g>
+</g>
+
+  <path d="M16 36V16H36 M864 16H884V36 M16 356V376H36 M864 376H884V356" fill="none" stroke="#3ddc97" stroke-opacity=".55" stroke-width="2" stroke-linecap="round"/>
+</svg>
