@@ -40,15 +40,15 @@ Sono uno studente di Informatica (L-31) all'Università di Salerno e vivo a Napo
 
 <p align="center">
   <a href="https://denis7kom.github.io/denis-aviation/">
-    <img src="./.github/assets/project-aviation.svg" alt="denis-aviation: radar display and description of an interactive aviation project written in JavaScript." width="100%">
+    <img src="./.github/assets/project-aviation.svg" alt="denis-aviation: radar display, a virtual aviation and ATC website in development. Planned: flight map, ATC radar, realistic surfaces." width="100%">
   </a>
 </p>
 
-**denis-aviation** is an interactive aviation project written in JavaScript.
+**denis-aviation** is a website about virtual aviation and air traffic control, written in JavaScript and still in development. Planned: a flight map, an ATC radar and realistic aircraft surfaces.
 
 - [Live demo](https://denis7kom.github.io/denis-aviation/) · [Source](https://github.com/Denis7Kom/denis-aviation)
 
-**denis-aviation** è un progetto interattivo sull'aviazione scritto in JavaScript. [Demo online](https://denis7kom.github.io/denis-aviation/) · [Codice](https://github.com/Denis7Kom/denis-aviation)
+**denis-aviation** è un sito sull'aviazione virtuale e sul controllo del traffico aereo, scritto in JavaScript e ancora in sviluppo. In programma: mappa dei voli, radar ATC e superfici realistiche degli aerei. [Demo online](https://denis7kom.github.io/denis-aviation/) · [Codice](https://github.com/Denis7Kom/denis-aviation)
 
 ## Application security
 
@@ -63,7 +63,7 @@ Sto imparando come falliscono le applicazioni web. Finora ho studiato la OWASP T
 ## Toolkit
 
 <p align="center">
-  <img src="./.github/assets/toolkit.svg" alt="Used in my projects: Java, JSP, Servlets, SQL, DAO and MVC, HTML5, CSS3, JavaScript, Git, GitHub, GitHub Pages. Learning: Python, C, C++, C#, Bash, PHP, Ruby, Assembly, React, Three.js, WebGL, Node.js tooling, Docker, GitHub Actions, Arduino." width="100%">
+  <img src="./.github/assets/toolkit.svg" alt="Used in my projects: Java, SQL, JavaScript, HTML5, CSS3, JSP, Servlets, DAO and MVC, MySQL, Git, GitHub, GitHub Pages. Learning: Python, C, C++, C#, Bash, PHP, Ruby, Assembly, React, Three.js, WebGL, Node.js tooling, Docker, GitHub Actions, Arduino." width="100%">
 </p>
 
 The left panel lists what appears in my repositories. The right panel lists what I am studying. / Il pannello a sinistra elenca ciò che compare nei miei repository. Quello a destra elenca ciò che sto studiando.
@@ -76,11 +76,19 @@ The left panel lists what appears in my repositories. The right panel lists what
 
 ## Contact · Contatti
 
+<p align="center">
+  <img src="./.github/assets/connect.svg" alt="Open to work. Telegram @dionigi. Based in Naples, Italy. Languages: Russian native, Italian B2, English B2, German A2." width="100%">
+</p>
+
 - Telegram: [@dionigi](https://t.me/dionigi)
 - Portfolio: [denis7kom.github.io/denis-komarov](https://denis7kom.github.io/denis-komarov/)
 - Languages · Lingue: Russian (native) · Italian B2 · English B2 · German A2
 
 ## Beyond the code · Oltre il codice
+
+<p align="center">
+  <img src="./.github/assets/beyond-code.svg" alt="Beyond the code: photography, aerial video, aviation, writing and tourism (DeA, Scalea and Naples)." width="100%">
+</p>
 
 Photography, aerial video, writing and a personal tourism initiative.
 Fotografia, video aerei, scrittura e un'iniziativa personale sul turismo.
