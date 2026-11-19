@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 426" role="img" aria-labelledby="title">
+  <title id="title">VibeShop</title>
+  <defs>
+    <linearGradient id="panel" x2="100%" y2="100%"><stop stop-color="#060a0c"/><stop offset="1" stop-color="#102529"/></linearGradient>
+    <radialGradient id="glow" cx=".86" cy=".28" r=".59"><stop stop-color="#126958" stop-opacity=".64"/><stop offset="1" stop-color="#126958" stop-opacity="0"/></radialGradient>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0v24" fill="none" stroke="#77d8c8" stroke-opacity=".11"/></pattern>
+    <clipPath id="clip"><path d="M19 1H661L679 19V407L661 425H19L1 407V19Z"/></clipPath>
+  </defs>
+  <g clip-path="url(#clip)">
+    <rect width="680" height="426" fill="url(#panel)"/>
+    <rect width="680" height="426" fill="url(#glow)"/>
+    <rect x="288" width="392" height="426" fill="url(#grid)"/>
+  </g>
+  <path d="M19 1H661L679 19V407L661 425H19L1 407V19Z" fill="none" stroke="#325751"/>
+  <path d="M24 1h106m420 424h105" stroke="#71dbc7" stroke-opacity=".72" stroke-width="2"/>
+  <g font-family="system-ui, -apple-system, Segoe UI, sans-serif">
+    <text x="33" y="57" font-size="36" font-weight="650" fill="#f3faf8" text-anchor="start" letter-spacing="-0.6">VibeShop</text>
+    <rect x="511" y="27" width="135" height="34" rx="17" fill="#133b34" stroke="#528e81"/>
+    <text x="578.5" y="50" font-size="19" font-weight="650" fill="#a2ffea" text-anchor="middle">Completed</text>
+    <text x="35" y="89" font-size="18" font-weight="700" fill="#83e7d1" text-anchor="start">JAVA WEB APPLICATION</text>
+    <text x="34" y="125" font-size="23" font-weight="450" fill="#c4d8d4" text-anchor="start">Concerts, merchandise and checkout. I led a team of</text>
+    <text x="34" y="153" font-size="23" font-weight="450" fill="#c4d8d4" text-anchor="start">three at the University of Salerno to build the app.</text>
+    <path d="M34 173H646" stroke="#41635e" stroke-opacity=".72"/>
+    <text x="34" y="206" font-size="18" font-weight="700" fill="#83e7d1" text-anchor="start">Architecture</text>
+    <rect x="189" y="183" width="233" height="34" rx="17" fill="#0d2023" stroke="#4c8b7e"/>
+    <text x="305.5" y="206" font-size="18" font-weight="550" fill="#83e7d1" text-anchor="middle">AuthFilter · AdminFilter</text>
+    <path d="M261 217v19" stroke="#75d4bf" stroke-dasharray="3 3"/>
+    <rect x="34" y="236" width="143" height="63" rx="10" fill="#0d2023" stroke="#4c8b7e"/>
+    <text x="105.5" y="263" font-size="23" font-weight="650" fill="#f3faf8" text-anchor="middle">JSP</text>
+    <text x="105.5" y="286" font-size="17" font-weight="450" fill="#c4d8d4" text-anchor="middle">pages</text>
+    <path d="m178 268 8 0m-2-3 3 3-3 3" fill="none" stroke="#7ee5cc" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="189" y="236" width="143" height="63" rx="10" fill="#0d2023" stroke="#4c8b7e"/>
+    <text x="260.5" y="263" font-size="23" font-weight="650" fill="#f3faf8" text-anchor="middle">Servlets</text>
+    <text x="260.5" y="286" font-size="17" font-weight="450" fill="#c4d8d4" text-anchor="middle">requests</text>
+    <path d="m333 268 8 0m-2-3 3 3-3 3" fill="none" stroke="#7ee5cc" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="344" y="236" width="143" height="63" rx="10" fill="#0d2023" stroke="#4c8b7e"/>
+    <text x="415.5" y="263" font-size="23" font-weight="650" fill="#f3faf8" text-anchor="middle">DAO</text>
+    <text x="415.5" y="286" font-size="17" font-weight="450" fill="#c4d8d4" text-anchor="middle">data access</text>
+    <path d="m488 268 8 0m-2-3 3 3-3 3" fill="none" stroke="#7ee5cc" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="499" y="236" width="143" height="63" rx="10" fill="#0d2023" stroke="#4c8b7e"/>
+    <text x="570.5" y="263" font-size="23" font-weight="650" fill="#f3faf8" text-anchor="middle">MySQL</text>
+    <text x="570.5" y="286" font-size="17" font-weight="450" fill="#c4d8d4" text-anchor="middle">database</text>
+    <text x="34" y="337" font-size="18" font-weight="700" fill="#83e7d1" text-anchor="start">Customer journey</text>
+    <rect x="34" y="350" width="119" height="40" rx="8" fill="#0d2023" stroke="#477a71"/>
+    <text x="93.5" y="376" font-size="19" font-weight="600" fill="#f3faf8" text-anchor="middle">Discover</text>
+    <rect x="157" y="350" width="119" height="40" rx="8" fill="#0d2023" stroke="#477a71"/>
+    <text x="216.5" y="376" font-size="19" font-weight="600" fill="#f3faf8" text-anchor="middle">Product</text>
+    <rect x="280" y="350" width="119" height="40" rx="8" fill="#0d2023" stroke="#477a71"/>
+    <text x="339.5" y="376" font-size="19" font-weight="600" fill="#f3faf8" text-anchor="middle">Cart</text>
+    <rect x="403" y="350" width="119" height="40" rx="8" fill="#164038" stroke="#477a71"/>
+    <text x="462.5" y="376" font-size="19" font-weight="600" fill="#f3faf8" text-anchor="middle">Checkout</text>
+    <rect x="526" y="350" width="119" height="40" rx="8" fill="#0d2023" stroke="#477a71"/>
+    <text x="585.5" y="376" font-size="19" font-weight="600" fill="#f3faf8" text-anchor="middle">Orders</text>
+  </g>
+</svg>

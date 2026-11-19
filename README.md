@@ -8,29 +8,21 @@
   <a href="https://t.me/dionigi"><img src="./.github/assets/btn-telegram.svg" alt="Contact on Telegram @dionigi" width="125" height="40"></a>
 </p>
 
-I’m a Computer Science student at the University of Salerno. I build Java web applications and study how to make them safer. I’m open to work in Naples, Italy.
+<p><img src="./.github/assets/about-me.svg" alt="About me. I’m a Computer Science student at the University of Salerno. I build Java web applications and study how to make them safer. I’m open to work in Naples, Italy." width="880"></p>
 
 <details>
-<summary><b>🇮🇹 Leggi in italiano</b></summary>
+<summary><img src="./.github/assets/read-italian.svg" alt="Leggi in italiano" width="160"></summary>
 
-Sono uno studente di Informatica (L-31) all'Università di Salerno. Il progetto principale è **VibeShop**, un'applicazione web Java per scoprire concerti e acquistare merchandising, realizzata in un gruppo di tre persone, di cui ero il team leader. Studio la sicurezza delle applicazioni web (OWASP Top 10, SQL injection). Non dichiaro certificazioni, audit o vulnerabilità segnalate.
-
-**Culobomb-Labs** è un'associazione universitaria dell'UNISA (L-31): sviluppiamo strumenti che rendono lo studio più semplice.
-
-**denis-aviation** è un sito sull'aviazione virtuale e sul controllo del traffico aereo, ancora in sviluppo. In programma: mappa dei voli e radar ATC.
+<p><img src="./.github/assets/about-italian.svg" alt="Su di me. Sono uno studente di Informatica (L-31) all’Università di Salerno. Il progetto principale è VibeShop, un’applicazione web Java per scoprire concerti e acquistare merchandising. Ho guidato il gruppo di tre persone che l’ha realizzata. Studio la sicurezza delle applicazioni web (OWASP Top 10 e SQL injection). Non dichiaro certificazioni, audit o vulnerabilità segnalate. Culobomb-Labs è un’associazione universitaria dell’UNISA (L-31). Sviluppiamo strumenti per semplificare lo studio. denis-aviation è un sito sull’aviazione virtuale e sul controllo del traffico aereo, ancora in sviluppo. Include una rete di voli interattiva e una demo ATC locale." width="880"></p>
 
 </details>
 
-## Featured projects
+<h2><img src="./.github/assets/featured-projects.svg" alt="Featured projects" width="880"></h2>
 
-<a href="https://github.com/Denis7Kom/website-turbo-layout">
-  <img src="./.github/assets/project-vibeshop.svg" alt="VibeShop repository — Java web application for concerts and merchandise" width="880">
-</a>
-
-I led a team of three at the University of Salerno to build **VibeShop**, a completed Java web app for discovering concerts and buying merchandise. It includes a catalogue, accounts, a cart, checkout, order history and an admin area.
+<p><a href="https://github.com/Denis7Kom/website-turbo-layout"><img src="./.github/assets/vibeshop-overview.svg" alt="VibeShop, a completed Java web app for concerts and merchandise. I led a team of three at the University of Salerno. It includes a catalogue, accounts, a cart, checkout, order history and an admin area. Architecture: JSP pages, Servlets with AuthFilter and AdminFilter, DAO classes, and MySQL. Customer journey: Discover, Product, Cart, Checkout, Orders." width="880"></a></p>
 
 <details>
-<summary><b>VibeShop architecture and source code</b></summary>
+<summary><img src="./.github/assets/vibeshop-source.svg" alt="VibeShop architecture and source code" width="219"></summary>
 
 | Layer | Where |
 |:--|:--|
@@ -44,40 +36,28 @@ The source includes access filters. Object-level authorisation remains an area f
 
 </details>
 
-<br>
+<p><a href="https://denis7kom.github.io/denis-aviation/"><img src="./.github/assets/aviation-overview.svg" alt="denis-aviation, a JavaScript site about flight simulation and air traffic control. It includes an interactive flight network and a local ATC demo. Live on GitHub Pages and in development." width="880"></a></p>
 
-<a href="https://denis7kom.github.io/denis-aviation/">
-  <img src="./.github/assets/project-aviation.svg" alt="Open denis-aviation, a website about virtual aviation and air traffic control" width="880">
-</a>
+<p align="center">
+  <a href="https://denis7kom.github.io/denis-aviation/"><img src="./.github/assets/aviation-live.svg" alt="Visit the denis-aviation site" width="106"></a>
+  <a href="https://github.com/Denis7Kom/denis-aviation"><img src="./.github/assets/aviation-source.svg" alt="View the denis-aviation source code" width="130"></a>
+</p>
 
-**denis-aviation** is a JavaScript website about virtual aviation and air traffic control, hosted on GitHub Pages. [Live site](https://denis7kom.github.io/denis-aviation/) · [Source code](https://github.com/Denis7Kom/denis-aviation)
+<p><img src="./.github/assets/toolkit-overview.svg" alt="Toolkit. Java web applications: Java, JSP, Servlets, DAO/MVC, SQL, MySQL. Websites: JavaScript, HTML5, CSS3, GitHub Pages. Version control: Git and GitHub. What I’m learning: Python, C, C++, C#, Bash, PHP, Ruby, Assembly, React, Three.js, WebGL, Node.js tooling, Docker, GitHub Actions and Arduino." width="880"></p>
 
-## Toolkit
+<p><img src="./.github/assets/application-security.svg" alt="Application security. I’m studying the OWASP Top 10 and SQL injection. When reviewing my own code, I check whether the server verifies that the signed-in user owns the order they open. I also follow Cisco cybersecurity events and 404 Media’s security coverage." width="880"></p>
 
-**Java web applications** · Java, JSP, Servlets, DAO/MVC, SQL, MySQL  
-**Websites** · JavaScript, HTML5, CSS3, GitHub Pages  
-**Version control** · Git, GitHub
+<p><img src="./.github/assets/beyond-the-code.svg" alt="Beyond the code. I work on photography, aerial video and writing. DeA is my initiative to promote tourism in Scalea and Naples. I also work with Culobomb-Labs, a University of Salerno student association that builds tools for studying." width="880"></p>
 
-<details>
-<summary><b>What I’m learning</b></summary>
+<p align="center">
+  <a href="https://denis7kom.github.io/Denis-Komarov-PH/"><img src="./.github/assets/camera-portfolio.svg" alt="Drone and Camera portfolio" width="155"></a>
+  <a href="https://www.shutterstock.com/g/Denis+Komarov%20PH?rid=259170704"><img src="./.github/assets/shutterstock-link.svg" alt="Shutterstock" width="133"></a>
+  <a href="https://www.amazon.it/stores/Denis-Komarov/author/B0CCSK74QC"><img src="./.github/assets/books-link.svg" alt="Books" width="91"></a>
+  <a href="https://github.com/Culobomb-Labs"><img src="./.github/assets/culobomb-labs-link.svg" alt="Culobomb-Labs" width="150"></a>
+</p>
 
-Python, C, C++, C#, Bash, PHP, Ruby, Assembly, React, Three.js, WebGL, Node.js tooling, Docker, GitHub Actions and Arduino.
+<p><img src="./.github/assets/contact-profile.svg" alt="Contact. Naples, Italy · Telegram @dionigi Russian (native), Italian (B2), English (B2), German (A2)." width="880"></p>
 
-</details>
-
-## Application security
-
-I’m studying the OWASP Top 10 and SQL injection. One question I use when reviewing my own code is whether the server checks that the signed-in user owns the order they’re trying to open. I also follow Cisco cybersecurity events and 404 Media’s security coverage.
-
-## Beyond the code
-
-I work on photography, aerial video and writing. **DeA** is my personal initiative to promote tourism in Scalea and Naples.
-
-[Drone & Camera portfolio](https://denis7kom.github.io/Denis-Komarov-PH/) · [Shutterstock](https://www.shutterstock.com/g/Denis+Komarov%20PH?rid=259170704) · [Books](https://www.amazon.it/stores/Denis-Komarov/author/B0CCSK74QC)
-
-I also work with [Culobomb-Labs](https://github.com/Culobomb-Labs), a University of Salerno student association that builds tools for studying.
-
-## Contact
-
-[Telegram @dionigi](https://t.me/dionigi) · Naples, Italy  
-Russian (native), Italian (B2), English (B2), German (A2).
+<p align="center">
+  <a href="https://t.me/dionigi"><img src="./.github/assets/btn-telegram.svg" alt="Contact on Telegram @dionigi" width="125" height="40"></a>
+</p>
