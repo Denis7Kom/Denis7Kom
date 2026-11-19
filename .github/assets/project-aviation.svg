@@ -1,40 +1,48 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 300" role="img" aria-labelledby="t d">
-  <title id="t">denis-aviation</title>
-  <desc id="d">Radar display next to the project name: a virtual aviation and ATC website, live on GitHub Pages and in development. Planned: flight map and ATC radar.</desc>
-  <style>.m{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace}.s{font-family:ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif}@media (prefers-reduced-motion:reduce){*{animation:none!important}}
-.sweep{transform-origin:118px 150px;animation:spin 7s linear infinite}
-.blip{animation:blip 7s ease-in-out infinite}
-.dash{animation:dash 1.6s linear infinite}
-.pulse{animation:pulse 2s ease-in-out infinite}
-@keyframes spin{to{transform:rotate(360deg)}}
-@keyframes blip{0%,100%{opacity:.2}35%{opacity:1}}
-@keyframes dash{to{stroke-dashoffset:-28}}
-@keyframes pulse{50%{opacity:.3}}
-</style>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 680 196" role="img" aria-labelledby="title">
+  <title id="title">denis-aviation, virtual aviation and air traffic control</title>
   <defs>
-    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#141d28" stroke-width="1"/></pattern>
-    <radialGradient id="vig" cx=".5" cy=".4" r=".9"><stop offset="0" stop-color="#101a26"/><stop offset="1" stop-color="#0a0e13"/></radialGradient>
-    
+    <linearGradient id="panel" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop stop-color="#060a0c"/>
+      <stop offset="1" stop-color="#102529"/>
+    </linearGradient>
+    <radialGradient id="glow" cx=".79" cy=".48" r=".48">
+      <stop stop-color="#126958" stop-opacity=".67"/>
+      <stop offset="1" stop-color="#126958" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0v24" fill="none" stroke="#77d8c8" stroke-opacity=".12"/>
+    </pattern>
+    <linearGradient id="sweep" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop stop-color="#126f5f" stop-opacity="0"/>
+      <stop offset="1" stop-color="#64f2cd" stop-opacity=".56"/>
+    </linearGradient>
+    <path id="frame" d="M19 1h642l18 18v158l-18 18H19L1 177V19z"/>
+    <clipPath id="clip"><use xlink:href="#frame"/></clipPath>
   </defs>
-  <rect x="1" y="1" width="638" height="298" rx="14" fill="url(#vig)" stroke="#243242" stroke-width="2"/>
-  <rect x="1" y="1" width="638" height="298" rx="14" fill="url(#grid)"/>
-
-  <circle cx="118" cy="150" r="84" fill="#0c1621" stroke="#3a4d63" stroke-width="2"/>
-  <g fill="none" stroke="#1d2a38"><circle cx="118" cy="150" r="56"/><circle cx="118" cy="150" r="28"/><path d="M34 150H202M118 66V234"/></g>
-  <g stroke="#9fb3c8" stroke-width="1.5"><path d="M118.0 66.0L118.0 58.0"/><path d="M139.7 68.9L141.0 64.0"/><path d="M160.0 77.3L162.5 72.9"/><path d="M177.4 90.6L180.9 87.1"/><path d="M190.7 108.0L195.1 105.5"/><path d="M199.1 128.3L204.0 127.0"/><path d="M202.0 150.0L210.0 150.0"/><path d="M199.1 171.7L204.0 173.0"/><path d="M190.7 192.0L195.1 194.5"/><path d="M177.4 209.4L180.9 212.9"/><path d="M160.0 222.7L162.5 227.1"/><path d="M139.7 231.1L141.0 236.0"/><path d="M118.0 234.0L118.0 242.0"/><path d="M96.3 231.1L95.0 236.0"/><path d="M76.0 222.7L73.5 227.1"/><path d="M58.6 209.4L55.1 212.9"/><path d="M45.3 192.0L40.9 194.5"/><path d="M36.9 171.7L32.0 173.0"/><path d="M34.0 150.0L26.0 150.0"/><path d="M36.9 128.3L32.0 127.0"/><path d="M45.3 108.0L40.9 105.5"/><path d="M58.6 90.6L55.1 87.1"/><path d="M76.0 77.3L73.5 72.9"/><path d="M96.3 68.9L95.0 64.0"/></g>
-  <g class="sweep"><path d="M118 150L202 150A84 84 0 0 0 184.2 98.3Z" fill="#3ddc97" fill-opacity=".16"/><path d="M118 150H202" stroke="#3ddc97" stroke-width="2"/></g>
-  <circle class="blip" cx="156" cy="110" r="5" fill="#5ad1ff"/>
-  <circle class="blip" cx="74" cy="174" r="5" fill="#f5c451" style="animation-delay:2.3s"/>
-  <circle class="blip" cx="130" cy="208" r="5" fill="#5ad1ff" style="animation-delay:4.6s"/>
-  <circle cx="118" cy="150" r="3" fill="#3ddc97"/>
-  <text class="m" x="240" y="56" font-size="13" letter-spacing="1.5" fill="#8497ad">FEATURED / 02</text>
-  <text class="s" x="240" y="94" font-size="30" font-weight="700" fill="#e6f1ff">denis-aviation</text>
-  <text class="s" x="240" y="124" font-size="18" fill="#5ad1ff">Virtual aviation &amp; ATC site</text>
-  <rect x="240" y="144" width="178" height="32" rx="16" fill="#1b170a" stroke="#f5c451"/>
-  <circle class="pulse" cx="262" cy="160" r="5" fill="#f5c451"/>
-  <text class="m" x="276" y="166" font-size="15" font-weight="700" fill="#f5c451">IN DEVELOPMENT</text>
-  <text class="s" x="240" y="212" font-size="17" fill="#e6f1ff">Live on GitHub Pages</text>
-  <text class="s" x="240" y="240" font-size="17" fill="#9fb3c8">Planned: flight map · ATC radar</text>
-  <path class="dash" d="M240 272H616" stroke="#3a4d63" stroke-width="3" stroke-dasharray="16 12"/>
-  <path d="M14 32V14H32 M608 14H626V32 M14 268V286H32 M608 286H626V268" fill="none" stroke="#3ddc97" stroke-opacity=".5" stroke-width="2" stroke-linecap="round"/>
+  <g clip-path="url(#clip)">
+    <use xlink:href="#frame" fill="url(#panel)"/>
+    <rect width="680" height="196" fill="url(#glow)"/>
+    <rect x="354" width="326" height="196" fill="url(#grid)"/>
+  </g>
+  <use xlink:href="#frame" fill="none" stroke="#325751"/>
+  <path d="M24 1h106m420 194h105" stroke="#71dbc7" stroke-opacity=".7" stroke-width="2"/>
+  <g font-family="system-ui, sans-serif">
+    <text x="35" y="53" fill="#83e7d1" font-size="14" font-weight="650" letter-spacing="2">VIRTUAL AVIATION</text>
+    <text x="32" y="107" fill="#f3faf8" font-size="47" font-weight="620" letter-spacing="-1.8">denis-aviation</text>
+    <text x="35" y="147" fill="#c4d8d4" font-size="21">Flight simulation &amp; air traffic control</text>
+  </g>
+  <g fill="none" stroke="#7ce9d3" stroke-opacity=".45">
+    <circle cx="533" cy="98" r="80" stroke-dasharray="2 5"/>
+    <circle cx="533" cy="98" r="69"/>
+    <circle cx="533" cy="98" r="46"/>
+    <circle cx="533" cy="98" r="23"/>
+    <path d="M447 98h172m-86-86v172"/>
+  </g>
+  <path d="M533 98l59-36a69 69 0 0 1 7 56z" fill="url(#sweep)"/>
+  <path d="M533 98l59-36" stroke="#a2ffea" stroke-width="2" stroke-linecap="round"/>
+  <path d="M483 119l20 16 18-11m34-57 14 3 15-13" fill="none" stroke="#81e3d0" stroke-opacity=".7" stroke-dasharray="2 4"/>
+  <circle cx="483" cy="119" r="3" fill="#a2ffea"/>
+  <circle cx="555" cy="67" r="3" fill="#a2ffea"/>
+  <circle cx="533" cy="98" r="3" fill="#e9fffa"/>
+  <circle cx="564" cy="143" r="3" fill="#a2ffea"/>
 </svg>
