@@ -1,18 +1,14 @@
 <p align="center">
-  <img src="./.github/assets/hero.svg" alt="DEN7BEST, Denis Komarov. I build Java web applications and learn how to make them safer. Open to work, Naples, Italy." width="720">
+  <img src="./.github/assets/profile-hero.webp" alt="DEN7BEST — Denis Komarov. Java web development and application security." width="880">
 </p>
 
 <p align="center">
-  <a href="https://github.com/Denis7Kom/website-turbo-layout"><img src="./.github/assets/btn-project.svg" alt="View the VibeShop project" height="40"></a>
-  <a href="https://t.me/dionigi"><img src="./.github/assets/btn-telegram.svg" alt="Contact on Telegram: @dionigi" height="40"></a>
-  <a href="https://denis7kom.github.io/denis-komarov/"><img src="./.github/assets/btn-portfolio.svg" alt="Open the portfolio website" height="40"></a>
+  <a href="https://denis7kom.github.io/denis-komarov/"><img src="./.github/assets/btn-portfolio.svg" alt="Open the portfolio website" width="125" height="40"></a>
+  <a href="https://github.com/Denis7Kom/website-turbo-layout"><img src="./.github/assets/btn-project.svg" alt="View the VibeShop project" width="125" height="40"></a>
+  <a href="https://t.me/dionigi"><img src="./.github/assets/btn-telegram.svg" alt="Contact on Telegram @dionigi" width="125" height="40"></a>
 </p>
 
-<p align="center">
-  <img src="./.github/assets/facts.svg" alt="Role: team lead of a 3-person project. Completed: VibeShop, Java, JSP, MySQL. Learning: OWASP Top 10." width="720">
-</p>
-
-*Sviluppo applicazioni web in Java e imparo a renderle più sicure.* Disponibile a lavorare a Napoli.
+I’m a Computer Science student at the University of Salerno. I build Java web applications and study how to make them safer. I’m open to work in Naples, Italy.
 
 <details>
 <summary><b>🇮🇹 Leggi in italiano</b></summary>
@@ -25,29 +21,16 @@ Sono uno studente di Informatica (L-31) all'Università di Salerno. Il progetto 
 
 </details>
 
-## What I do
+## Featured projects
 
-| I can build | Proof |
-|:--|:--|
-| **Java web applications** with pages, forms, login and a database | [VibeShop](https://github.com/Denis7Kom/website-turbo-layout): accounts, catalogue, cart, checkout, orders, admin area |
-| **Websites** in HTML, CSS and JavaScript | [Portfolio](https://denis7kom.github.io/denis-komarov/) · [denis-aviation](https://denis7kom.github.io/denis-aviation/) |
-| **Basic security checks** of my own projects (learning) | OWASP Top 10, SQL injection |
+<a href="https://github.com/Denis7Kom/website-turbo-layout">
+  <img src="./.github/assets/project-vibeshop.svg" alt="VibeShop repository — Java web application for concerts and merchandise" width="880">
+</a>
 
-## Featured work
-
-<p align="center">
-  <a href="https://github.com/Denis7Kom/website-turbo-layout">
-    <img src="./.github/assets/project-vibeshop.svg" alt="VibeShop: JSP pages, servlets with access filters, DAO classes and a MySQL database. Customer journey: discover, product, cart, checkout, orders." width="720">
-  </a>
-</p>
-
-**VibeShop** is a Java web application for live-music commerce, built by a team of three at the University of Salerno. I was the team lead. The project is completed.
-
-<!-- Add a real screenshot or a 10-second GIF here, for example:
-![VibeShop catalogue page](./.github/assets/vibeshop-screenshot.png) -->
+I led a team of three at the University of Salerno to build **VibeShop**, a completed Java web app for discovering concerts and buying merchandise. It includes a catalogue, accounts, a cart, checkout, order history and an admin area.
 
 <details>
-<summary><b>Under the hood</b>: where things live in the code</summary>
+<summary><b>VibeShop architecture and source code</b></summary>
 
 | Layer | Where |
 |:--|:--|
@@ -57,49 +40,44 @@ Sono uno studente di Informatica (L-31) all'Università di Salerno. Il progetto 
 | Database | [SQL schema](https://github.com/Denis7Kom/website-turbo-layout/blob/main/VibeShop/db/VIBESHOP_FINAL.sql) |
 | Access filters | [AuthFilter / AdminFilter](https://github.com/Denis7Kom/website-turbo-layout/tree/main/VibeShop/src/main/java/filter) |
 
-The filters exist in the source. Object-level authorisation (can user A open user B's order?) has **not** been independently audited.
+The source includes access filters. Object-level authorisation remains an area for review.
 
 </details>
 
-<p align="center">
-  <a href="https://denis7kom.github.io/denis-aviation/">
-    <img src="./.github/assets/project-aviation.svg" alt="denis-aviation: a virtual aviation and ATC website in development. Live on GitHub Pages. Planned: flight map and ATC radar." width="720">
-  </a>
-</p>
+<br>
 
-**denis-aviation** is a website about virtual aviation and air traffic control, written in JavaScript. [Live site](https://denis7kom.github.io/denis-aviation/) · [Source](https://github.com/Denis7Kom/denis-aviation)
+<a href="https://denis7kom.github.io/denis-aviation/">
+  <img src="./.github/assets/project-aviation.svg" alt="Open denis-aviation, a website about virtual aviation and air traffic control" width="880">
+</a>
 
-## Application security
-
-<p align="center">
-  <img src="./.github/assets/security-path.svg" alt="Security review loop: boundary, assumption, failure, verify. Status: learning OWASP Top 10 and SQL injection." width="720">
-</p>
-
-I am learning how web applications fail, and how to check that a fix really works. So far: OWASP Top 10 and SQL injection. I also follow the annual Cisco cybersecurity events and 404 Media's security coverage. I do not claim certifications, audits or reported vulnerabilities.
-
-<details>
-<summary><b>Example question I ask of my own code</b></summary>
-
-A browser sends `GET /order?id=1042`. Logged in is not enough: the server must check that the order belongs to the logged-in user. Missing this check is called **IDOR** (insecure direct object reference). This is an example of a review question, not a finding.
-
-</details>
+**denis-aviation** is a JavaScript website about virtual aviation and air traffic control, hosted on GitHub Pages. [Live site](https://denis7kom.github.io/denis-aviation/) · [Source code](https://github.com/Denis7Kom/denis-aviation)
 
 ## Toolkit
 
-<p align="center">
-  <img src="./.github/assets/toolkit.svg" alt="Used in my projects: Java, SQL, JavaScript, HTML5, CSS3, JSP, Servlets, DAO and MVC, MySQL, Git, GitHub, GitHub Pages. Learning: Python, C, C++, C#, Bash, PHP, Ruby, Assembly, React, Three.js, WebGL, Node.js tooling, Docker, GitHub Actions, Arduino." width="720">
-</p>
+**Java web applications** · Java, JSP, Servlets, DAO/MVC, SQL, MySQL  
+**Websites** · JavaScript, HTML5, CSS3, GitHub Pages  
+**Version control** · Git, GitHub
+
+<details>
+<summary><b>What I’m learning</b></summary>
+
+Python, C, C++, C#, Bash, PHP, Ruby, Assembly, React, Three.js, WebGL, Node.js tooling, Docker, GitHub Actions and Arduino.
+
+</details>
+
+## Application security
+
+I’m studying the OWASP Top 10 and SQL injection. One question I use when reviewing my own code is whether the server checks that the signed-in user owns the order they’re trying to open. I also follow Cisco cybersecurity events and 404 Media’s security coverage.
 
 ## Beyond the code
 
-<p align="center">
-  <img src="./.github/assets/beyond-code.svg" alt="Photography, aerial video, aviation, writing and tourism." width="720">
-</p>
+I work on photography, aerial video and writing. **DeA** is my personal initiative to promote tourism in Scalea and Naples.
 
-[Drone & Camera portfolio](https://denis7kom.github.io/Denis-Komarov-PH/) · [Shutterstock](https://www.shutterstock.com/g/Denis+Komarov%20PH?rid=259170704) · [Books](https://www.amazon.it/stores/Denis-Komarov/author/B0CCSK74QC) · **DeA**: a personal, not yet registered initiative promoting tourism in Scalea and Naples.
+[Drone & Camera portfolio](https://denis7kom.github.io/Denis-Komarov-PH/) · [Shutterstock](https://www.shutterstock.com/g/Denis+Komarov%20PH?rid=259170704) · [Books](https://www.amazon.it/stores/Denis-Komarov/author/B0CCSK74QC)
+
+I also work with [Culobomb-Labs](https://github.com/Culobomb-Labs), a University of Salerno student association that builds tools for studying.
 
 ## Contact
 
-Telegram [@dionigi](https://t.me/dionigi) · Naples, Italy · Languages: Russian (native), Italian B2, English B2, German A2.
-
-**Culobomb-Labs**: a university society at UNISA (L-31) building study tools for students. → [github.com/Culobomb-Labs](https://github.com/Culobomb-Labs)
+[Telegram @dionigi](https://t.me/dionigi) · Naples, Italy  
+Russian (native), Italian (B2), English (B2), German (A2).

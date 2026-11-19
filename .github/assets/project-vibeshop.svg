@@ -1,34 +1,40 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 334" role="img" aria-labelledby="t d">
-  <title id="t">VibeShop: architecture and customer journey</title>
-  <desc id="d">Pages (JSP) call servlets guarded by access filters, which use DAO classes to reach the MySQL database. Customer journey: discover, product, cart, checkout, orders. Status: completed.</desc>
-  <style>.m{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace}.s{font-family:ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif}@media (prefers-reduced-motion:reduce){*{animation:none!important}}
-.req{animation:req 5s linear infinite}
-.glow{animation:glow 5s ease-in-out infinite}
-.hl{opacity:0;animation:hl 10s linear infinite}
-@keyframes req{0%{transform:translateX(0);opacity:0}6%{opacity:1}94%{opacity:1}100%{transform:translateX(478px);opacity:0}}
-@keyframes glow{0%,100%{opacity:.55}50%{opacity:1}}
-@keyframes hl{0%{opacity:0}3%,18%{opacity:1}22%,100%{opacity:0}}
-</style>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 680 196" role="img" aria-labelledby="title">
+  <title id="title">VibeShop, Java web app for live-music commerce</title>
   <defs>
-    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#141d28" stroke-width="1"/></pattern>
-    <radialGradient id="vig" cx=".5" cy=".4" r=".9"><stop offset="0" stop-color="#101a26"/><stop offset="1" stop-color="#0a0e13"/></radialGradient>
-    
+    <linearGradient id="panel" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop stop-color="#060a0c"/>
+      <stop offset="1" stop-color="#102529"/>
+    </linearGradient>
+    <radialGradient id="glow" cx=".79" cy=".48" r=".48">
+      <stop stop-color="#126958" stop-opacity=".67"/>
+      <stop offset="1" stop-color="#126958" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0v24" fill="none" stroke="#77d8c8" stroke-opacity=".12"/>
+    </pattern>
+    <path id="frame" d="M19 1h642l18 18v158l-18 18H19L1 177V19z"/>
+    <clipPath id="clip"><use xlink:href="#frame"/></clipPath>
   </defs>
-  <rect x="1" y="1" width="638" height="332" rx="14" fill="url(#vig)" stroke="#243242" stroke-width="2"/>
-  <rect x="1" y="1" width="638" height="332" rx="14" fill="url(#grid)"/>
-
-  <text class="s" x="30" y="52" font-size="28" font-weight="700" fill="#e6f1ff">VibeShop</text>
-  <text class="s" x="30" y="78" font-size="16" fill="#9fb3c8">Java web app for live-music commerce</text>
-  <rect x="486" y="26" width="130" height="30" rx="15" fill="#0f1a16" stroke="#3ddc97"/>
-  <text class="m" x="551" y="46" font-size="14" font-weight="700" fill="#3ddc97" text-anchor="middle">COMPLETED</text>
-  <rect class="glow" x="125" y="96" width="230" height="26" rx="13" fill="#0f1a16" stroke="#3ddc97" stroke-dasharray="4 4"/>
-  <text class="m" x="240" y="114" font-size="14" fill="#3ddc97" text-anchor="middle">AuthFilter · AdminFilter</text>
-  <path d="M240 122V138" stroke="#3ddc97" stroke-dasharray="3 3"/>
-  <path d="M80 178H558" stroke="#243242" stroke-width="2"/>
-  <circle class="req" cx="80" cy="178" r="6" fill="#3ddc97"/>
-<rect x="14" y="138" width="132" height="80" rx="10" fill="#111821" stroke="#5ad1ff" stroke-width="2"/><text class="s" x="80" y="172" font-size="19" font-weight="700" fill="#5ad1ff" text-anchor="middle">JSP</text><text class="m" x="80" y="196" font-size="14" fill="#9fb3c8" text-anchor="middle">pages</text><rect x="174" y="138" width="132" height="80" rx="10" fill="#111821" stroke="#3ddc97" stroke-width="2"/><text class="s" x="240" y="172" font-size="19" font-weight="700" fill="#3ddc97" text-anchor="middle">Servlets</text><text class="m" x="240" y="196" font-size="14" fill="#9fb3c8" text-anchor="middle">requests</text><rect x="334" y="138" width="132" height="80" rx="10" fill="#111821" stroke="#f5c451" stroke-width="2"/><text class="s" x="400" y="172" font-size="19" font-weight="700" fill="#f5c451" text-anchor="middle">DAO</text><text class="m" x="400" y="196" font-size="14" fill="#9fb3c8" text-anchor="middle">data access</text><rect x="494" y="138" width="132" height="80" rx="10" fill="#111821" stroke="#b79cff" stroke-width="2"/><text class="s" x="560" y="172" font-size="19" font-weight="700" fill="#b79cff" text-anchor="middle">MySQL</text><text class="m" x="560" y="196" font-size="14" fill="#9fb3c8" text-anchor="middle">database</text>
-<path d="M155 172l10 6l-10 6z" fill="#3a4d63"/><path d="M315 172l10 6l-10 6z" fill="#3a4d63"/><path d="M475 172l10 6l-10 6z" fill="#3a4d63"/>
-  <text class="m" x="30" y="252" font-size="13" letter-spacing="1.5" fill="#8497ad">CUSTOMER JOURNEY</text>
-<rect x="16" y="264" width="112" height="34" rx="8" fill="#111821" stroke="#3a4d63"/><text class="m" x="72" y="286" font-size="14" font-weight="700" fill="#e6f1ff" text-anchor="middle">DISCOVER</text><rect class="hl" style="animation-delay:0s" x="16" y="264" width="112" height="34" rx="8" fill="none" stroke="#3ddc97" stroke-width="2.5"/><rect x="140" y="264" width="112" height="34" rx="8" fill="#111821" stroke="#3a4d63"/><text class="m" x="196" y="286" font-size="14" font-weight="700" fill="#e6f1ff" text-anchor="middle">PRODUCT</text><rect class="hl" style="animation-delay:2s" x="140" y="264" width="112" height="34" rx="8" fill="none" stroke="#3ddc97" stroke-width="2.5"/><rect x="264" y="264" width="112" height="34" rx="8" fill="#111821" stroke="#3a4d63"/><text class="m" x="320" y="286" font-size="14" font-weight="700" fill="#e6f1ff" text-anchor="middle">CART</text><rect class="hl" style="animation-delay:4s" x="264" y="264" width="112" height="34" rx="8" fill="none" stroke="#3ddc97" stroke-width="2.5"/><rect x="388" y="264" width="112" height="34" rx="8" fill="#111821" stroke="#3a4d63"/><text class="m" x="444" y="286" font-size="14" font-weight="700" fill="#e6f1ff" text-anchor="middle">CHECKOUT</text><rect class="hl" style="animation-delay:6s" x="388" y="264" width="112" height="34" rx="8" fill="none" stroke="#3ddc97" stroke-width="2.5"/><rect x="512" y="264" width="112" height="34" rx="8" fill="#111821" stroke="#3a4d63"/><text class="m" x="568" y="286" font-size="14" font-weight="700" fill="#e6f1ff" text-anchor="middle">ORDERS</text><rect class="hl" style="animation-delay:8s" x="512" y="264" width="112" height="34" rx="8" fill="none" stroke="#3ddc97" stroke-width="2.5"/>
-  <path d="M14 32V14H32 M608 14H626V32 M14 302V320H32 M608 320H626V302" fill="none" stroke="#3ddc97" stroke-opacity=".5" stroke-width="2" stroke-linecap="round"/>
+  <g clip-path="url(#clip)">
+    <use xlink:href="#frame" fill="url(#panel)"/>
+    <rect width="680" height="196" fill="url(#glow)"/>
+    <rect x="354" width="326" height="196" fill="url(#grid)"/>
+  </g>
+  <use xlink:href="#frame" fill="none" stroke="#325751"/>
+  <path d="M24 1h106m420 194h105" stroke="#71dbc7" stroke-opacity=".7" stroke-width="2"/>
+  <g font-family="system-ui, sans-serif">
+    <text x="35" y="53" fill="#83e7d1" font-size="14" font-weight="650" letter-spacing="2">JAVA WEB APPLICATION</text>
+    <text x="32" y="107" fill="#f3faf8" font-size="47" font-weight="620" letter-spacing="-1.8">VibeShop</text>
+    <text x="35" y="147" fill="#c4d8d4" font-size="21">Concerts &amp; merchandise</text>
+  </g>
+  <g fill="none" stroke="#7ce9d3" stroke-opacity=".42">
+    <circle cx="533" cy="98" r="80" stroke-dasharray="2 5"/>
+    <circle cx="533" cy="98" r="63"/>
+    <circle cx="533" cy="98" r="51"/>
+    <path d="M427 98h23m166 0h23m-106-87v10m0 154v10"/>
+  </g>
+  <path d="M428 98h40l8-12 10 26 12-46 13 63 13-80 13 97 14-76 12 46 12-30 9 12h54" fill="none" stroke="#124c43" stroke-width="7" stroke-linejoin="round"/>
+  <path d="M428 98h40l8-12 10 26 12-46 13 63 13-80 13 97 14-76 12 46 12-30 9 12h54" fill="none" stroke="#a2ffea" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="428" cy="98" r="3" fill="#a2ffea"/>
+  <circle cx="638" cy="98" r="3" fill="#a2ffea"/>
 </svg>

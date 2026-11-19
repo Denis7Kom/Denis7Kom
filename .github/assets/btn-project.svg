@@ -1,5 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 52" role="img" aria-label="View the VibeShop project">
-  <title>View the VibeShop project</title>
-  <style>.m{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace}.s{font-family:ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif}@media (prefers-reduced-motion:reduce){*{animation:none!important}}</style>
-  <rect x="2" y="2" width="146" height="48" rx="26" fill="#0f1a16" stroke="#3ddc97" stroke-width="2"/><text class="s" x="75.0" y="33" font-size="18" font-weight="700" fill="#3ddc97" text-anchor="middle">VibeShop →</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 44" role="img" aria-labelledby="title">
+  <title id="title">View the VibeShop project</title>
+  <rect x="1" y="1" width="138" height="42" rx="21" fill="#101d21" stroke="#31534f"/>
+  <text x="17" y="27" fill="#f0f8f5" font-family="system-ui, sans-serif" font-size="15" font-weight="650">VibeShop</text>
+  <circle cx="116" cy="22" r="14" fill="#223c3a"/>
+  <path d="M111 27l10-10m-7 0h7v7" fill="none" stroke="#a7f8e5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
