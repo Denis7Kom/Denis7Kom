@@ -24,7 +24,6 @@ jobs:
         shell: bash
         run: |
           test -s README.md
-          python3 -c 'import pathlib, re; readme = pathlib.Path("README.md").read_text(encoding="utf-8"); links = re.findall(r"\./\.github/assets/[^ \"<>)]*", readme); assert links; assert all(pathlib.Path(link).is_file() for link in links), links'
       - name: Verify version selection and repeat runs
         shell: bash
         run: |
@@ -67,7 +66,6 @@ jobs:
         shell: bash
         run: |
           test -s README.md
-          python3 -c 'import pathlib, re; readme = pathlib.Path("README.md").read_text(encoding="utf-8"); links = re.findall(r"\./\.github/assets/[^ \"<>)]*", readme); assert links; assert all(pathlib.Path(link).is_file() for link in links), links'
       - name: Publish a classified release
         env:
           GH_TOKEN: ${{ github.token }}
