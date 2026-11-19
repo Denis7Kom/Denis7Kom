@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 264" role="img" aria-labelledby="title">
+  <title id="title">denis-aviation</title>
+  <defs>
+    <linearGradient id="panel" x2="100%" y2="100%"><stop stop-color="#060a0c"/><stop offset="1" stop-color="#102529"/></linearGradient>
+    <radialGradient id="glow" cx=".86" cy=".28" r=".59"><stop stop-color="#126958" stop-opacity=".64"/><stop offset="1" stop-color="#126958" stop-opacity="0"/></radialGradient>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0v24" fill="none" stroke="#77d8c8" stroke-opacity=".11"/></pattern>
+    <clipPath id="clip"><path d="M19 1H661L679 19V245L661 263H19L1 245V19Z"/></clipPath>
+  </defs>
+  <g clip-path="url(#clip)">
+    <rect width="680" height="264" fill="url(#panel)"/>
+    <rect width="680" height="264" fill="url(#glow)"/>
+    <rect x="288" width="392" height="264" fill="url(#grid)"/>
+  </g>
+  <path d="M19 1H661L679 19V245L661 263H19L1 245V19Z" fill="none" stroke="#325751"/>
+  <path d="M24 1h106m420 262h105" stroke="#71dbc7" stroke-opacity=".72" stroke-width="2"/>
+  <g font-family="system-ui, -apple-system, Segoe UI, sans-serif">
+    <text x="33" y="62" font-size="36" font-weight="650" fill="#f3faf8" text-anchor="start" letter-spacing="-0.6">denis-aviation</text>
+    <text x="35" y="94" font-size="18" font-weight="700" fill="#83e7d1" text-anchor="start">JAVASCRIPT · VIRTUAL AVIATION</text>
+    <text x="34" y="131" font-size="23" font-weight="450" fill="#c4d8d4" text-anchor="start">Flight simulation and air traffic control.</text>
+    <text x="34" y="161" font-size="23" font-weight="450" fill="#c4d8d4" text-anchor="start">Interactive flight network and local</text>
+    <text x="34" y="191" font-size="23" font-weight="450" fill="#c4d8d4" text-anchor="start">ATC demo on GitHub Pages.</text>
+    <rect x="34" y="214" width="179" height="30" rx="15" fill="#133832" stroke="#497d72"/>
+    <circle cx="51" cy="229" r="4" fill="#81e3d0"/>
+    <text x="65" y="235" font-size="17" font-weight="650" fill="#83e7d1" text-anchor="start">In development</text>
+    <g fill="none" stroke="#7ce9d3" stroke-opacity=".48"><circle cx="539" cy="132" r="85" stroke-dasharray="2 5"/><circle cx="539" cy="132" r="72"/><circle cx="539" cy="132" r="49"/><circle cx="539" cy="132" r="25"/><path d="M448 132h182m-91-91v182"/></g>
+    <path d="M539 132l57-44a72 72 0 0 1 10 72Z" fill="#62eac7" fill-opacity=".18"/>
+    <path d="M539 132l57-44" fill="none" stroke="#a2ffea" stroke-width="2"/>
+    <path d="m493 148 14 9 16-11m30-46 17 7 12-12" fill="none" stroke="#81e3d0" stroke-opacity=".7" stroke-dasharray="2 4"/>
+    <g fill="#a2ffea"><circle cx="493" cy="148" r="3"/><circle cx="553" cy="100" r="3"/><circle cx="539" cy="132" r="4"/><circle cx="563" cy="165" r="3"/></g>
+  </g>
+</svg>

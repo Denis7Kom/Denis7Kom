@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 82" role="img" aria-labelledby="title">
+  <title id="title">Featured projects</title>
+  <defs>
+    <linearGradient id="panel" x2="100%" y2="100%"><stop stop-color="#060a0c"/><stop offset="1" stop-color="#102529"/></linearGradient>
+    <radialGradient id="glow" cx=".86" cy=".28" r=".59"><stop stop-color="#126958" stop-opacity=".64"/><stop offset="1" stop-color="#126958" stop-opacity="0"/></radialGradient>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0v24" fill="none" stroke="#77d8c8" stroke-opacity=".11"/></pattern>
+    <clipPath id="clip"><path d="M19 1H661L679 19V63L661 81H19L1 63V19Z"/></clipPath>
+  </defs>
+  <g clip-path="url(#clip)">
+    <rect width="680" height="82" fill="url(#panel)"/>
+    <rect width="680" height="82" fill="url(#glow)"/>
+    <rect x="288" width="392" height="82" fill="url(#grid)"/>
+  </g>
+  <path d="M19 1H661L679 19V63L661 81H19L1 63V19Z" fill="none" stroke="#325751"/>
+  <path d="M24 1h106m420 80h105" stroke="#71dbc7" stroke-opacity=".72" stroke-width="2"/>
+  <g font-family="system-ui, -apple-system, Segoe UI, sans-serif">
+    <text x="33" y="54" font-size="36" font-weight="650" fill="#f3faf8" text-anchor="start" letter-spacing="-0.6">Featured projects</text>
+    <g transform="translate(613 25) scale(0.8)" fill="none" stroke="#9ff6e2" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="18" r="27" stroke="#5cd2b9" stroke-opacity=".38"/><circle cx="18" cy="18" r="32" stroke="#74dec8" stroke-opacity=".25" stroke-dasharray="2 4"/><rect x="5" y="5" width="10" height="10" rx="1"/><rect x="21" y="5" width="10" height="10" rx="1"/><rect x="5" y="21" width="10" height="10" rx="1"/><rect x="21" y="21" width="10" height="10" rx="1"/></g>
+  </g>
+</svg>
