@@ -11,18 +11,18 @@
 <p><img src="./.github/assets/about-me.svg" alt="About me. I’m a Computer Science student at the University of Salerno. I build Java web applications and study how to make them safer. I’m open to work in Naples, Italy." width="880"></p>
 
 <details>
-<summary><img src="./.github/assets/read-italian.svg" alt="Leggi in italiano" width="160"></summary>
+<summary><b>🇮🇹 Leggi in italiano</b></summary>
 
 <p><img src="./.github/assets/about-italian.svg" alt="Su di me. Sono uno studente di Informatica (L-31) all’Università di Salerno. Il progetto principale è VibeShop, un’applicazione web Java per scoprire concerti e acquistare merchandising. Ho guidato il gruppo di tre persone che l’ha realizzata. Studio la sicurezza delle applicazioni web (OWASP Top 10 e SQL injection). Non dichiaro certificazioni, audit o vulnerabilità segnalate. Culobomb-Labs è un’associazione universitaria dell’UNISA (L-31). Sviluppiamo strumenti per semplificare lo studio. denis-aviation è un sito sull’aviazione virtuale e sul controllo del traffico aereo, ancora in sviluppo. Include una rete di voli interattiva e una demo ATC locale." width="880"></p>
 
 </details>
 
-<h2><img src="./.github/assets/featured-projects.svg" alt="Featured projects" width="880"></h2>
+<h2 id="featured-projects"><img src="./.github/assets/featured-projects.svg" alt="Featured projects" width="880"></h2>
 
 <p><a href="https://github.com/Denis7Kom/website-turbo-layout"><img src="./.github/assets/vibeshop-overview.svg" alt="VibeShop, a completed Java web app for concerts and merchandise. I led a team of three at the University of Salerno. It includes a catalogue, accounts, a cart, checkout, order history and an admin area. Architecture: JSP pages, Servlets with AuthFilter and AdminFilter, DAO classes, and MySQL. Customer journey: Discover, Product, Cart, Checkout, Orders." width="880"></a></p>
 
 <details>
-<summary><img src="./.github/assets/vibeshop-source.svg" alt="VibeShop architecture and source code" width="219"></summary>
+<summary><b>VibeShop architecture and source code</b></summary>
 
 | Layer | Where |
 |:--|:--|
