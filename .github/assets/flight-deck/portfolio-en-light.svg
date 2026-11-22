@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 44">
-<g font-family="system-ui, -apple-system, Segoe UI, Arial, sans-serif">
-<rect x="1" y="1" width="142" height="42" rx="12" fill="#daeae4" stroke="#638a80"/>
-<text x="12" y="29" font-size="17" font-weight="650" fill="#102c29" text-anchor="start">Portfolio</text>
-<path d="M113 28l11-11m-9 0h9v9" fill="none" stroke="#102c29" stroke-width="1.7" />
-</g>
-</svg>
