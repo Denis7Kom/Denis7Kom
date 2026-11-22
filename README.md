@@ -5,6 +5,7 @@ Naples, Italy · **Open to work** — internships, junior roles, and freelance p
 I proposed and led [VibeShop](https://github.com/Denis7Kom/website-turbo-layout), a university project for live music and merchandise.
 
 <picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./.github/assets/profile-hero.webp">
   <source media="(prefers-color-scheme: light)" srcset="./.github/assets/profile-hero-light.svg">
   <img src="./.github/assets/profile-hero.webp" alt="" width="880">
 </picture>
@@ -64,6 +65,7 @@ I also work on photography, drone footage, and books. Aviation is one of my main
 
 <picture>
   <source media="(prefers-reduced-motion: no-preference)" srcset="./.github/assets/header-thunder-mobile-v21.avif">
+  <source media="(prefers-color-scheme: dark)" srcset="./.github/assets/profile-hero.webp">
   <source media="(prefers-color-scheme: light)" srcset="./.github/assets/profile-hero-light.svg">
   <img src="./.github/assets/profile-hero.webp" alt="" width="880">
 </picture>

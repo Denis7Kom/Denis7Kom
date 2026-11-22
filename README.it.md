@@ -5,6 +5,7 @@ Napoli, Italia · **Disponibile** per stage, posizioni junior e progetti freelan
 Ho ideato e guidato [VibeShop](https://github.com/Denis7Kom/website-turbo-layout), un progetto universitario dedicato alla musica dal vivo e al merchandising.
 
 <picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./.github/assets/profile-hero.webp">
   <source media="(prefers-color-scheme: light)" srcset="./.github/assets/profile-hero-light.svg">
   <img src="./.github/assets/profile-hero.webp" alt="" width="880">
 </picture>
@@ -64,6 +65,7 @@ Mi occupo anche di fotografia, riprese con il drone e scrittura. L’aviazione �
 
 <picture>
   <source media="(prefers-reduced-motion: no-preference)" srcset="./.github/assets/header-thunder-mobile-v21.avif">
+  <source media="(prefers-color-scheme: dark)" srcset="./.github/assets/profile-hero.webp">
   <source media="(prefers-color-scheme: light)" srcset="./.github/assets/profile-hero-light.svg">
   <img src="./.github/assets/profile-hero.webp" alt="" width="880">
 </picture>
