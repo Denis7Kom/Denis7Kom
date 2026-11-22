@@ -131,12 +131,7 @@ JSP отвечает за страницы, Servlets обрабатывают з
 
 Если вы ищете стажёра, junior-разработчика или исполнителя на фриланс, напишите название роли или кратко опишите проект.
 
-<a href="https://t.me/dionigi"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./.github/assets/flight-deck/telegram-ru-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./.github/assets/flight-deck/telegram-ru-light.svg">
-  <img src="./.github/assets/flight-deck/telegram-ru-dark.svg" alt="Telegram @dionigi" width="125">
-</picture></a> <a href="https://denis7kom.github.io/denis-komarov/"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./.github/assets/flight-deck/portfolio-ru-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./.github/assets/flight-deck/portfolio-ru-light.svg">
-  <img src="./.github/assets/flight-deck/portfolio-ru-dark.svg" alt="Портфолио" width="125">
-</picture></a>
+<p>
+  <a href="https://t.me/dionigi"><img src="./.github/assets/flight-deck/telegram-ru-dark.svg" alt="Telegram @dionigi" width="125"></a>
+  <a href="https://denis7kom.github.io/denis-komarov/"><img src="./.github/assets/flight-deck/portfolio-ru-dark.svg" alt="Портфолио" width="125"></a>
+</p>

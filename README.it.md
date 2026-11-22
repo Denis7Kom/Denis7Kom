@@ -131,12 +131,7 @@ Mi occupo anche di fotografia, riprese con il drone e scrittura. Lâ€™aviazione Ã
 
 Per uno stage, una posizione junior o un progetto freelance, scrivimi indicando il ruolo o descrivendo brevemente il progetto.
 
-<a href="https://t.me/dionigi"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./.github/assets/flight-deck/telegram-it-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./.github/assets/flight-deck/telegram-it-light.svg">
-  <img src="./.github/assets/flight-deck/telegram-it-dark.svg" alt="Telegram @dionigi" width="125">
-</picture></a> <a href="https://denis7kom.github.io/denis-komarov/"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./.github/assets/flight-deck/portfolio-it-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./.github/assets/flight-deck/portfolio-it-light.svg">
-  <img src="./.github/assets/flight-deck/portfolio-it-dark.svg" alt="Portfolio" width="125">
-</picture></a>
+<p>
+  <a href="https://t.me/dionigi"><img src="./.github/assets/flight-deck/telegram-it-dark.svg" alt="Telegram @dionigi" width="125"></a>
+  <a href="https://denis7kom.github.io/denis-komarov/"><img src="./.github/assets/flight-deck/portfolio-it-dark.svg" alt="Portfolio" width="125"></a>
+</p>

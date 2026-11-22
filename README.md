@@ -131,12 +131,7 @@ I work on photography, drone footage, and books. Aviation is one of my main inte
 
 For an internship, junior role, or freelance project, send me the role or a short project description.
 
-<a href="https://t.me/dionigi"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./.github/assets/flight-deck/telegram-en-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./.github/assets/flight-deck/telegram-en-light.svg">
-  <img src="./.github/assets/flight-deck/telegram-en-dark.svg" alt="Telegram @dionigi" width="125">
-</picture></a> <a href="https://denis7kom.github.io/denis-komarov/"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./.github/assets/flight-deck/portfolio-en-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./.github/assets/flight-deck/portfolio-en-light.svg">
-  <img src="./.github/assets/flight-deck/portfolio-en-dark.svg" alt="Portfolio" width="125">
-</picture></a>
+<p>
+  <a href="https://t.me/dionigi"><img src="./.github/assets/flight-deck/telegram-en-dark.svg" alt="Telegram @dionigi" width="125"></a>
+  <a href="https://denis7kom.github.io/denis-komarov/"><img src="./.github/assets/flight-deck/portfolio-en-dark.svg" alt="Portfolio" width="125"></a>
+</p>
