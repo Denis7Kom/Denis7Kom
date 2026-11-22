@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 26">
+<style>.route-dot{animation:route 3.6s ease-in-out .4s 1 both}@keyframes route{0%{transform:translateX(-84px);opacity:0}25%,75%{opacity:1}100%{transform:translateX(84px);opacity:0}}@media(prefers-reduced-motion:reduce){.route-dot{animation:none;opacity:0}}</style>
+<g font-family="system-ui, -apple-system, Segoe UI, Arial, sans-serif">
+<path d="M0 13h680" fill="none" stroke="#638a80" stroke-width="1" />
+<path d="M0 13h90m496 0h94" fill="none" stroke="#14665a" stroke-width="2" />
+<circle cx="340" cy="13" r="5" fill="#e7f2ed" stroke="#14665a" />
+<circle class="route-dot" cx="340" cy="13" r="2.5" fill="#14665a"/>
+</g>
+</svg>
