@@ -1,77 +1,142 @@
 # Denis Komarov
 Computer Science student (L-31) at the University of Salerno, focused on Java web development.  
-Naples, Italy · **Open to work** — internships, junior roles, and freelance projects.  
-[Telegram @dionigi](https://t.me/dionigi) · [Leggi in italiano](./README.it.md)  
-I proposed and led [VibeShop](https://github.com/Denis7Kom/website-turbo-layout), a university project for live music and merchandise.
+**Open to work** for internships, junior roles, and freelance projects in Naples, Italy.  
+[Telegram @dionigi](https://t.me/dionigi) · [Italiano](./README.it.md) · [Русский](./README.ru.md)
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./.github/assets/profile-hero.webp">
-  <source media="(prefers-color-scheme: light)" srcset="./.github/assets/profile-hero-light.svg">
-  <img src="./.github/assets/profile-hero.webp" alt="" width="880">
+  <source media="(prefers-color-scheme: dark)" srcset="./.github/assets/flight-deck/hero-en-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./.github/assets/flight-deck/hero-en-light.svg">
+  <img src="./.github/assets/flight-deck/hero-en-dark.svg" alt="" width="880">
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./.github/assets/flight-deck/status-en-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./.github/assets/flight-deck/status-en-light.svg">
+  <img src="./.github/assets/flight-deck/status-en-dark.svg" alt="" width="880">
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./.github/assets/flight-deck/divider-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./.github/assets/flight-deck/divider-light.svg">
+  <img src="./.github/assets/flight-deck/divider-dark.svg" alt="" width="880">
 </picture>
 
 ## Featured work
 
 ### VibeShop
 
-**Team lead.** I came up with the idea and led the project from start to finish. I divided responsibilities, assigned tasks, and reviewed the work. I worked with Ivan Perruolo and Giulio Alessandro Peluso.
+**Team lead.** VibeShop is a university team project for live music and merchandise.
 
-We built a web app for discovering concerts and buying merchandise, with a catalogue, cart, and checkout. **Stack** · Java, JSP, Servlets, DAO, SQL, and MySQL.
+**Java · JSP · Servlets · DAO · SQL · MySQL**
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./.github/assets/flight-deck/vibeshop-en-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./.github/assets/flight-deck/vibeshop-en-light.svg">
+  <img src="./.github/assets/flight-deck/vibeshop-en-dark.svg" alt="" width="880">
+</picture>
 
 [Repository](https://github.com/Denis7Kom/website-turbo-layout) · [Java source](https://github.com/Denis7Kom/website-turbo-layout/tree/main/VibeShop/src/main/java) · [SQL schema](https://github.com/Denis7Kom/website-turbo-layout/blob/main/VibeShop/db/VIBESHOP_FINAL.sql)
+
+**VibeShop catalogue**  
+[ЗАПОЛНИ: VibeShop catalogue screenshot]
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./.github/assets/flight-deck/screenshot-placeholder-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./.github/assets/flight-deck/screenshot-placeholder-light.svg">
+  <img src="./.github/assets/flight-deck/screenshot-placeholder-dark.svg" alt="" width="880">
+</picture>
+
+**VibeShop test checkout**  
+[ЗАПОЛНИ: VibeShop test checkout screenshot]
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./.github/assets/flight-deck/screenshot-placeholder-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./.github/assets/flight-deck/screenshot-placeholder-light.svg">
+  <img src="./.github/assets/flight-deck/screenshot-placeholder-dark.svg" alt="" width="880">
+</picture>
 
 <details>
 <summary>Architecture and checkout</summary>
 
-JSP renders pages, Servlets handle requests, and DAO classes read and write data in MySQL. The checkout flow connects the catalogue, cart, and orders.
-
-<img src="./.github/assets/vibeshop-overview-programming.svg" width="880" alt="VibeShop project illustration showing the application layers and steps from discovery to orders.">
+JSP renders the pages, Servlets handle requests, and DAO classes access MySQL. The checkout flow connects the catalogue, cart, and orders.
 
 </details>
 
 ### denis-aviation
 
-An interactive aviation site with a flight network, a flight log, and a local air traffic control demo.
+Interactive aviation site with a flight network, a flight log, and a local air traffic control demo.
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./.github/assets/flight-deck/aviation-en-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./.github/assets/flight-deck/aviation-en-light.svg">
+  <img src="./.github/assets/flight-deck/aviation-en-dark.svg" alt="" width="880">
+</picture>
 
 [Open the site](https://denis7kom.github.io/denis-aviation/) · [View the source](https://github.com/Denis7Kom/denis-aviation)
 
+**denis-aviation flight network**  
+[ЗАПОЛНИ: denis-aviation flight network screenshot]
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./.github/assets/flight-deck/screenshot-placeholder-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./.github/assets/flight-deck/screenshot-placeholder-light.svg">
+  <img src="./.github/assets/flight-deck/screenshot-placeholder-dark.svg" alt="" width="880">
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./.github/assets/flight-deck/divider-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./.github/assets/flight-deck/divider-light.svg">
+  <img src="./.github/assets/flight-deck/divider-dark.svg" alt="" width="880">
+</picture>
+
 ## Security
 
-I’m studying the OWASP Top 10, including SQL injection. In the VibeShop team’s code, you can see a [parameterized query](https://github.com/Denis7Kom/website-turbo-layout/blob/main/VibeShop/src/main/java/model/dao/UserDAO.java) and [filters that check the session and admin role](https://github.com/Denis7Kom/website-turbo-layout/tree/main/VibeShop/src/main/java/filter).
+In the VibeShop team’s code, see a [parameterized query](https://github.com/Denis7Kom/website-turbo-layout/blob/main/VibeShop/src/main/java/model/dao/UserDAO.java) and [filters that check the session and admin role](https://github.com/Denis7Kom/website-turbo-layout/tree/main/VibeShop/src/main/java/filter). I’m studying the OWASP Top 10, including SQL injection.
 
-I’ve also explored device security through published work on the Yandex Station and Station Lite. My reading included [miilv’s Yandex Station project](https://github.com/miilv/ya-station-root-shell) and [Ilia Ershov’s Station Lite research](https://github.com/ilia-ershov/yandex-station-lite-research).
-
-My review process is to understand → model → implement → verify → improve.
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./.github/assets/flight-deck/security-en-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./.github/assets/flight-deck/security-en-light.svg">
+  <img src="./.github/assets/flight-deck/security-en-dark.svg" alt="" width="880">
+</picture>
 
 ## Toolkit
 
-- **Used in projects** · Java, JSP, Servlets, SQL, MySQL, HTML, CSS, JavaScript, Git, and GitHub.
-- **Learning** · Web application security, OWASP Top 10, and SQL injection.
+- **Used in projects** · Java, JSP, Servlets, DAO, SQL, MySQL, HTML, CSS, JavaScript, Git and GitHub.
+- **Learning** · OWASP Top 10, SQL injection, and web application security.
 
 ## GitHub overview
 
-Start with the pinned projects below or [browse all my repositories](https://github.com/Denis7Kom?tab=repositories).
+For a quick review, start with VibeShop for Java web development and denis-aviation for interactive web work. [Browse all repositories](https://github.com/Denis7Kom?tab=repositories)
 
 ## Beyond the Code
 
-I also work on photography, drone footage, and books. Aviation is one of my main interests.
-
-<details>
-<summary>Photography, drone work, books, and aviation artwork</summary>
-
-- [Drone and camera portfolio](https://denis7kom.github.io/Denis-Komarov-PH/)
-- [Photography on Shutterstock](https://www.shutterstock.com/g/Denis+Komarov%20PH?rid=259170704)
-- [Books on Amazon](https://www.amazon.it/stores/Denis-Komarov/author/B0CCSK74QC)
+I work on photography, drone footage, and books. Aviation is one of my main interests.
 
 <picture>
-  <source media="(prefers-reduced-motion: no-preference)" srcset="./.github/assets/header-thunder-mobile-v21.avif">
-  <source media="(prefers-color-scheme: dark)" srcset="./.github/assets/profile-hero.webp">
-  <source media="(prefers-color-scheme: light)" srcset="./.github/assets/profile-hero-light.svg">
-  <img src="./.github/assets/profile-hero.webp" alt="" width="880">
+  <source media="(prefers-color-scheme: dark)" srcset="./.github/assets/flight-deck/beyond-en-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./.github/assets/flight-deck/beyond-en-light.svg">
+  <img src="./.github/assets/flight-deck/beyond-en-dark.svg" alt="" width="880">
 </picture>
+
+<details>
+<summary>Photography, drone footage, and books</summary>
+
+- [Photography and drone portfolio](https://denis7kom.github.io/Denis-Komarov-PH/)
+- [Shutterstock](https://www.shutterstock.com/g/Denis+Komarov%20PH?rid=259170704)
+- [Books](https://www.amazon.it/stores/Denis-Komarov/author/B0CCSK74QC)
 
 </details>
 
 ## Connect
 
-Hiring for an internship or junior role, or looking for help with a freelance project? [Message me on Telegram](https://t.me/dionigi) with the role or a short description of the project.
+For an internship, junior role, or freelance project, send me the role or a short project description.
+
+<a href="https://t.me/dionigi"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./.github/assets/flight-deck/telegram-en-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./.github/assets/flight-deck/telegram-en-light.svg">
+  <img src="./.github/assets/flight-deck/telegram-en-dark.svg" alt="Telegram @dionigi" width="125">
+</picture></a> <a href="https://denis7kom.github.io/denis-komarov/"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./.github/assets/flight-deck/portfolio-en-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./.github/assets/flight-deck/portfolio-en-light.svg">
+  <img src="./.github/assets/flight-deck/portfolio-en-dark.svg" alt="Portfolio" width="125">
+</picture></a>
