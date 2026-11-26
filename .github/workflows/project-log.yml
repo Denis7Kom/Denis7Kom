@@ -1,0 +1,47 @@
+name: Project log
+on:
+  schedule:
+    - cron: '37 6 * * 1'
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - '.github/scripts/project_log.py'
+      - '.github/workflows/project-log.yml'
+      - '.github/assets/project-log-*.svg'
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - run: python3 .github/scripts/project_log.py
+      - name: Validate bilingual artwork
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import xml.etree.ElementTree as ET
+          for prefix in ("project-log", "dispatch"):
+              for lang in ("en", "it"):
+                  path = Path(f".github/assets/{prefix}-{lang}.svg")
+                  ET.parse(path)
+                  assert path.stat().st_size < 150000
+          PY
+  update:
+    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+    needs: verify
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 .github/scripts/project_log.py
+      - run: |
+          git add .github/assets/project-log-{en,it}.svg
+          git diff --cached --quiet && exit 0
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore: refresh public project log"
+          git push origin HEAD:main
