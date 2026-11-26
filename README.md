@@ -4,15 +4,13 @@ Naples, Italy · **Open to work** — internships, junior roles, and freelance p
 [Telegram @dionigi](https://t.me/dionigi) · [Leggi in italiano](./README.it.md)  
 I proposed and led [VibeShop](https://github.com/Denis7Kom/website-turbo-layout), a university project for live music and merchandise.
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./.github/assets/profile-hero.webp">
-  <source media="(prefers-color-scheme: light)" srcset="./.github/assets/profile-hero-light.svg">
-  <img src="./.github/assets/profile-hero.webp" alt="" width="880">
-</picture>
+<img src="./.github/assets/dispatch-en.svg" width="880" alt="">
 
 ## Featured work
 
 ### VibeShop
+
+[![VibeShop · Java  /  JSP  /  MySQL](./.github/assets/dispatch-vibeshop.svg)](https://github.com/Denis7Kom/website-turbo-layout)
 
 **Team lead.** I came up with the idea and led the project from start to finish. I divided responsibilities, assigned tasks, and reviewed the work. I worked with Ivan Perruolo and Giulio Alessandro Peluso.
 
@@ -20,16 +18,11 @@ We built a web app for discovering concerts and buying merchandise, with a catal
 
 [Repository](https://github.com/Denis7Kom/website-turbo-layout) · [Java source](https://github.com/Denis7Kom/website-turbo-layout/tree/main/VibeShop/src/main/java) · [SQL schema](https://github.com/Denis7Kom/website-turbo-layout/blob/main/VibeShop/db/VIBESHOP_FINAL.sql)
 
-<details>
-<summary>Architecture and checkout</summary>
-
-JSP renders pages, Servlets handle requests, and DAO classes read and write data in MySQL. The checkout flow connects the catalogue, cart, and orders.
-
-<img src="./.github/assets/vibeshop-overview-programming.svg" width="880" alt="VibeShop project illustration showing the application layers and steps from discovery to orders.">
-
-</details>
+**Inside a request** · A Servlet handles the browser request, the DAO queries MySQL, and a JSP page renders the result.
 
 ### denis-aviation
+
+[![denis-aviation · JavaScript  /  ATC](./.github/assets/dispatch-aviation.svg)](https://denis7kom.github.io/denis-aviation/)
 
 An interactive aviation site with a flight network, a flight log, and a local air traffic control demo.
 
@@ -48,13 +41,19 @@ My review process is to understand → model → implement → verify → improv
 - **Used in projects** · Java, JSP, Servlets, SQL, MySQL, HTML, CSS, JavaScript, Git, and GitHub.
 - **Learning** · Web application security, OWASP Top 10, and SQL injection.
 
-## GitHub overview
+## Project log
 
-Start with the pinned projects below or [browse all my repositories](https://github.com/Denis7Kom?tab=repositories).
+<img src="./.github/assets/project-log-en.svg" width="880" alt="Leading languages in the two featured repositories and published versions. Original data is linked below.">
+
+Each percentage is a share of the code bytes GitHub detects in that repository. Refreshed weekly.
+
+Languages · [VibeShop](https://api.github.com/repos/Denis7Kom/website-turbo-layout/languages) · [denis-aviation](https://api.github.com/repos/Denis7Kom/denis-aviation/languages)  
+Release notes · [denis-aviation](https://github.com/Denis7Kom/denis-aviation/releases/latest) · [denis-komarov](https://github.com/Denis7Kom/denis-komarov/releases/latest)
 
 ## Beyond the Code
 
-I also work on photography, drone footage, and books. Aviation is one of my main interests.
+I also work on photography, drone footage, and books. Aviation is one of my main interests.  
+[Explore the portfolio](https://denis7kom.github.io/Denis-Komarov-PH/)
 
 <details>
 <summary>Photography, drone work, books, and aviation artwork</summary>
