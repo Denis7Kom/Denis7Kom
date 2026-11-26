@@ -19,13 +19,15 @@ def read(repo, endpoint):
 
 def render(italian, languages, releases):
     parts = ['<svg xmlns="http://www.w3.org/2000/svg" width="680" height="292" viewBox="0 0 680 292">',
-             '<rect width="680" height="292" rx="8" fill="#0d252b"/>',
-             '<g font-family="system-ui,sans-serif" fill="#f3f5e9">']
+             '<rect width="680" height="292" rx="8" fill="#0b080b"/>',
+             '<path d="M27 48h626M27 217h626" stroke="#35131d"/>',
+             '<path d="M613 17v21m7-23v25m8-27v29m9-24v19m7-23v27m8-31v35" stroke="#ef1438" stroke-width="3"/>',
+             '<g font-family="system-ui,sans-serif" fill="#fff4f6">']
 
-    def label(x, y, value, size=22, color="#e2ece4"):
-        parts.append(f'<text x="{x}" y="{y}" font-size="{size}" fill="{color}">{escape(value)}</text>')
+    def label(x, y, value, size=22, color="#fff4f6", weight=400):
+        parts.append(f'<text x="{x}" y="{y}" font-size="{size}" fill="{color}" font-weight="{weight}">{escape(value)}</text>')
 
-    label(26, 38, "Linguaggio principale" if italian else "Leading code language", 26)
+    label(26, 38, "Linguaggio principale" if italian else "Leading code language", 26, weight=700)
     for index, (repo, counts) in enumerate(zip(FEATURED, languages)):
         language = max(counts, key=counts.get)
         fraction = counts[language] / sum(counts.values())
@@ -33,12 +35,12 @@ def render(italian, languages, releases):
         label(26, y, "VibeShop" if index == 0 else repo)
         percent = f"{fraction:.1%}"
         label(333, y, f"{language}   {percent.replace('.', ',') if italian else percent}")
-        parts.append(f'<rect x="26" y="{y+12}" width="628" height="4" fill="#39575b"/>')
-        parts.append(f'<rect x="26" y="{y+12}" width="{628*fraction:.1f}" height="4" fill="#99dfc6"/>')
-    label(26, 208, "Ultime release pubbliche" if italian else "Latest public releases", 26)
+        parts.append(f'<rect x="26" y="{y+12}" width="628" height="4" fill="#35131d"/>')
+        parts.append(f'<rect x="26" y="{y+12}" width="{628*fraction:.1f}" height="4" fill="#ef1438"/>')
+    label(26, 208, "Ultime release pubbliche" if italian else "Latest public releases", 26, weight=700)
     for index, (repo, release) in enumerate(zip(SHIPPED, releases)):
         label(26, 245 + index * 30, repo)
-        label(333, 245 + index * 30, release["tag_name"], color="#a6e9cf")
+        label(333, 245 + index * 30, release["tag_name"], color="#ff758b")
     return "\n".join(parts + ["</g></svg>", ""])
 
 
