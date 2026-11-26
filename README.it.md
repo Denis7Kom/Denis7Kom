@@ -1,18 +1,14 @@
+<img src="./.github/assets/cinema/dk-banner.svg" width="880" alt="Monogramma DK tra fasce luminose rosse su fondo nero">
+
 # Denis Komarov
 Studio Informatica (L-31) all’Università degli Studi di Salerno e mi occupo di sviluppo web in Java.  
 Napoli, Italia · **Disponibile** per stage, posizioni junior e progetti freelance.  
 [Telegram @dionigi](https://t.me/dionigi) · [Read in English](./README.md)  
 Ho ideato e guidato [VibeShop](https://github.com/Denis7Kom/website-turbo-layout), un progetto universitario dedicato alla musica dal vivo e al merchandising.
 
-<img src="./.github/assets/cinema/hero.jpg" width="880" alt="Illustrazione cinematografica della cabina di un aereo sopra Napoli al crepuscolo">
-
-<img src="./.github/assets/cinema/title-it.svg" width="880" alt="">
-
 ## Progetti in evidenza
 
 ### VibeShop
-
-<a href="https://github.com/Denis7Kom/website-turbo-layout"><img src="./.github/assets/cinema/vibeshop.jpg" width="880" alt="VibeShop: un portatile dietro le quinte di un concerto"></a>
 
 **Responsabile del gruppo.** Ho ideato il progetto e l’ho coordinato dall’inizio alla fine. Ho suddiviso le responsabilità, assegnato i compiti e rivisto il lavoro svolto. Ho lavorato con Ivan Perruolo e Giulio Alessandro Peluso.
 
@@ -95,8 +91,6 @@ Linguaggi · [VibeShop](https://api.github.com/repos/Denis7Kom/website-turbo-lay
 Note di rilascio · [denis-aviation](https://github.com/Denis7Kom/denis-aviation/releases/latest) · [denis-komarov](https://github.com/Denis7Kom/denis-komarov/releases/latest)
 
 ## Beyond the Code
-
-<img src="./.github/assets/cinema/beyond.jpg" width="880" alt="Illustrazione di un drone sulla costa al tramonto">
 
 Mi occupo anche di fotografia, riprese con il drone e scrittura. L’aviazione è uno dei miei interessi principali.  
 [Apri il portfolio](https://denis7kom.github.io/Denis-Komarov-PH/)
